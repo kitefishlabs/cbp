@@ -30,7 +30,7 @@
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 525.0, 390.0, 234.0, 28.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 476.0, 383.0, 426.0, 17.0 ],
+					"presentation_rect" : [ 475.0, 385.0, 426.0, 17.0 ],
 					"text" : "jcom.message remove/soundfile @type array @repetitions/allow 1 @description \"Remove soundfile.\""
 				}
 
@@ -1523,7 +1523,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 765.0, 380.0, 87.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 745.0, 380.0, 87.0, 17.0 ],
+					"presentation_rect" : [ 910.0, 400.0, 87.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_scope" : 0
 					}
@@ -2564,7 +2564,7 @@
 ,
 					"patching_rect" : [ 279.0, 324.0, 138.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 279.0, 324.0, 138.0, 17.0 ],
+					"presentation_rect" : [ 275.0, 325.0, 138.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"globalpatchername" : "",
 						"fontface" : 0,
@@ -3225,9 +3225,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 79.0, 58.0, 126.549316, 113.0 ],
+									"patching_rect" : [ 79.0, 58.0, 122.0, 113.0 ],
 									"presentation_linecount" : 9,
-									"presentation_rect" : [ 79.0, 58.0, 126.549316, 113.0 ],
+									"presentation_rect" : [ 79.0, 58.0, 122.0, 113.0 ],
 									"text" : [ "_clear,", "_UnitID int 1 400,", "_RelID int 1 400,", "_SoundFile int 1 1,", "_Active bool 1 1 hidden,", "_StartTime float 1 100000,", "_Duration float 1 1000,", "_Relstart float 1 1,", "_Reldur float 1 1.0" ]
 								}
 
@@ -4172,7 +4172,7 @@
 					"patching_rect" : [ 340.0, 345.0, 277.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 332.0, 346.0, 273.0, 28.0 ],
+					"presentation_rect" : [ 340.0, 345.0, 273.0, 28.0 ],
 					"text" : "jcom.message add/soundfile @type array @repetitions/allow 1 @description \"Add soundfile and its metadata.\""
 				}
 
@@ -4584,7 +4584,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 570.0, 70.0, 101.0, 38.0 ],
-									"presentation_rect" : [ 573.0, 65.0, 0.0, 0.0 ],
 									"text" : "-1 => add-as-prelim\n0 => (globally) inactive\n1 => add-as-active"
 								}
 
@@ -4636,8 +4635,7 @@
 													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "int" ],
-													"patching_rect" : [ 440.0, 60.0, 25.0, 25.0 ],
-													"presentation_rect" : [ 438.0, 21.0, 0.0, 0.0 ]
+													"patching_rect" : [ 440.0, 60.0, 25.0, 25.0 ]
 												}
 
 											}
@@ -4675,7 +4673,7 @@
 													"patching_rect" : [ 10.0, 100.0, 449.257324, 41.0 ],
 													"presentation_linecount" : 3,
 													"presentation_rect" : [ 10.0, 100.0, 449.257324, 41.0 ],
-													"text" : [ "_set $4 0 $4 $6 $corpus[lastsoundfileindex] $ACTIVEFLAG", "_$1 ($2 - $1) ($1 / $corpus[lastsoundfile][duration]) (($2 - $1) / $corpus[lastsoundfile][duration]),", "_(($unitdata rowref $4 $corpus[numstddescr]) set $3);" ]
+													"text" : [ "_set $4 0 $4 $6 $corpus[lastsoundfileindex] 1", "_$1 ($2 - $1) ($1 / $corpus[lastsoundfile][duration]) (($2 - $1) / $corpus[lastsoundfile][duration]),", "_(($unitdata rowref $4 $corpus[numstddescr]) set $3);" ]
 												}
 
 											}
@@ -8178,7 +8176,7 @@
 			}
 , 			{
 				"box" : 				{
-					"description" : "dict descriptors $descriptors  descrid $descrid  soundfiles $soundfiles sounddata $sounddata numchannels 1 channel 0  sfcache 0  unitdata $unitdata deactive_ud $deactive_unitdata active_ud $active_unitdata prelim_ud $prelim_unitdata num_deactive 0 unitstat $unitstat  numstddescr 0 numadddescr 0 workingset 0 soundset 0",
+					"description" : "dict descriptors $descriptors  descrid $descrid  soundfiles $soundfiles sounddata $sounddata numchannels 1 channel 0  sfcache 0  unitdata $unitdata unitstat $unitstat  numstddescr 0 numadddescr 0 workingset 0 soundset 0",
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 10.0,
 					"ftm_scope" : 2,
@@ -8188,12 +8186,12 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 15.0, 130.0, 1524.579956, 17.0 ],
+					"patching_rect" : [ 15.0, 130.0, 1060.579956, 17.0 ],
 					"persistence" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 130.0, 1524.579956, 17.0 ],
+					"presentation_rect" : [ 15.0, 130.0, 1060.579956, 17.0 ],
 					"scope" : 0,
-					"text" : "dict descriptors $descriptors  descrid $descrid  soundfiles $soundfiles sounddata $sounddata numchannels 1 channel 0  sfcache 0  unitdata $unitdata deactive_ud $deactive_unitdata active_ud $active_unitdata prelim_ud $prelim_unitdata num_deactive 0 unitstat $unitstat  numstddescr 0 numadddescr 0 workingset 0 soundset 0"
+					"text" : "dict descriptors $descriptors  descrid $descrid  soundfiles $soundfiles sounddata $sounddata numchannels 1 channel 0  sfcache 0  unitdata $unitdata unitstat $unitstat  numstddescr 0 numadddescr 0 workingset 0 soundset 0"
 				}
 
 			}
@@ -8247,7 +8245,7 @@
 					"patching_rect" : [ 620.0, 345.0, 278.0, 28.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
-					"presentation_rect" : [ 602.0, 348.0, 295.0, 28.0 ],
+					"presentation_rect" : [ 615.0, 345.0, 295.0, 28.0 ],
 					"text" : "jcom.message add/unit-and-data @type array @repetitions/allow 1 @description \"Add sound unit and data unit.\""
 				}
 
