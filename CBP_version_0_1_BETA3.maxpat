@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 628.0, 44.0, 787.0, 815.0 ],
+		"rect" : [ 398.0, 44.0, 787.0, 815.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 628.0, 44.0, 787.0, 815.0 ],
+		"defrect" : [ 398.0, 44.0, 787.0, 815.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -3405,9 +3405,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 5.0, 44.0, 301.0, 600.0 ],
+						"rect" : [ 38.0, 44.0, 301.0, 600.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 5.0, 44.0, 301.0, 600.0 ],
+						"defrect" : [ 38.0, 44.0, 301.0, 600.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -3434,7 +3434,7 @@
 									"patching_rect" : [ 10.0, 600.0, 239.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 580.0, 293.0, 18.0 ],
-									"text" : "/select.quiz/qlim 75"
+									"text" : "/draw.quiz/update/ranges"
 								}
 
 							}
@@ -3520,9 +3520,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 0.0, 280.0, 300.0, 280.0 ],
+									"patching_rect" : [ 0.0, 280.0, 300.0, 210.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 280.0, 300.0, 280.0 ]
+									"presentation_rect" : [ 0.0, 280.0, 300.0, 210.0 ]
 								}
 
 							}
@@ -3615,9 +3615,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 397.0, 257.0, 899.0, 333.0 ],
+						"rect" : [ 644.0, 44.0, 827.0, 262.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 397.0, 257.0, 899.0, 333.0 ],
+						"defrect" : [ 644.0, 44.0, 827.0, 262.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -3660,10 +3660,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 570.0, 200.0, 144.0, 31.0 ],
+									"patching_rect" : [ 570.0, 200.0, 150.024414, 31.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 570.0, 200.0, 144.0, 31.0 ],
-									"text" : [ "_/draw.quiz/X/descrid 1,", "_/draw.quiz/Y/descrid 11" ]
+									"presentation_rect" : [ 570.0, 200.0, 150.024414, 31.0 ],
+									"text" : [ "_/draw.quiz/X/descrid 1,", "_/draw.quiz/Y/descrid 12" ]
 								}
 
 							}
@@ -3710,10 +3710,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 490.0, 160.0, 144.0, 31.0 ],
+									"patching_rect" : [ 490.0, 160.0, 150.024414, 31.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 490.0, 160.0, 144.0, 31.0 ],
-									"text" : [ "_/draw.quiz/X/descrid 0,", "_/draw.quiz/Y/descrid 11" ]
+									"presentation_rect" : [ 490.0, 160.0, 150.024414, 31.0 ],
+									"text" : [ "_/draw.quiz/X/descrid 0,", "_/draw.quiz/Y/descrid 12" ]
 								}
 
 							}
@@ -3800,10 +3800,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 410.0, 200.0, 150.0, 31.0 ],
+									"patching_rect" : [ 410.0, 200.0, 156.025391, 31.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 410.0, 200.0, 150.0, 31.0 ],
-									"text" : [ "_/draw.quiz/X/descrid 13,", "_/draw.quiz/Y/descrid 12" ]
+									"presentation_rect" : [ 410.0, 200.0, 156.025391, 31.0 ],
+									"text" : [ "_/draw.quiz/X/descrid 14,", "_/draw.quiz/Y/descrid 13" ]
 								}
 
 							}
@@ -3822,10 +3822,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 160.0, 144.0, 31.0 ],
+									"patching_rect" : [ 330.0, 160.0, 150.024414, 31.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 330.0, 160.0, 144.0, 31.0 ],
-									"text" : [ "_/draw.quiz/X/descrid 8,", "_/draw.quiz/Y/descrid 19" ]
+									"presentation_rect" : [ 330.0, 160.0, 150.024414, 31.0 ],
+									"text" : [ "_/draw.quiz/X/descrid 9,", "_/draw.quiz/Y/descrid 20" ]
 								}
 
 							}
@@ -3844,10 +3844,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 250.0, 200.0, 144.0, 31.0 ],
+									"patching_rect" : [ 250.0, 200.0, 150.024414, 31.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 250.0, 200.0, 144.0, 31.0 ],
-									"text" : [ "_/draw.quiz/X/descrid 8,", "_/draw.quiz/Y/descrid 11" ]
+									"presentation_rect" : [ 250.0, 200.0, 150.024414, 31.0 ],
+									"text" : [ "_/draw.quiz/X/descrid 9,", "_/draw.quiz/Y/descrid 12" ]
 								}
 
 							}
@@ -3866,10 +3866,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 170.0, 160.0, 150.0, 31.0 ],
+									"patching_rect" : [ 170.0, 160.0, 156.025391, 31.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 170.0, 160.0, 150.0, 31.0 ],
-									"text" : [ "_/draw.quiz/X/descrid 13,", "_/draw.quiz/Y/descrid 11" ]
+									"presentation_rect" : [ 170.0, 160.0, 156.025391, 31.0 ],
+									"text" : [ "_/draw.quiz/X/descrid 14,", "_/draw.quiz/Y/descrid 12" ]
 								}
 
 							}
@@ -3888,10 +3888,10 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 140.0, 150.0, 71.0 ],
+									"patching_rect" : [ 10.0, 140.0, 156.025391, 71.0 ],
 									"presentation_linecount" : 5,
-									"presentation_rect" : [ 10.0, 140.0, 150.0, 71.0 ],
-									"text" : [ "_/draw.quiz/S/descrid 10,", "_/draw.quiz/C/descrid 2,", "_/draw.quiz/H/descrid 7,", "_/draw.quiz/V/descrid 12,", "_/draw.quiz/update/ranges" ]
+									"presentation_rect" : [ 10.0, 140.0, 156.025391, 71.0 ],
+									"text" : [ "_/draw.quiz/S/descrid 11,", "_/draw.quiz/C/descrid 2,", "_/draw.quiz/H/descrid 8,", "_/draw.quiz/V/descrid 13,", "_/draw.quiz/update/ranges" ]
 								}
 
 							}
