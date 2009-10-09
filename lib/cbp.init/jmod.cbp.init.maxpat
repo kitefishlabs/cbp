@@ -101,7 +101,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 35.0, 255.0, 116.0, 18.0 ],
-					"text" : "cbp.receive /tms/init/ kk"
+					"text" : "cbp.receive /tms/init/ #1"
 				}
 
 			}
@@ -114,7 +114,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 55.0, 215.0, 74.0, 18.0 ],
-					"text" : "jalg.cbp.init kk"
+					"text" : "jalg.cbp.init #1"
 				}
 
 			}
