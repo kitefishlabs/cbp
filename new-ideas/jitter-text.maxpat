@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 847.0, 44.0, 331.0, 454.0 ],
+		"rect" : [ 131.0, 44.0, 331.0, 454.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 847.0, 44.0, 331.0, 454.0 ],
+		"defrect" : [ 131.0, 44.0, 331.0, 454.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -21,12 +21,68 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "open", "" ],
+					"patching_rect" : [ 10.0, 260.0, 59.0, 20.0 ],
+					"text" : "t open l"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 160.0, 230.0, 150.0, 18.0 ],
+					"presentation_rect" : [ 163.0, 231.0, 0.0, 0.0 ],
+					"text" : "foo.txt"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-2",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 200.0, 71.0, 20.0 ],
+					"presentation_rect" : [ 29.0, 202.0, 0.0, 0.0 ],
+					"text" : "via dialog"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 10.0, 200.0, 20.0, 20.0 ],
+					"presentation_rect" : [ 9.0, 202.0, 0.0, 0.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-16",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 200.0, 150.0, 20.0 ],
+					"patching_rect" : [ 170.0, 200.0, 113.0, 20.0 ],
 					"text" : "for the paranoid?"
 				}
 
@@ -38,7 +94,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 10.0, 200.0, 20.0, 20.0 ]
+					"patching_rect" : [ 150.0, 200.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -51,7 +107,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 330.0, 100.0, 20.0 ],
-					"presentation_rect" : [ 49.0, 312.0, 0.0, 0.0 ],
 					"text" : "print"
 				}
 
@@ -65,7 +120,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "bang", "int" ],
-					"patching_rect" : [ 10.0, 300.0, 100.0, 20.0 ],
+					"patching_rect" : [ 10.0, 290.0, 100.0, 20.0 ],
 					"text" : "text"
 				}
 
@@ -76,9 +131,9 @@
 					"fontsize" : 10.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 10.0, 230.0, 155.0, 20.0 ],
 					"text" : "jcom.filewatcher foo.txt"
 				}
@@ -164,24 +219,10 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"id" : "obj-17",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 270.0, 50.0, 18.0 ],
-					"text" : "open"
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-11", 0 ],
+					"destination" : [ "obj-13", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-10", 0 ]
@@ -190,10 +231,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-17", 0 ],
+					"destination" : [ "obj-7", 1 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-10", 0 ]
+					"source" : [ "obj-10", 1 ]
 				}
 
 			}
@@ -208,10 +249,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-10", 0 ],
+					"destination" : [ "obj-11", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-14", 0 ]
+					"source" : [ "obj-13", 1 ]
 				}
 
 			}
@@ -220,7 +261,25 @@
 					"destination" : [ "obj-11", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
-					"source" : [ "obj-17", 0 ]
+					"source" : [ "obj-13", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-10", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
