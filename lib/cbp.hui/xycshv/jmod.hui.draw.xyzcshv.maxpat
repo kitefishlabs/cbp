@@ -255,7 +255,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
-					"fgcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ],
+					"fgcolor" : [ 0.082353, 0.25098, 0.431373, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-40",
 					"maxclass" : "rslider",
@@ -272,7 +272,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
-					"fgcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ],
+					"fgcolor" : [ 0.082353, 0.25098, 0.431373, 1.0 ],
 					"id" : "obj-13",
 					"maxclass" : "rslider",
 					"min" : -24,
@@ -647,12 +647,12 @@
 ,
 					"patching_rect" : [ 1015.0, 465.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"fontname" : "Helvetica Neue",
 						"default_fontname" : "Helvetica Neue"
 					}
 ,
@@ -1042,12 +1042,12 @@
 ,
 					"patching_rect" : [ 1010.0, 515.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"fontname" : "Helvetica Neue",
 						"default_fontname" : "Helvetica Neue"
 					}
 ,
@@ -1445,7 +1445,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
-					"fgcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ],
+					"fgcolor" : [ 0.082353, 0.25098, 0.431373, 1.0 ],
 					"id" : "obj-48",
 					"maxclass" : "rslider",
 					"min" : -24,
@@ -1462,7 +1462,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
-					"fgcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ],
+					"fgcolor" : [ 0.082353, 0.25098, 0.431373, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-29",
 					"maxclass" : "rslider",
@@ -1479,7 +1479,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
-					"fgcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ],
+					"fgcolor" : [ 0.082353, 0.25098, 0.431373, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-8",
 					"maxclass" : "rslider",
@@ -1496,7 +1496,7 @@
 , 			{
 				"box" : 				{
 					"bgcolor" : [ 0.537255, 0.537255, 0.537255, 1.0 ],
-					"fgcolor" : [ 0.145098, 0.07451, 0.376471, 1.0 ],
+					"fgcolor" : [ 0.082353, 0.25098, 0.431373, 1.0 ],
 					"floatoutput" : 1,
 					"id" : "obj-5",
 					"maxclass" : "rslider",
@@ -1857,12 +1857,12 @@
 ,
 					"patching_rect" : [ 1015.0, 565.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"fontname" : "Helvetica Neue",
 						"default_fontname" : "Helvetica Neue"
 					}
 ,
@@ -2333,12 +2333,12 @@
 ,
 					"patching_rect" : [ 1010.0, 415.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"fontname" : "Helvetica Neue",
 						"default_fontname" : "Helvetica Neue"
 					}
 ,
@@ -2809,12 +2809,12 @@
 ,
 					"patching_rect" : [ 1010.0, 370.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"fontname" : "Helvetica Neue",
 						"default_fontname" : "Helvetica Neue"
 					}
 ,
@@ -4057,12 +4057,12 @@
 ,
 					"patching_rect" : [ 1010.0, 320.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
 						"globalpatchername" : "",
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
+						"fontname" : "Helvetica Neue",
 						"default_fontname" : "Helvetica Neue"
 					}
 ,
