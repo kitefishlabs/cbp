@@ -45,7 +45,7 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionRampFunction"> none </td>
 			<td class ="instructionDataspace"> none </td>
 			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription"> Integer corresponding to the segmentation mode. 0=none, 1=chop, 2=split, 3=import sdif, 5=yin segmentation, 6=single thresh segmentation, 7=double thresh segmentation. Arg: integer, segmentation parameters. </td>
+			<td class ="instructionDescription"> Integer corresponding to the segmentation mode. 0=none, 1=chop, 2=split, 3=import sdif, 4=yin segmentation. Arg: integer, segmentation parameters. </td>
 		<tr>
 		<tr>
 			<td class="instructionName"> view/color/border </td>
@@ -162,50 +162,6 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDataspace"> none </td>
 			<td class ="instructionRepetitionsAllow"> 1 </td>
 			<td class ="instructionDescription"> Generate a documentation page for this module and save it to disk. </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> hilo/high </td>
-			<td class ="instructionType"> decimal </td>
-			<td class ="instructionRangeBounds"> 0.000000 1.000000 </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> hilo/list </td>
-			<td class ="instructionType"> array </td>
-			<th class = "instructionRangeBounds"> N/A </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> hilo/low </td>
-			<td class ="instructionType"> decimal </td>
-			<td class ="instructionRangeBounds"> 0.000000 1.000000 </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> hilo/param </td>
-			<td class ="instructionType"> integer </td>
-			<td class ="instructionRangeBounds"> 0 99 </td>
-			<td class ="instructionRangeClipmode"> both </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
 		<tr>
 		<tr>
 			<td class="instructionName"> init </td>
@@ -363,7 +319,7 @@ Number of signal outlets: <code> 0 </code> </p>
 		<tr>
 		<tr>
 			<td class="instructionName"> sdif </td>
-			<td class ="instructionType"> array </td>
+			<td class ="instructionType"> string </td>
 			<th class = "instructionRangeBounds"> N/A </td>
 			<td class ="instructionRangeClipmode"> none </td>
 			<td class ="instructionRampDrive"> none </td>
@@ -382,72 +338,6 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDataspace"> none </td>
 			<td class ="instructionRepetitionsAllow"> 1 </td>
 			<td class ="instructionDescription"> Number of chunks to split file into. </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> thresh/list </td>
-			<td class ="instructionType"> array </td>
-			<th class = "instructionRangeBounds"> N/A </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> thresh/max </td>
-			<td class ="instructionType"> integer </td>
-			<td class ="instructionRangeBounds"> 0 9999 </td>
-			<td class ="instructionRangeClipmode"> both </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> thresh/min </td>
-			<td class ="instructionType"> integer </td>
-			<td class ="instructionRangeBounds"> 0 9999 </td>
-			<td class ="instructionRangeClipmode"> both </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> thresh/min </td>
-			<td class ="instructionType"> integer </td>
-			<td class ="instructionRangeBounds"> 0 9999 </td>
-			<td class ="instructionRangeClipmode"> both </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> thresh/param </td>
-			<td class ="instructionType"> integer </td>
-			<td class ="instructionRangeBounds"> 0 99 </td>
-			<td class ="instructionRangeClipmode"> both </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> thresh/thresh </td>
-			<td class ="instructionType"> decimal </td>
-			<td class ="instructionRangeBounds"> 0.000000 1.000000 </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription">  </td>
 		<tr>
 		<tr>
 			<td class="instructionName"> time/start </td>
@@ -549,17 +439,6 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription">  </td>
 		<tr>
 		<tr>
-			<td class="instructionName"> yin/minamp </td>
-			<td class ="instructionType"> decimal </td>
-			<td class ="instructionRangeBounds"> -80.000000 0.000000 </td>
-			<td class ="instructionRangeClipmode"> both </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription"> Yin minimum allowable amplitude. </td>
-		<tr>
-		<tr>
 			<td class="instructionName"> yin/min </td>
 			<td class ="instructionType"> integer </td>
 			<td class ="instructionRangeBounds"> 50 9999 </td>
@@ -569,6 +448,17 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDataspace"> none </td>
 			<td class ="instructionRepetitionsAllow"> 1 </td>
 			<td class ="instructionDescription">  </td>
+		<tr>
+		<tr>
+			<td class="instructionName"> yin/minamp </td>
+			<td class ="instructionType"> decimal </td>
+			<td class ="instructionRangeBounds"> -80.000000 0.000000 </td>
+			<td class ="instructionRangeClipmode"> both </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> none </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionRepetitionsAllow"> 1 </td>
+			<td class ="instructionDescription"> Yin minimum allowable amplitude. </td>
 		<tr>
 		<tr>
 			<td class="instructionName"> yin/thresh </td>
