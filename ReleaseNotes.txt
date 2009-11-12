@@ -16,6 +16,4 @@ See file GPL-license.pat for further informations on licensing terms.
 
 KNOWN BUGS:
 - there may be errors in the Max Window when initializing or reinitializing; clicking the list of descriptors messages near the bottom of the patch before initializing should minimize the number of errors.
-- The size of the display does not initialize correctly; enter a number as the Size value in the /display[.corpus] module.
-- When selecting a segmentation mode, one must select the mode from the drop-down menu first, before changing a mode variable. If you select the mode variable and then the mode from the menu, it gets 0 or 0's as the mode parameters...watch the Max Window.
 - not every module has its full advertised functionality, some parameters have no effect and are there as placeholders for features yet to be implemented.
