@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='a_bang' type='generic' priority='1'>0</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='gdub' type='boolean' priority='0'>0</item>
+    <item name='gdur' type='array' priority='0'>0.000000 0.000000 </item>
+    <item name='ggate' type='generic' priority='0'>0</item>
+    <item name='ginter' type='decimal' priority='0'>0.000000</item>
+    <item name='gjitter' type='decimal' priority='0'>0.000000</item>
+    <item name='goffset' type='array' priority='0'>0.000000 0.000000 </item>
+    <item name='gper' type='decimal' priority='0'>20.000000</item>
+    <item name='gtransp' type='array' priority='0'>0.250000 0.250272 </item>
+    <item name='gwind/ch' type='array' priority='0'>0</item>
+    <item name='gwind/num' type='integer' priority='0'>0</item>
+    <item name='gwind/tz' type='array' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 140 </item>
+  </preset>
+  <preset number='2' name='test_granulation'>
+    <item name='a_bang' type='generic' priority='1'>0</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>0</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='gdub' type='boolean' priority='0'>0</item>
+    <item name='gdur' type='array' priority='0'>0.345455 1.000000 </item>
+    <item name='ggate' type='integer' priority='0'>0</item>
+    <item name='ginter' type='decimal' priority='0'>0.000000</item>
+    <item name='gjitter' type='decimal' priority='0'>0.231250</item>
+    <item name='goffset' type='array' priority='0'>0.000000 0.151515 </item>
+    <item name='gper' type='decimal' priority='0'>20.000000</item>
+    <item name='gtransp' type='array' priority='0'>0.991805 1.007323 </item>
+    <item name='gwind/num' type='integer' priority='0'>5</item>
+    <item name='gwind/ch' type='array' priority='0'>0</item>
+    <item name='gwind/tz' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 140 </item>
+  </preset>
+  <preset number='3' name='fire_foil'>
+    <item name='a_bang' type='generic' priority='1'>300.000000</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='gdub' type='boolean' priority='0'>1</item>
+    <item name='gdur' type='array' priority='0'>0.254545 0.709091 </item>
+    <item name='ggate' type='integer' priority='0'>1</item>
+    <item name='ginter' type='decimal' priority='0'>0.000000</item>
+    <item name='gjitter' type='decimal' priority='0'>0.768750</item>
+    <item name='goffset' type='array' priority='0'>0.012121 0.266667 </item>
+    <item name='gper' type='decimal' priority='0'>26.799999</item>
+    <item name='gtransp' type='array' priority='0'>0.282420 0.578708 </item>
+    <item name='gwind/num' type='integer' priority='0'>7</item>
+    <item name='gwind/ch' type='array' priority='0'>3.000000 37.000000 359.000000 </item>
+    <item name='gwind/tz' type='array' priority='0'>1.000000 54.000000 </item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300.000000 140.000000 </item>
+  </preset>
+  <preset number='4' name='singleA'>
+    <item name='a_bang' type='generic' priority='1'>300.000000</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='gdub' type='boolean' priority='0'>0</item>
+    <item name='gdur' type='array' priority='0'>0.975758 1.000000 </item>
+    <item name='ggate' type='integer' priority='0'>0</item>
+    <item name='ginter' type='decimal' priority='0'>0.000000</item>
+    <item name='gjitter' type='decimal' priority='0'>0.000000</item>
+    <item name='goffset' type='array' priority='0'>0.000000 0.000000 </item>
+    <item name='gper' type='decimal' priority='0'>20.000000</item>
+    <item name='gtransp' type='array' priority='0'>0.991805 0.999388 </item>
+    <item name='gwind/num' type='integer' priority='0'>6</item>
+    <item name='gwind/ch' type='array' priority='0'>0.000000 0.000000 0.000000 </item>
+    <item name='gwind/tz' type='array' priority='0'>0.000000 0.000000 </item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300.000000 140.000000 </item>
+  </preset>
+  <preset number='5' name='singleB'>
+    <item name='a_bang' type='generic' priority='1'>300.000000</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='gdub' type='boolean' priority='0'>0</item>
+    <item name='gdur' type='array' priority='0'>0.975758 1.000000 </item>
+    <item name='ggate' type='generic' priority='0'>0</item>
+    <item name='ginter' type='decimal' priority='0'>0.000000</item>
+    <item name='gjitter' type='decimal' priority='0'>0.000000</item>
+    <item name='goffset' type='array' priority='0'>0.000000 0.000000 </item>
+    <item name='gper' type='decimal' priority='0'>20.000000</item>
+    <item name='gtransp' type='array' priority='0'>0.919770 0.999388 </item>
+    <item name='gwind/ch' type='array' priority='0'>0 0 0 </item>
+    <item name='gwind/num' type='integer' priority='0'>5</item>
+    <item name='gwind/tz' type='array' priority='0'>0 0 </item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0.000000</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300.000000 140.000000 </item>
+  </preset>
+  <preset number='6' name='breathingA'>
+    <item name='a_bang' type='generic' priority='1'>300.000000</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='gdub' type='boolean' priority='0'>1</item>
+    <item name='gdur' type='array' priority='0'>0.557576 0.818182 </item>
+    <item name='ggate' type='integer' priority='0'>1</item>
+    <item name='ginter' type='decimal' priority='0'>0.000000</item>
+    <item name='gjitter' type='decimal' priority='0'>0.768750</item>
+    <item name='goffset' type='array' priority='0'>0.000000 0.084848 </item>
+    <item name='gper' type='decimal' priority='0'>26.799999</item>
+    <item name='gtransp' type='array' priority='0'>0.482319 0.522780 </item>
+    <item name='gwind/num' type='integer' priority='0'>2</item>
+    <item name='gwind/ch' type='array' priority='0'>0 0 0 </item>
+    <item name='gwind/tz' type='array' priority='0'>0 0 </item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300.000000 140.000000 </item>
+  </preset>
+  <preset number='7' name='breathingB'>
+    <item name='a_bang' type='generic' priority='1'>300.000000</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='gdub' type='boolean' priority='0'>1</item>
+    <item name='gdur' type='array' priority='0'>0.557576 0.818182 </item>
+    <item name='ggate' type='integer' priority='0'>1</item>
+    <item name='ginter' type='decimal' priority='0'>0.000000</item>
+    <item name='gjitter' type='decimal' priority='0'>0.512500</item>
+    <item name='goffset' type='array' priority='0'>0.000000 0.084848 </item>
+    <item name='gper' type='decimal' priority='0'>26.799999</item>
+    <item name='gtransp' type='array' priority='0'>0.607157 0.649971 </item>
+    <item name='gwind/num' type='integer' priority='0'>2</item>
+    <item name='gwind/ch' type='array' priority='0'>0 0 0 </item>
+    <item name='gwind/tz' type='array' priority='0'>0 0 </item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300.000000 140.000000 </item>
+  </preset>
+  <preset number='8' name='metallic_fire'>
+    <item name='a_bang' type='generic' priority='1'>300.000000</item>
+    <item name='audio/gain' type='decimal' priority='0'>100.000000</item>
+    <item name='audio/mix' type='decimal' priority='0'>0.000000</item>
+    <item name='audio/mute' type='boolean' priority='0'>0</item>
+    <item name='gdub' type='boolean' priority='0'>1</item>
+    <item name='gdur' type='array' priority='0'>0.254545 0.709091 </item>
+    <item name='ggate' type='integer' priority='0'>1</item>
+    <item name='ginter' type='decimal' priority='0'>0.000000</item>
+    <item name='gjitter' type='decimal' priority='0'>0.768750</item>
+    <item name='goffset' type='array' priority='0'>0.012121 0.266667 </item>
+    <item name='gper' type='decimal' priority='0'>29.000000</item>
+    <item name='gtransp' type='array' priority='0'>0.353600 1.004434 </item>
+    <item name='gwind/num' type='integer' priority='0'>7</item>
+    <item name='gwind/ch' type='array' priority='0'>3.000000 37.000000 359.000000 </item>
+    <item name='gwind/tz' type='array' priority='0'>1.000000 54.000000 </item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300.000000 140.000000 </item>
+  </preset>
+</jamoma>

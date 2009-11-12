@@ -663,13 +663,13 @@
 ,
 					"patching_rect" : [ 720.0, 700.0, 111.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p cosine_unsquared"
@@ -1211,13 +1211,13 @@
 ,
 					"patching_rect" : [ 500.0, 650.0, 98.0, 19.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p cosine_squared"
@@ -2310,7 +2310,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 615.0, 75.0, 573.0, 19.0 ],
-					"text" : "jcom.parameter ggate @type msg_int @range/bounds 0 1 @range/clipmode low @description \"On/Off Switch.\""
+					"text" : "jcom.parameter ggate @type integer @range/bounds 0 1 @range/clipmode low @description \"On/Off Switch.\""
 				}
 
 			}
@@ -2532,13 +2532,13 @@
 ,
 					"patching_rect" : [ 595.0, 425.0, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p minima"
@@ -2974,13 +2974,13 @@
 ,
 					"patching_rect" : [ 360.0, 5.0, 240.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p read_me_for_programming_details",
@@ -3259,13 +3259,13 @@
 ,
 									"patching_rect" : [ 40.0, 220.0, 42.0, 18.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"fontname" : "Verdana",
-										"default_fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p front"
@@ -3427,13 +3427,13 @@
 ,
 					"patching_rect" : [ 95.0, 405.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p panel"
@@ -3531,13 +3531,13 @@
 ,
 					"patching_rect" : [ 611.0, 5.0, 113.0, 23.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p notes_&_bugs",
@@ -3804,7 +3804,6 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "" ],
 									"patching_rect" : [ 740.0, 180.0, 32.5, 18.0 ],
-									"presentation_rect" : [ 658.0, 130.0, 0.0, 0.0 ],
 									"text" : "t b l"
 								}
 
@@ -3948,8 +3947,8 @@
 									"numins" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 590.0, 290.0, 91.0, 16.0 ],
-									"presentation_rect" : [ 590.0, 290.0, 91.0, 16.0 ],
+									"patching_rect" : [ 590.0, 290.0, 89.010101, 16.0 ],
+									"presentation_rect" : [ 590.0, 290.0, 89.010101, 16.0 ],
 									"text" : [ "_set chant $2 $3 $4" ]
 								}
 
@@ -3983,8 +3982,8 @@
 									"numins" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 510.0, 290.0, 77.0, 16.0 ],
-									"presentation_rect" : [ 510.0, 290.0, 77.0, 16.0 ],
+									"patching_rect" : [ 510.0, 290.0, 75.27002, 16.0 ],
+									"presentation_rect" : [ 510.0, 290.0, 75.27002, 16.0 ],
 									"text" : [ "_set trzoid $2 $3" ]
 								}
 
@@ -4893,7 +4892,7 @@
 																	"maxclass" : "inlet",
 																	"numinlets" : 0,
 																	"numoutlets" : 1,
-																	"outlettype" : [ "bang" ],
+																	"outlettype" : [ "" ],
 																	"patching_rect" : [ 20.0, 10.0, 25.0, 25.0 ]
 																}
 
@@ -5329,13 +5328,13 @@
 ,
 													"patching_rect" : [ 470.0, 130.0, 98.072266, 20.0 ],
 													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
 														"globalpatchername" : "",
 														"fontface" : 0,
-														"fontsize" : 10.0,
-														"default_fontface" : 0,
 														"default_fontname" : "Monaco",
-														"fontname" : "Monaco",
-														"default_fontsize" : 10.0
+														"fontsize" : 10.0,
+														"default_fontsize" : 10.0,
+														"fontname" : "Monaco"
 													}
 ,
 													"text" : "p"
@@ -5991,13 +5990,13 @@
 ,
 													"patching_rect" : [ 330.0, 130.0, 87.072266, 20.0 ],
 													"saved_object_attributes" : 													{
+														"default_fontface" : 0,
 														"globalpatchername" : "",
 														"fontface" : 0,
-														"fontsize" : 10.0,
-														"default_fontface" : 0,
 														"default_fontname" : "Monaco",
-														"fontname" : "Monaco",
-														"default_fontsize" : 10.0
+														"fontsize" : 10.0,
+														"default_fontsize" : 10.0,
+														"fontname" : "Monaco"
 													}
 ,
 													"text" : "p"
@@ -7313,13 +7312,13 @@
 ,
 									"patching_rect" : [ 10.0, 130.0, 378.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"fontface" : 0,
-										"fontsize" : 12.0,
-										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p simple-grain-player"
@@ -8070,13 +8069,13 @@
 ,
 					"patching_rect" : [ 50.0, 430.0, 156.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p guts"
