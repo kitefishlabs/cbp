@@ -1858,6 +1858,8 @@
 			}
 , 			{
 				"box" : 				{
+					"cantchange" : 1,
+					"fontface" : 2,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-81",
@@ -3283,7 +3285,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 40.032738, 342.327393, 64.0, 18.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 2, 2, 32768, 32768, ";", "#Q", "window", "size", 400, 200, 1100, 778, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -3445,12 +3447,13 @@
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-12",
+					"linecount" : 2,
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 355.0, 237.0, 18.0 ],
-					"text" : "/view/size 300 140"
+					"patching_rect" : [ 110.0, 355.0, 237.0, 31.0 ],
+					"text" : "/view/color/contentBackground 0.933 0.933 0.933 1."
 				}
 
 			}
@@ -3464,7 +3467,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 145.0, 435.0, 63.0, 33.0 ],
+					"patching_rect" : [ 145.0, 435.0, 69.0, 33.0 ],
 					"text" : "<- signal outputs",
 					"textcolor" : [ 0.290196, 0.611765, 0.380392, 1.0 ]
 				}
@@ -8096,12 +8099,12 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.521569, 0.619608, 0.717647, 1.0 ],
+					"bgcolor" : [ 0.933, 0.933, 0.933, 1.0 ],
+					"bordercolor" : [ 0.667, 0.667, 0.667, 1.0 ],
 					"has_gain" : 1,
 					"has_meters" : 1,
 					"has_mix" : 1,
 					"has_mute" : 1,
-					"headercolor" : [ 0.698039, 0.811765, 0.909804, 1.0 ],
 					"id" : "obj-37",
 					"maxclass" : "jcom.ui",
 					"numinlets" : 1,
