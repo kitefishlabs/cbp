@@ -104,7 +104,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.0, 270.0, 53.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 210.0, 90.0, 53.0, 19.0 ],
+					"presentation_rect" : [ 220.0, 110.0, 53.0, 19.0 ],
 					"text" : "OFFSET:"
 				}
 
@@ -120,7 +120,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.0, 180.0, 45.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 90.0, 45.0, 19.0 ],
+					"presentation_rect" : [ 150.0, 110.0, 45.0, 19.0 ],
 					"text" : "WRAP:"
 				}
 
@@ -136,7 +136,7 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 940.0, 240.0, 29.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.0, 90.0, 29.0, 20.0 ],
+					"presentation_rect" : [ 270.0, 110.0, 29.0, 20.0 ],
 					"triangle" : 0
 				}
 
@@ -152,7 +152,7 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 940.0, 200.0, 29.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 180.0, 90.0, 29.0, 20.0 ],
+					"presentation_rect" : [ 190.0, 110.0, 29.0, 20.0 ],
 					"triangle" : 0
 				}
 
@@ -358,24 +358,6 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Monaco",
-					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-79",
-					"linecount" : 3,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 190.0, 21.0, 75.0, 43.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 190.0, 20.0, 94.0, 43.0 ],
-					"text" : "space = add\n'i' = insert\n'k' = cut"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-78",
@@ -384,8 +366,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 70.0, 110.0, 101.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 100.0, 110.0, 104.0, 20.0 ],
-					"text" : "Copy to module:"
+					"presentation_rect" : [ 190.0, 50.0, 59.0, 20.0 ],
+					"text" : "Copy to:"
 				}
 
 			}
@@ -400,7 +382,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 90.0, 59.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 110.0, 59.0, 20.0 ],
+					"presentation_rect" : [ 190.0, 20.0, 59.0, 20.0 ],
 					"text" : "Network:"
 				}
 
@@ -416,7 +398,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 138.0, 40.0, 25.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 60.0, 26.0, 23.0 ],
+					"presentation_rect" : [ 240.0, 80.0, 26.0, 23.0 ],
 					"text" : "@:"
 				}
 
@@ -432,7 +414,7 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 80.0, 300.0, 53.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.0, 60.0, 39.0, 23.0 ],
+					"presentation_rect" : [ 260.0, 80.0, 39.0, 23.0 ],
 					"triangle" : 0
 				}
 
@@ -504,7 +486,7 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 510.0, 350.0, 54.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 110.0, 39.0, 23.0 ],
+					"presentation_rect" : [ 240.0, 50.0, 39.0, 23.0 ],
 					"triangle" : 0
 				}
 
@@ -518,7 +500,7 @@
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 480.0, 350.0, 26.0, 26.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 110.0, 20.0, 20.0 ]
+					"presentation_rect" : [ 280.0, 50.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -606,7 +588,7 @@
 					"outlettype" : [ "", "float" ],
 					"patching_rect" : [ 750.0, 170.0, 128.0, 32.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 60.0, 136.0, 44.0 ]
+					"presentation_rect" : [ 0.0, 60.0, 136.0, 56.0 ]
 				}
 
 			}
@@ -714,7 +696,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 340.0, 130.0, 61.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 140.0, 60.0, 59.0, 23.0 ],
+					"presentation_rect" : [ 140.0, 80.0, 59.0, 23.0 ],
 					"text" : "Latest:"
 				}
 
@@ -732,7 +714,7 @@
 					"outlettype" : [ "int", "", "" ],
 					"patching_rect" : [ 330.0, 310.0, 100.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 60.0, 110.0, 40.0, 20.0 ],
+					"presentation_rect" : [ 250.0, 20.0, 48.0, 20.0 ],
 					"types" : [  ]
 				}
 
@@ -4651,7 +4633,7 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 400.0, 130.0, 40.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 200.0, 60.0, 39.0, 23.0 ],
+					"presentation_rect" : [ 200.0, 80.0, 39.0, 23.0 ],
 					"triangle" : 0
 				}
 
