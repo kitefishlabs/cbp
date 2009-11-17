@@ -40,7 +40,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -49,9 +49,9 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 92.0, 99.0, 28.0, 29.0 ],
+					"patching_rect" : [ 92.0, 99.0, 27.0, 29.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 90.0, 100.0, 32.0, 18.0 ],
+					"presentation_rect" : [ 90.0, 100.0, 30.0, 18.0 ],
 					"text" : "(ms)"
 				}
 
@@ -88,7 +88,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -96,16 +96,16 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 100.0, 93.0, 28.0, 18.0 ],
+					"patching_rect" : [ 100.0, 93.0, 27.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 105.0, 28.0, 18.0 ],
+					"presentation_rect" : [ 0.0, 105.0, 27.0, 18.0 ],
 					"text" : "to"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -113,15 +113,16 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 95.0, 39.0, 18.0 ],
+					"patching_rect" : [ 10.0, 95.0, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 0.0, 90.0, 39.0, 18.0 ],
+					"presentation_rect" : [ 0.0, 90.0, 36.0, 18.0 ],
 					"text" : "from"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-149",
@@ -132,12 +133,14 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 730.0, 700.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 105.0, 50.0, 18.0 ]
+					"presentation_rect" : [ 35.0, 105.0, 50.0, 18.0 ],
+					"textcolor" : [ 0.709804, 0.709804, 0.709804, 1.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-148",
@@ -148,7 +151,8 @@
 					"outlettype" : [ "int", "bang" ],
 					"patching_rect" : [ 730.0, 670.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 35.0, 90.0, 50.0, 18.0 ]
+					"presentation_rect" : [ 35.0, 90.0, 50.0, 18.0 ],
+					"textcolor" : [ 0.709804, 0.709804, 0.709804, 1.0 ]
 				}
 
 			}
@@ -979,20 +983,6 @@
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 9.0,
-					"id" : "obj-59",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 315.0, 55.0, 369.0, 17.0 ],
-					"text" : "jcom.message yin/list @type msg_list @description \"Yin parameters as a list.\""
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"#init" : "",
 					"#loadbang" : 0,
 					"#triggerall" : 1,
@@ -1148,7 +1138,7 @@
 					"patching_rect" : [ 730.0, 630.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 35.0, 50.0, 50.0, 18.0 ],
-					"textcolor" : [ 0.101961, 0.972549, 0.0, 1.0 ]
+					"textcolor" : [ 0.709804, 0.709804, 0.709804, 1.0 ]
 				}
 
 			}
@@ -1436,13 +1426,13 @@
 ,
 					"patching_rect" : [ 310.0, 750.0, 79.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p sdif-display"
@@ -1699,13 +1689,13 @@
 ,
 					"patching_rect" : [ 310.0, 730.0, 68.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
+						"default_fontname" : "Arial",
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
 						"fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontsize" : 12.0,
-						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p choose_file"
@@ -2016,7 +2006,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 415.0, 259.0, 17.0 ],
-					"text" : "/sdif2 asd/qweqwe.sdif"
+					"text" : "/view/size 300 210"
 				}
 
 			}
