@@ -54,7 +54,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -224,7 +224,7 @@
 			}
 , 			{
 				"box" : 				{
-					"fontface" : 1,
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -232,15 +232,16 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 115.0, 39.0, 18.0 ],
+					"patching_rect" : [ 50.0, 115.0, 36.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 175.0, 50.0, 36.0, 18.0 ],
+					"presentation_rect" : [ 175.0, 50.0, 33.0, 18.0 ],
 					"text" : "Jitter:"
 				}
 
 			}
 , 			{
 				"box" : 				{
+					"fontface" : 2,
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-42",
@@ -833,7 +834,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 90.0, 280.0, 150.0, 17.0 ],
-					"text" : "/prelim 0"
+					"text" : "/view/size 300 140"
 				}
 
 			}

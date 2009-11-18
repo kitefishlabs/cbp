@@ -178,7 +178,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 170.0, 235.0, 50.0, 17.0 ],
+					"patching_rect" : [ 250.0, 235.0, 50.0, 17.0 ],
 					"text" : "local $1"
 				}
 
@@ -314,7 +314,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 235.0, 56.0, 16.0 ],
+					"patching_rect" : [ 190.0, 235.0, 56.0, 16.0 ],
 					"text" : "size $1 $1"
 				}
 
@@ -596,9 +596,10 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 45.0, 235.0, 62.0, 18.0 ],
-					"text" : "s #2_to_lcd"
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 45.0, 235.0, 142.0, 18.0 ],
+					"text" : "cbp.send display. #2_to_lcd"
 				}
 
 			}
@@ -766,7 +767,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 220.0, 210.0, 269.0, 17.0 ],
-					"text" : "/last/unit 468"
+					"text" : "/zoom 0"
 				}
 
 			}
@@ -795,7 +796,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/editing_this_module.1"
 				}
 
 			}
@@ -858,7 +859,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 687.0, 231.5, 119.5, 231.5 ],
+					"midpoints" : [ 687.0, 231.5, 199.5, 231.5 ],
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -993,7 +994,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 704.5, 231.0, 179.5, 231.0 ],
+					"midpoints" : [ 704.5, 231.0, 259.5, 231.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
