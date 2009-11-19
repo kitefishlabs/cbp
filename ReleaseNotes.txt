@@ -1,10 +1,11 @@
 Release Notes
 
-CBP version 0.1 BETA
+CBP version 0.1 BETA 4 (11/09)
 
 CBP is corpus-based sound processing based on unit selection for Max/MSP/FTM/Jamoma.
 
-Copyright 2009 Tom Stoll
+Copyright 2009 Tom Stoll. For more information, tutorials, etc., please see 
+http://www.corpora-sonorus.com
 
 Based on CataRT, copyright 2005-2008 Diemo Schwarz, Real-Time Music Interaction Team (IMTR), Ircam - Centre Pompidou, distributed under the GPL v2 License.
 
@@ -15,5 +16,6 @@ See file GPL-license.pat for further informations on licensing terms.
 ====================================================
 
 KNOWN BUGS:
-- there may be errors in the Max Window when initializing or reinitializing; clicking the list of descriptors messages near the bottom of the patch before initializing should minimize the number of errors.
-- not every module has its full advertised functionality, some parameters have no effect and are there as placeholders for features yet to be implemented.
+- There may be errors in the Max Window when initializing or reinitializing. Some of these errors concern graphics files that the program is having trouble loading. Some errors are thrown as the program/patch is being loaded. No errors should appear when the "Initialize this Corpus" button is clicked.
+- There is a meaningless error every time a new file is imported for segmentation.
+- Not every module has its full advertised functionality, some parameters have no effect and are there as placeholders for features yet to be implemented. Often these inactive parameters are italicized.

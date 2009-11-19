@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 363.0, 44.0, 916.0, 557.0 ],
+		"rect" : [ 2045.0, -19.0, 916.0, 557.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 363.0, 44.0, 916.0, 557.0 ],
+		"defrect" : [ 2045.0, -19.0, 916.0, 557.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -18,6 +18,40 @@
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-42",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 575.0, 110.0, 52.0, 18.0 ],
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"#init" : "",
+					"#loadbang" : 1,
+					"#triggerall" : 0,
+					"#untuple" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"ftm_scope" : 3,
+					"id" : "obj-25",
+					"maxclass" : "ftm.mess",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 575.0, 130.0, 22.90625, 16.0 ],
+					"presentation_rect" : [ 575.0, 130.0, 22.90625, 16.0 ],
+					"text" : [ "_480" ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -190,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 695.0, 180.0, 20.0, 20.0 ],
+					"patching_rect" : [ 695.0, 200.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 275.0, 45.0, 20.0, 20.0 ]
 				}
@@ -206,7 +240,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 715.0, 180.0, 174.0, 41.0 ],
+					"patching_rect" : [ 715.0, 200.0, 174.0, 41.0 ],
 					"text" : "jcom.parameter local @type boolean @repetitions/allow 1 @description \"Toggle local drawing mode.\""
 				}
 
@@ -323,20 +357,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-25",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 520.0, 115.0, 33.0, 18.0 ],
-					"text" : "t 400"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-33",
 					"maxclass" : "number",
 					"numinlets" : 1,
@@ -416,7 +436,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 135.0, 33.0, 18.0 ],
+					"patching_rect" : [ 485.0, 155.0, 33.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 0.0, 33.0, 18.0 ],
 					"text" : "Size:"
@@ -432,9 +452,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 520.0, 135.0, 50.0, 18.0 ],
+					"patching_rect" : [ 520.0, 155.0, 50.0, 18.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 260.0, 0.0, 36.0, 18.0 ]
+					"presentation_rect" : [ 260.0, 0.0, 36.0, 18.0 ],
+					"triangle" : 0
 				}
 
 			}
@@ -448,7 +469,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 575.0, 135.0, 224.0, 41.0 ],
+					"patching_rect" : [ 575.0, 155.0, 224.0, 41.0 ],
 					"text" : "jcom.parameter size @type integer @repetitions/allow 1 @description \"Size of each side of the square region containing unit points.\""
 				}
 
@@ -767,7 +788,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 220.0, 210.0, 269.0, 17.0 ],
-					"text" : "/zoom 0"
+					"text" : "/size 480"
 				}
 
 			}
@@ -796,7 +817,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module.1"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -1028,6 +1049,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-42", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 84.5, 133.0, 24.5, 133.0 ],
@@ -1091,7 +1121,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 0 ],
+					"destination" : [ "obj-26", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-8", 1 ]
