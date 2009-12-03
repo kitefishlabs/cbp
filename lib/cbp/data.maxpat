@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 3.0, 60.0, 1119.0, 501.0 ],
+		"rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 3.0, 60.0, 1119.0, 501.0 ],
+		"defrect" : [ 202.0, 238.0, 1140.0, 496.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -30,9 +30,9 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"rect" : [ 25.0, 69.0, 201.0, 229.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 25.0, 69.0, 640.0, 480.0 ],
+						"defrect" : [ 25.0, 69.0, 201.0, 229.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -308,9 +308,9 @@
 					"outlettype" : [ "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 231.0, 184.0, 405.0, 139.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"defrect" : [ 231.0, 184.0, 405.0, 139.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -335,7 +335,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 260.0, 100.0, 183.0, 39.0 ],
+									"patching_rect" : [ 0.0, 0.0, 183.0, 39.0 ],
 									"text" : "jcom.message add/descriptor @type array @repetitions/allow 1 @description \"Add a descriptor. Args: integer and symbol.\""
 								}
 
@@ -350,7 +350,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "" ],
-									"patching_rect" : [ 445.0, 100.0, 199.0, 39.0 ],
+									"patching_rect" : [ 190.0, 0.0, 199.0, 39.0 ],
 									"text" : "jcom.message add/descriptor-sdif @type array @repetitions/allow 1 @description \"Same as add/descriptor, but with an sdif file?\""
 								}
 
@@ -369,8 +369,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 210.0, 31.019989, 16.0 ],
-									"presentation_rect" : [ 110.0, 210.0, 31.019989, 16.0 ],
+									"patching_rect" : [ 90.0, 70.0, 31.019989, 16.0 ],
+									"presentation_rect" : [ 90.0, 70.0, 31.019989, 16.0 ],
 									"text" : [ "_$1 $2" ]
 								}
 
@@ -390,8 +390,8 @@
 									"numins" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 210.0, 53.259979, 16.0 ],
-									"presentation_rect" : [ 50.0, 210.0, 53.259979, 16.0 ],
+									"patching_rect" : [ 10.0, 70.0, 53.259979, 16.0 ],
+									"presentation_rect" : [ 10.0, 70.0, 53.259979, 16.0 ],
 									"text" : [ "_$1 $3 1 $2" ]
 								}
 
@@ -403,7 +403,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 75.0, 286.0, 25.0, 25.0 ]
+									"patching_rect" : [ 50.0, 110.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -412,7 +412,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-29", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 351.5, 205.0, 59.5, 205.0 ],
+									"midpoints" : [  ],
 									"source" : [ "obj-17", 1 ]
 								}
 
@@ -421,7 +421,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-27", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 544.5, 203.0, 119.5, 203.0 ],
+									"midpoints" : [  ],
 									"source" : [ "obj-18", 1 ]
 								}
 
@@ -847,7 +847,7 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 835.0, 205.0, 112.0, 17.0 ],
-					"text" : "query.maxpat #1"
+					"text" : "query.maxpat query.demo"
 				}
 
 			}
@@ -909,7 +909,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 96.0, 399.0, 189.0, 17.0 ],
+					"patching_rect" : [ 95.0, 400.0, 191.0, 17.0 ],
 					"text" : "cbp.send2 /tms/query #2 set/corpus"
 				}
 
@@ -2865,7 +2865,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 265.0, 400.0, 53.0, 17.0 ],
+					"patching_rect" : [ 290.0, 400.0, 53.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"globalpatchername" : "",
@@ -2947,40 +2947,6 @@
 									"#loadbang" : 0,
 									"#triggerall" : 0,
 									"#untuple" : 0,
-									"fontname" : "Helvetica Neue",
-									"fontsize" : 9.0,
-									"ftm_scope" : 0,
-									"id" : "obj-59",
-									"maxclass" : "ftm.mess",
-									"numinlets" : 2,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 470.0, 154.509384, 15.0 ],
-									"presentation_rect" : [ 50.0, 470.0, 154.509384, 15.0 ],
-									"text" : [ "_($corpus[lastsoundfile] set segfile $1)" ]
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Helvetica Neue",
-									"fontsize" : 9.0,
-									"id" : "obj-58",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 445.0, 240.0, 17.0 ],
-									"text" : "cbp.receive /tms/data/backdoor/segmentfile/ #1"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"#init" : "",
-									"#loadbang" : 0,
-									"#triggerall" : 0,
-									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
 									"ftm_scope" : 0,
@@ -2989,9 +2955,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 205.0, 425.0, 197.632324, 17.0 ],
-									"presentation_rect" : [ 205.0, 425.0, 197.632324, 17.0 ],
-									"text" : [ "_($corpus[lastsoundfile] set segfilename $1)" ]
+									"patching_rect" : [ 205.0, 425.0, 181.845703, 17.0 ],
+									"presentation_rect" : [ 205.0, 425.0, 181.845703, 17.0 ],
+									"text" : [ "_($corpus[lastsoundfile] set markers $1)" ]
 								}
 
 							}
@@ -3193,15 +3159,6 @@
 									"hidden" : 0,
 									"midpoints" : [  ],
 									"source" : [ "obj-2", 1 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
-									"destination" : [ "obj-59", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-58", 0 ]
 								}
 
 							}
@@ -5611,7 +5568,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 371.0, 137.0, 123.0, 17.0 ],
-													"text" : "r CATART.data.sfcache"
+													"text" : "r cbp.data.sfcache"
 												}
 
 											}
@@ -5624,7 +5581,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 0,
 													"patching_rect" : [ 371.0, 115.0, 115.0, 17.0 ],
-													"text" : "s CATART.data.sfcache"
+													"text" : "s cbp.data.sfcache"
 												}
 
 											}
@@ -7310,7 +7267,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/data.demo"
 				}
 
 			}

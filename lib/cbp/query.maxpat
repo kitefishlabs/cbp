@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 1648.0, -40.0, 1414.0, 621.0 ],
+		"rect" : [ 14.0, 44.0, 1440.0, 852.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1648.0, -40.0, 1414.0, 621.0 ],
+		"defrect" : [ 14.0, 44.0, 1440.0, 852.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -12,7 +12,7 @@
 		"gridonopen" : 0,
 		"gridsize" : [ 5.0, 5.0 ],
 		"gridsnaponopen" : 0,
-		"toolbarvisible" : 1,
+		"toolbarvisible" : 0,
 		"boxanimatetime" : 200,
 		"imprint" : 0,
 		"enablehscroll" : 1,
@@ -178,8 +178,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 530.0, 180.084457, 17.0 ],
-					"text" : [ "_$my[corpus][soundfiles][$1 4][segfile]" ]
+					"patching_rect" : [ 285.0, 530.0, 186.279785, 17.0 ],
+					"presentation_rect" : [ 285.0, 530.0, 186.279785, 17.0 ],
+					"text" : [ "_$my[corpus][soundfiles][$1 4][markers]" ]
 				}
 
 			}
@@ -197,8 +198,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 305.0, 495.0, 162.128403, 17.0 ],
-					"text" : [ "_$my[corpus][lastsoundfile][segfile]" ]
+					"patching_rect" : [ 300.0, 495.0, 168.32373, 17.0 ],
+					"presentation_rect" : [ 300.0, 495.0, 168.32373, 17.0 ],
+					"text" : [ "_$my[corpus][lastsoundfile][markers]" ]
 				}
 
 			}
@@ -264,7 +266,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 245.0, 163.0, 17.0 ],
+					"patching_rect" : [ 10.0, 245.0, 197.0, 17.0 ],
 					"text" : "cbp.receive2 /tms/query #1 set/corpus"
 				}
 
@@ -753,12 +755,13 @@
 					"fontsize" : 9.0,
 					"ftm_scope" : 0,
 					"id" : "obj-42",
+					"linecount" : 2,
 					"maxclass" : "ftm.mess",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 745.0, 785.0, 71.820808, 17.0 ],
-					"text" : [ "_(extension #1)" ]
+					"patching_rect" : [ 745.0, 785.0, 71.820808, 29.0 ],
+					"text" : [ "_(extension query.demo)" ]
 				}
 
 			}
@@ -5487,7 +5490,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 215.0, 222.0, 17.0 ],
-					"text" : "/view/size 300 70"
+					"text" : "/get/last/markers"
 				}
 
 			}
@@ -5514,7 +5517,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/query.demo"
 				}
 
 			}
