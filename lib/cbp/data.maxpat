@@ -90,8 +90,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 170.0, 53.530121, 16.0 ],
-									"presentation_rect" : [ 10.0, 170.0, 53.530121, 16.0 ],
+									"patching_rect" : [ 10.0, 170.0, 51.950165, 16.0 ],
+									"presentation_rect" : [ 10.0, 170.0, 51.950165, 16.0 ],
 									"text" : [ "_append $*" ]
 								}
 
@@ -112,7 +112,7 @@
 							}
 , 							{
 								"box" : 								{
-									"description" : "fmat 1 5",
+									"description" : "fmat 1 25",
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
 									"ftm_scope" : 0,
@@ -122,11 +122,11 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 10.0, 105.0, 98.014648, 19.0 ],
+									"patching_rect" : [ 10.0, 105.0, 104.015625, 19.0 ],
 									"persistence" : 0,
-									"presentation_rect" : [ 10.0, 105.0, 98.014648, 19.0 ],
+									"presentation_rect" : [ 10.0, 105.0, 104.015625, 19.0 ],
 									"scope" : 0,
-									"text" : "fmat 1 5"
+									"text" : "fmat 1 25"
 								}
 
 							}
@@ -144,8 +144,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 80.0, 49.640045, 16.0 ],
-									"presentation_rect" : [ 30.0, 80.0, 49.640045, 16.0 ],
+									"patching_rect" : [ 30.0, 80.0, 48.060089, 16.0 ],
+									"presentation_rect" : [ 30.0, 80.0, 48.060089, 16.0 ],
 									"text" : [ "_set 0 0 $*" ]
 								}
 
@@ -164,8 +164,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 130.0, 69.799957, 16.0 ],
-									"presentation_rect" : [ 10.0, 130.0, 69.799957, 16.0 ],
+									"patching_rect" : [ 10.0, 130.0, 68.220001, 16.0 ],
+									"presentation_rect" : [ 10.0, 130.0, 68.220001, 16.0 ],
 									"text" : [ "_($1 normalize)" ]
 								}
 

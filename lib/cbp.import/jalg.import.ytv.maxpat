@@ -7061,6 +7061,20 @@
 						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 490.0, 250.0, 59.0, 33.0 ],
+									"text" : "print _inside"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"comment" : "",
 									"id" : "obj-11",
 									"maxclass" : "inlet",
@@ -7227,7 +7241,7 @@
 							}
 , 							{
 								"box" : 								{
-									"description" : "fvec 25 0 20 100 200 300 400 510 630 770 920 1080 1270 1480 1720 2000 2320 2700 3150 3700 4400 5300 6400 7700 9500 12000 15500",
+									"description" : "fvec 25 20 100 200 300 400 510 630 770 920 1080 1270 1480 1720 2000 2320 2700 3150 3700 4400 5300 6400 7700 9500 12000 15500",
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
 									"ftm_scope" : 0,
@@ -7237,11 +7251,11 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 15.0, 325.0, 848.136719, 19.0 ],
+									"patching_rect" : [ 15.0, 325.0, 836.134766, 19.0 ],
 									"persistence" : 0,
-									"presentation_rect" : [ 15.0, 325.0, 848.136719, 19.0 ],
+									"presentation_rect" : [ 15.0, 325.0, 836.134766, 19.0 ],
 									"scope" : 0,
-									"text" : "fvec 25 0 20 100 200 300 400 510 630 770 920 1080 1270 1480 1720 2000 2320 2700 3150 3700 4400 5300 6400 7700 9500 12000 15500"
+									"text" : "fvec 25 20 100 200 300 400 510 630 770 920 1080 1270 1480 1720 2000 2320 2700 3150 3700 4400 5300 6400 7700 9500 12000 15500"
 								}
 
 							}
@@ -7766,6 +7780,15 @@
 , 							{
 								"patchline" : 								{
 									"destination" : [ "obj-22", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-9", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
 									"source" : [ "obj-20", 0 ]
