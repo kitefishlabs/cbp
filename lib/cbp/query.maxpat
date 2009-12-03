@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 14.0, 44.0, 1414.0, 621.0 ],
+		"rect" : [ 1648.0, -40.0, 1414.0, 621.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 14.0, 44.0, 1414.0, 621.0 ],
+		"defrect" : [ 1648.0, -40.0, 1414.0, 621.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -17,6 +17,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -46,7 +47,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 55.0, 435.0, 278.0, 27.0 ],
-					"text" : "jcom.message get/barkdata @type none @repetitions/allow 1 @description \"Get the unitdata matrix.\""
+					"text" : "jcom.message get/barkdata @type none @repetitions/allow 1 @description \"Get the barkdata matrix.\""
 				}
 
 			}
@@ -140,8 +141,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1075.0, 90.0, 542.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1040.0, 90.0, 542.0, 17.0 ],
 					"text" : "jcom.message get/descriptors/numstd @type none @repetitions/allow 1 @description \"Get the number of standard descriptors.\""
 				}
 
@@ -161,8 +160,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 940.0, 90.0, 127.477539, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 940.0, 90.0, 127.477539, 17.0 ],
 					"text" : [ "_$my[corpus][numstddescr]" ]
 				}
 
@@ -182,8 +179,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 285.0, 530.0, 180.084457, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 285.0, 530.0, 180.084457, 17.0 ],
 					"text" : [ "_$my[corpus][soundfiles][$1 4][segfile]" ]
 				}
 
@@ -203,8 +198,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 305.0, 495.0, 162.128403, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 305.0, 495.0, 162.128403, 17.0 ],
 					"text" : [ "_$my[corpus][lastsoundfile][segfile]" ]
 				}
 
@@ -220,9 +213,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 470.0, 530.0, 276.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 470.0, 530.0, 276.0, 27.0 ],
 					"text" : "jcom.message get/markers @type none @repetitions/allow 1 @description \"Get the marker file for a soundfile.\""
 				}
 
@@ -238,9 +228,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 470.0, 495.0, 312.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 470.0, 495.0, 312.0, 27.0 ],
 					"text" : "jcom.message get/last/markers @type none @repetitions/allow 1 @description \"Get the marker file for the last soundfile to have been input.\""
 				}
 
@@ -252,9 +239,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 955.0, 800.0, 34.0, 26.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 825.0, 720.0, 34.0, 26.0 ]
+					"patching_rect" : [ 955.0, 800.0, 34.0, 26.0 ]
 				}
 
 			}
@@ -265,9 +250,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 180.0, 22.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 130.0, 180.0, 22.0, 22.0 ]
+					"patching_rect" : [ 130.0, 180.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -282,8 +265,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 245.0, 163.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 350.0, 163.0, 17.0 ],
 					"text" : "cbp.receive2 /tms/query #1 set/corpus"
 				}
 
@@ -297,8 +278,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 285.0, 122.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 390.0, 122.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_scope" : 0
 					}
@@ -322,8 +301,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 265.0, 103.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 10.0, 265.0, 103.0, 17.0 ],
 					"text" : [ "_($my set corpus $1)" ]
 				}
 
@@ -336,9 +313,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 745.0, 745.0, 15.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 615.0, 665.0, 15.0, 15.0 ]
+					"patching_rect" : [ 745.0, 745.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -353,8 +328,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1165.0, 710.0, 275.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 645.0, 449.0, 17.0 ],
 					"text" : "jcom.message get/symbol/name @type none @repetitions/allow 1 @description \"Not sure - figure it out.\""
 				}
 
@@ -370,8 +343,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1165.0, 680.0, 282.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 615.0, 457.0, 17.0 ],
 					"text" : "jcom.message get/symbol/index @type string @repetitions/allow 1 @description \"Not sure - figure it out.\""
 				}
 
@@ -387,8 +358,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1165.0, 650.0, 272.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 595.0, 447.0, 17.0 ],
 					"text" : "jcom.message lookup/soundset @type none @repetitions/allow 1 @description \"Not sure - figure it out.\""
 				}
 
@@ -404,9 +373,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 565.0, 460.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1005.0, 565.0, 581.0, 27.0 ],
 					"text" : "jcom.message lookup/descriptor generic @repetitions/allow 1 @description \"Lookup a questionable descriptor and get its number. Argument: descriptor ID\""
 				}
 
@@ -422,9 +388,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 525.0, 458.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1005.0, 525.0, 584.0, 27.0 ],
 					"text" : "jcom.message new/symbol @type array @repetitions/allow 1 @description \"Make up a new symbol. Arguments: symbol, integer to which it should refer. Returns the referred-to integer if the sybol is already in the table.\""
 				}
 
@@ -440,9 +403,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 415.0, 368.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1005.0, 415.0, 581.0, 27.0 ],
 					"text" : "jcom.message find/stats-where @type none @repetitions/allow 1 @description \"Same as find/units-where, but returns a dict of stats as in get/stats.\""
 				}
 
@@ -458,9 +418,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 385.0, 390.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 1005.0, 385.0, 586.0, 27.0 ],
 					"text" : "jcom.message find/units-where @type array @repetitions/allow 1 @description \"Return fmat of indices matching some condition. Arguments: descriptor name or index, operator, value.\""
 				}
 
@@ -476,8 +433,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 355.0, 270.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 355.0, 400.0, 17.0 ],
 					"text" : "jcom.message get/soundsets @type integer @repetitions/allow 1 @description \"Not totally sure.\""
 				}
 
@@ -493,8 +448,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 295.0, 262.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 295.0, 518.0, 17.0 ],
 					"text" : "jcom.message get/summary @type none @repetitions/allow 1 @description \"Get a summary of the last soundfile loaded.\""
 				}
 
@@ -509,8 +462,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 235.0, 562.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 235.0, 562.0, 17.0 ],
 					"text" : "jcom.message get/stats @type none @repetitions/allow 1 @description \"Get the unitstat as a dict of categories (std min max range).\""
 				}
 
@@ -525,8 +476,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 215.0, 405.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 215.0, 405.0, 17.0 ],
 					"text" : "jcom.message get/stat @type none @repetitions/allow 1 @description \"Get the unitstat fmat.\""
 				}
 
@@ -541,8 +490,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 185.0, 471.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 185.0, 471.0, 17.0 ],
 					"text" : "jcom.message get/descriptor-lookup @type none @repetitions/allow 1 @description \"Get the descriptors dict.\""
 				}
 
@@ -557,8 +504,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 155.0, 524.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 155.0, 524.0, 17.0 ],
 					"text" : "jcom.message get/visible-descriptors @type none @repetitions/allow 1 @description \"Get the series of v isible descriptors.\""
 				}
 
@@ -573,8 +518,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 125.0, 466.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 125.0, 466.0, 17.0 ],
 					"text" : "jcom.message get/descriptors @type none @repetitions/allow 1 @description \"Get the series of descriptors.\""
 				}
 
@@ -590,9 +533,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 435.0, 460.0, 38.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 475.0, 435.0, 446.0, 38.0 ],
 					"text" : "jcom.message get/unit/descriptor-cooked @type array @repetitions/allow 1 @description \"Get values of specific queried descriptors. Arguments: a UnitID and a list of descriptor numbers or symbols. If you know all the decriptors' integer IDs, use the 'raw' version.\""
 				}
 
@@ -608,9 +548,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 405.0, 449.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 405.0, 449.0, 27.0 ],
 					"text" : "jcom.message get/unit/descriptor @type array @repetitions/allow 1 @description \"Get values of specific queried descriptors. Arguments: a UnitID and a list of descriptor numbers.\""
 				}
 
@@ -626,9 +563,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 375.0, 406.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 375.0, 406.0, 27.0 ],
 					"text" : "jcom.message get/unit/unit @type integer @repetitions/allow 1 @description \"Get a unit (as a row reference). Argument: unit ID number.\""
 				}
 
@@ -644,9 +578,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 345.0, 278.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 345.0, 278.0, 27.0 ],
 					"text" : "jcom.message get/unitdata @type none @repetitions/allow 1 @description \"Get the unitdata matrix.\""
 				}
 
@@ -662,9 +593,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 315.0, 248.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 315.0, 248.0, 27.0 ],
 					"text" : "jcom.message get/last/unit @type none @repetitions/allow 1 @description \"Get the last unit.\""
 				}
 
@@ -680,9 +608,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 285.0, 335.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 285.0, 338.0, 27.0 ],
 					"text" : "jcom.message get/last/index @type none @repetitions/allow 1 @description \"Get the index of the last added unit.\""
 				}
 
@@ -698,9 +623,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 255.0, 444.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 255.0, 444.0, 27.0 ],
 					"text" : "jcom.message get/last/soundfile @type none @repetitions/allow 1 @description \"Get the dict corresponding to the last soundfile to have been input.\""
 				}
 
@@ -716,9 +638,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 225.0, 429.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 225.0, 435.0, 27.0 ],
 					"text" : "jcom.message get/last/sounddata @type none @repetitions/allow 1 @description \"Get the audio data from the last soundfile to have been input.\""
 				}
 
@@ -734,9 +653,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 195.0, 427.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 195.0, 427.0, 27.0 ],
 					"text" : "jcom.message get/last/duration @type none @repetitions/allow 1 @description \"Get the durattion of the last soundfile to have been input.\""
 				}
 
@@ -752,9 +668,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 165.0, 298.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 170.0, 298.0, 27.0 ],
 					"text" : "jcom.message get/sounddata @type none @repetitions/allow 1 @description \"Get the sounddata matrix.\""
 				}
 
@@ -770,9 +683,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 135.0, 450.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 145.0, 450.0, 27.0 ],
 					"text" : "jcom.message get/soundfile-path @type integer @repetitions/allow 1 @description \"Get the path to the soundfile. Agrument: integer index of the file in the soundfiles matrix.\""
 				}
 
@@ -788,9 +698,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 475.0, 105.0, 285.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 475.0, 120.0, 285.0, 27.0 ],
 					"text" : "jcom.message get/soundfiles @type none @repetitions/allow 1 @description \"Get the soundfiles mat.\""
 				}
 
@@ -804,8 +711,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.0, 835.0, 78.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 840.0, 755.0, 78.0, 17.0 ],
 					"text" : "print queryRET"
 				}
 
@@ -820,8 +725,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "int" ],
 					"patching_rect" : [ 745.0, 765.0, 200.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 615.0, 685.0, 200.0, 17.0 ],
 					"text" : "t b i"
 				}
 
@@ -836,8 +739,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 745.0, 805.0, 200.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 615.0, 725.0, 200.0, 17.0 ],
 					"text" : "sprintf name /tms/query/%s/%s/return"
 				}
 
@@ -857,8 +758,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 745.0, 785.0, 71.820808, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 745.0, 785.0, 71.820808, 17.0 ],
 					"text" : [ "_(extension #1)" ]
 				}
 
@@ -874,9 +773,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 531.0, 71.0, 130.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 531.0, 71.0, 130.0, 27.0 ],
 					"text" : "<descriptor name or index> <operator> <value>"
 				}
 
@@ -909,6 +805,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"#init" : "",
@@ -1069,16 +966,14 @@
 					}
 ,
 					"patching_rect" : [ 764.0, 67.0, 62.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 764.0, 67.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p get-menu"
@@ -1096,8 +991,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 764.0, 44.0, 148.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 764.0, 44.0, 148.0, 17.0 ],
 					"text" : "r #0_get-descriptor-menu"
 				}
 
@@ -1117,8 +1010,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 427.0, 71.0, 101.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 427.0, 71.0, 101.0, 17.0 ],
 					"text" : [ "_(print $my[corpus])" ]
 				}
 
@@ -1133,8 +1024,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 393.0, 71.0, 32.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 393.0, 71.0, 32.0, 15.0 ],
 					"text" : "print"
 				}
 
@@ -1153,8 +1042,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 328.0, 71.0, 62.457031, 22.0 ],
 					"persistence" : 0,
-					"presentation" : 1,
-					"presentation_rect" : [ 328.0, 71.0, 62.457031, 22.0 ],
 					"scope" : 0,
 					"text" : "dict"
 				}
@@ -1171,8 +1058,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 745.0, 835.0, 148.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 615.0, 755.0, 148.0, 17.0 ],
 					"text" : "jcom.send /tms/query/return"
 				}
 
@@ -1187,8 +1072,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 765.0, 100.0, 100.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 755.0, 103.0, 100.0, 17.0 ],
 					"text" : "out: everything"
 				}
 
@@ -1204,8 +1087,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 1040.0, 325.0, 264.0, 27.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1005.0, 325.0, 445.0, 17.0 ],
 					"text" : "jcom.message get/soundset @type none @repetitions/allow 1 @description \"Get the current soundset.\""
 				}
 
@@ -1225,8 +1106,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 365.0, 285.0, 109.921387, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 365.0, 285.0, 109.921387, 17.0 ],
 					"text" : [ "_$my[corpus][addindex]" ]
 				}
 
@@ -1258,6 +1137,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"#init" : "",
@@ -1554,16 +1434,14 @@
 					}
 ,
 					"patching_rect" : [ 415.0, 405.0, 55.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 415.0, 405.0, 55.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p get-raw"
@@ -1597,6 +1475,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2009,16 +1888,14 @@
 					}
 ,
 					"patching_rect" : [ 405.0, 435.0, 67.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 405.0, 435.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p get-cooked"
@@ -2040,8 +1917,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 345.0, 255.0, 125.913078, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 345.0, 255.0, 125.913078, 17.0 ],
 					"text" : [ "_$my[corpus][lastsoundfile]" ]
 				}
 
@@ -2062,9 +1937,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 995.0, 710.0, 167.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 940.0, 700.0, 167.0, 29.0 ],
 					"text" : [ "_$my[corpus][descriptors]", "_[$my[corpus][descrid][$1] 6][$2 0]" ]
 				}
 
@@ -2084,8 +1956,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 930.0, 325.0, 111.081535, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 930.0, 325.0, 111.081535, 17.0 ],
 					"text" : [ "_$my[corpus][soundset]" ]
 				}
 
@@ -2105,8 +1975,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 995.0, 650.0, 63.453613, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 940.0, 640.0, 63.453613, 17.0 ],
 					"text" : [ "_SoundSet $1" ]
 				}
 
@@ -2138,6 +2006,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2679,16 +2548,14 @@
 					}
 ,
 					"patching_rect" : [ 960.0, 525.0, 73.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 925.0, 525.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p new-symbol"
@@ -2722,6 +2589,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -2815,16 +2683,14 @@
 					}
 ,
 					"patching_rect" : [ 970.0, 125.0, 62.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 935.0, 125.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p get-descr"
@@ -2858,6 +2724,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"#init" : "",
@@ -3061,16 +2928,14 @@
 					}
 ,
 					"patching_rect" : [ 950.0, 155.0, 81.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 915.0, 155.0, 81.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p get-vis-descr"
@@ -3093,9 +2958,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 900.0, 355.0, 138.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 900.0, 355.0, 138.0, 29.0 ],
 					"text" : [ "_$my[corpus][descriptors]", "_[$my[corpus][descrid][$1] 6]" ]
 				}
 
@@ -3116,9 +2978,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 995.0, 680.0, 158.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 940.0, 670.0, 158.0, 29.0 ],
 					"text" : [ "_$my[corpus][descriptors]", "_[$my[corpus][descrid][$1] 7][$2]" ]
 				}
 
@@ -3150,6 +3009,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"description" : "fmat",
@@ -3486,16 +3346,14 @@
 					}
 ,
 					"patching_rect" : [ 970.0, 435.0, 73.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 935.0, 435.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p copy-subset"
@@ -3529,6 +3387,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -3901,16 +3760,14 @@
 					}
 ,
 					"patching_rect" : [ 970.0, 415.0, 62.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 935.0, 415.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p find-units"
@@ -3933,9 +3790,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 970.0, 495.0, 184.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 970.0, 495.0, 184.0, 29.0 ],
 					"text" : [ "_(new dict std ($1 row 0) min ($1 row 1)", "_  max ($1 row 2) range ($1 row 3))" ]
 				}
 
@@ -3967,6 +3821,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"#init" : "",
@@ -4388,16 +4243,14 @@
 					}
 ,
 					"patching_rect" : [ 970.0, 455.0, 59.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 935.0, 455.0, 59.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p calc-stat"
@@ -4414,8 +4267,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 1060.0, 475.0, 32.0, 15.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 1025.0, 475.0, 32.0, 15.0 ],
 					"text" : "print"
 				}
 
@@ -4434,8 +4285,6 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 970.0, 475.0, 91.895996, 18.0 ],
 					"persistence" : 0,
-					"presentation" : 1,
-					"presentation_rect" : [ 970.0, 475.0, 91.895996, 18.0 ],
 					"scope" : 0,
 					"text" : "fmat 4 0"
 				}
@@ -4456,8 +4305,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 940.0, 185.0, 102.468254, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 940.0, 185.0, 102.468254, 17.0 ],
 					"text" : [ "_$my[corpus][descrid]" ]
 				}
 
@@ -4489,6 +4336,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4861,16 +4709,14 @@
 					}
 ,
 					"patching_rect" : [ 970.0, 385.0, 62.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 935.0, 385.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p find-units"
@@ -4892,8 +4738,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 355.0, 105.0, 114.830078, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 355.0, 105.0, 114.830078, 17.0 ],
 					"text" : [ "_$my[corpus][soundfiles]" ]
 				}
 
@@ -4913,8 +4757,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 325.0, 135.0, 143.869141, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 325.0, 135.0, 143.869141, 17.0 ],
 					"text" : [ "_$my[corpus][soundfiles][$1 1]" ]
 				}
 
@@ -4935,9 +4777,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 930.0, 265.0, 184.0, 29.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 930.0, 265.0, 184.0, 29.0 ],
 					"text" : [ "_(new dict std ($1 row 0) min ($1 row 1)", "_ max ($1 row 2) range ($1 row 3))" ]
 				}
 
@@ -4957,8 +4796,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 930.0, 235.0, 105.518074, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 930.0, 235.0, 105.518074, 17.0 ],
 					"text" : [ "_$my[corpus][unitstat]" ]
 				}
 
@@ -4990,6 +4827,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"#init" : "",
@@ -5392,16 +5230,14 @@
 					}
 ,
 					"patching_rect" : [ 970.0, 295.0, 60.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 935.0, 295.0, 60.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p summary"
@@ -5423,8 +5259,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 355.0, 165.0, 116.693344, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 355.0, 165.0, 116.693344, 17.0 ],
 					"text" : [ "_$my[corpus][sounddata]" ]
 				}
 
@@ -5444,8 +5278,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 910.0, 565.0, 122.507309, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 910.0, 565.0, 122.507309, 17.0 ],
 					"text" : [ "_$my[corpus][descrid][$1]" ]
 				}
 
@@ -5465,8 +5297,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 315.0, 109.921387, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 360.0, 315.0, 109.921387, 17.0 ],
 					"text" : [ "_$my[corpus][addindex]" ]
 				}
 
@@ -5486,8 +5316,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 375.0, 161.504395, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 315.0, 375.0, 161.504395, 17.0 ],
 					"text" : [ "_($my[corpus][unitdata] rowref $1)" ]
 				}
 
@@ -5507,8 +5335,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 365.0, 345.0, 107.341797, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 365.0, 345.0, 107.341797, 17.0 ],
 					"text" : [ "_$my[corpus][unitdata]" ]
 				}
 
@@ -5528,8 +5354,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 930.0, 215.0, 105.518074, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 930.0, 215.0, 105.518074, 17.0 ],
 					"text" : [ "_$my[corpus][unitstat]" ]
 				}
 
@@ -5549,8 +5373,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 315.0, 225.0, 159.913559, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 315.0, 225.0, 159.913559, 17.0 ],
 					"text" : [ "_$my[corpus][lastsoundfile][sound]" ]
 				}
 
@@ -5570,8 +5392,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 305.0, 195.0, 169.889145, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 305.0, 195.0, 169.889145, 17.0 ],
 					"text" : [ "_$my[corpus][lastsoundfile][duration]" ]
 				}
 
@@ -5586,8 +5406,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 50.0, 90.0, 251.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 50.0, 90.0, 251.0, 17.0 ],
 					"text" : "/preset/store 1 default, /preset/write"
 				}
 
@@ -5602,8 +5420,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 45.0, 180.0, 56.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 45.0, 180.0, 56.0, 19.0 ],
 					"text" : "jcom.in"
 				}
 
@@ -5618,8 +5434,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 240.0, 110.0, 40.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 240.0, 110.0, 40.0, 17.0 ],
 					"text" : "/init"
 				}
 
@@ -5635,9 +5449,6 @@
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 15.0, 140.0, 247.0, 31.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 15.0, 140.0, 247.0, 31.0 ],
 					"text" : "jcom.hub @module_type control @description \"It is the query module that it is.\"",
 					"varname" : "jcom.hub"
 				}
@@ -5651,9 +5462,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 15.0, 90.0, 22.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 90.0, 22.0, 22.0 ]
+					"patching_rect" : [ 15.0, 90.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -5664,9 +5473,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 180.0, 22.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 180.0, 22.0, 22.0 ]
+					"patching_rect" : [ 15.0, 180.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -5680,9 +5487,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 215.0, 222.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_linecount" : 2,
-					"presentation_rect" : [ 45.0, 215.0, 90.0, 29.0 ],
 					"text" : "/view/size 300 70"
 				}
 
@@ -5697,8 +5501,6 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 75.0, 110.0, 159.0, 17.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 75.0, 110.0, 159.0, 17.0 ],
 					"text" : "/documentation/generate"
 				}
 

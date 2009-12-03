@@ -1186,7 +1186,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 60.0, 100.0, 54.0, 30.0 ],
+									"patching_rect" : [ 60.0, 100.0, 57.0, 30.0 ],
 									"text" : "descriptor list"
 								}
 
@@ -3293,7 +3293,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 120.0, 100.0, 53.0, 30.0 ],
+									"patching_rect" : [ 120.0, 100.0, 56.0, 30.0 ],
 									"text" : "grain start time (ms)"
 								}
 
@@ -4373,8 +4373,8 @@
 									"numins" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 330.0, 90.0, 47.019989, 16.0 ],
-									"presentation_rect" : [ 330.0, 90.0, 47.019989, 16.0 ],
+									"patching_rect" : [ 330.0, 90.0, 31.019989, 16.0 ],
+									"presentation_rect" : [ 330.0, 90.0, 31.019989, 16.0 ],
 									"text" : [ "_$6 $6" ]
 								}
 
@@ -5045,9 +5045,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 370.0, 40.0, 87.703125, 17.0 ],
-									"presentation_rect" : [ 370.0, 40.0, 87.703125, 17.0 ],
-									"text" : [ "_(list /add/bark $*)" ]
+									"patching_rect" : [ 370.0, 40.0, 109.152832, 17.0 ],
+									"presentation_rect" : [ 370.0, 40.0, 109.152832, 17.0 ],
+									"text" : [ "_(list /add/unit/bark $*)" ]
 								}
 
 							}
@@ -5162,12 +5162,12 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 210.0, 136.0, 17.0 ],
+									"patching_rect" : [ 230.0, 250.0, 136.0, 17.0 ],
 									"saved_object_attributes" : 									{
 										"ftm_scope" : 0
 									}
 ,
-									"text" : "ftm.print %%%LAST-INDEX"
+									"text" : "ftm.print %%%LAST-BARK"
 								}
 
 							}
@@ -5283,9 +5283,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 340.0, 70.0, 127.359375, 17.0 ],
-									"presentation_rect" : [ 340.0, 70.0, 127.359375, 17.0 ],
-									"text" : [ "_(list /add/unit-and-data $*)" ]
+									"patching_rect" : [ 340.0, 70.0, 109.73291, 17.0 ],
+									"presentation_rect" : [ 340.0, 70.0, 109.73291, 17.0 ],
+									"text" : [ "_(list /add/unit/data $*)" ]
 								}
 
 							}
@@ -5651,6 +5651,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-18", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-27", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-3", 1 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
@@ -5741,9 +5750,9 @@
 					"outlettype" : [ "", "" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 20.0, 414.0, 758.0, 430.0 ],
+						"rect" : [ 410.0, 356.0, 758.0, 430.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 20.0, 414.0, 758.0, 430.0 ],
+						"defrect" : [ 410.0, 356.0, 758.0, 430.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -7058,8 +7067,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 370.0, 0.0, 25.0, 25.0 ],
-									"presentation_rect" : [ 369.0, 2.0, 0.0, 0.0 ]
+									"patching_rect" : [ 370.0, 0.0, 25.0, 25.0 ]
 								}
 
 							}
@@ -11656,7 +11664,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-50", 3 ],
 					"hidden" : 0,
-					"midpoints" : [ 399.5, 693.5, 344.5, 693.5 ],
+					"midpoints" : [ 399.5, 693.5, 336.642853, 693.5 ],
 					"source" : [ "obj-48", 0 ]
 				}
 
@@ -11764,7 +11772,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-50", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 49.5, 204.0, 307.833344, 204.0 ],
+					"midpoints" : [ 49.5, 204.0, 305.214294, 204.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
