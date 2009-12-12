@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 61.0, 44.0, 672.0, 724.0 ],
+		"rect" : [ 714.0, 44.0, 672.0, 724.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 61.0, 44.0, 672.0, 724.0 ],
+		"defrect" : [ 714.0, 44.0, 672.0, 724.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -7788,15 +7788,6 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
-									"hidden" : 0,
-									"midpoints" : [  ],
-									"source" : [ "obj-20", 0 ]
-								}
-
-							}
-, 							{
-								"patchline" : 								{
 									"destination" : [ "obj-26", 8 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
@@ -8588,9 +8579,9 @@
 					"outlettype" : [ "", "float", "int", "bang" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 149.0, 44.0, 515.0, 574.0 ],
+						"rect" : [ 643.0, 44.0, 515.0, 574.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 149.0, 44.0, 515.0, 574.0 ],
+						"defrect" : [ 643.0, 44.0, 515.0, 574.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
