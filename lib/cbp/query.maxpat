@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ -9.0, 44.0, 1439.0, 720.0 ],
+		"rect" : [ 0.0, 44.0, 1094.0, 433.0 ],
 		"bglocked" : 0,
-		"defrect" : [ -9.0, 44.0, 1439.0, 720.0 ],
+		"defrect" : [ 0.0, 44.0, 1094.0, 433.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -60,8 +60,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 160.0, 168.32373, 17.0 ],
-									"presentation_rect" : [ 10.0, 160.0, 168.32373, 17.0 ],
+									"patching_rect" : [ 10.0, 160.0, 167.30127, 17.0 ],
+									"presentation_rect" : [ 10.0, 160.0, 167.30127, 17.0 ],
 									"text" : [ "_$my[corpus][lastsoundfile][markers]" ]
 								}
 
@@ -170,8 +170,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 65.0, 101.5, 109.921387, 17.0 ],
-									"presentation_rect" : [ 65.0, 101.5, 109.921387, 17.0 ],
+									"patching_rect" : [ 65.0, 101.5, 108.919922, 17.0 ],
+									"presentation_rect" : [ 65.0, 101.5, 108.919922, 17.0 ],
 									"text" : [ "_$my[corpus][addindex]" ]
 								}
 
@@ -190,8 +190,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 71.5, 125.913078, 17.0 ],
-									"presentation_rect" : [ 45.0, 71.5, 125.913078, 17.0 ],
+									"patching_rect" : [ 45.0, 71.5, 124.674316, 17.0 ],
+									"presentation_rect" : [ 45.0, 71.5, 124.674316, 17.0 ],
 									"text" : [ "_$my[corpus][lastsoundfile]" ]
 								}
 
@@ -210,8 +210,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 131.5, 109.921387, 17.0 ],
-									"presentation_rect" : [ 15.0, 131.5, 109.921387, 17.0 ],
+									"patching_rect" : [ 15.0, 131.5, 108.919922, 17.0 ],
+									"presentation_rect" : [ 15.0, 131.5, 108.919922, 17.0 ],
 									"text" : [ "_$my[corpus][addindex]" ]
 								}
 
@@ -230,8 +230,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 41.5, 159.913559, 17.0 ],
-									"presentation_rect" : [ 15.0, 41.5, 159.913559, 17.0 ],
+									"patching_rect" : [ 15.0, 41.5, 158.674805, 17.0 ],
+									"presentation_rect" : [ 15.0, 41.5, 158.674805, 17.0 ],
 									"text" : [ "_$my[corpus][lastsoundfile][sound]" ]
 								}
 
@@ -250,8 +250,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 5.0, 11.5, 169.889145, 17.0 ],
-									"presentation_rect" : [ 5.0, 11.5, 169.889145, 17.0 ],
+									"patching_rect" : [ 5.0, 11.5, 168.650391, 17.0 ],
+									"presentation_rect" : [ 5.0, 11.5, 168.650391, 17.0 ],
 									"text" : [ "_$my[corpus][lastsoundfile][duration]" ]
 								}
 
@@ -381,13 +381,13 @@
 ,
 					"patching_rect" : [ 445.0, 190.0, 122.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Monaco",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"fontname" : "Monaco",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p /get/last/..."
@@ -404,7 +404,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 1130.0, 0.0, 150.0, 18.0 ],
-					"presentation_rect" : [ 1128.0, 0.0, 0.0, 0.0 ],
 					"text" : "/get/descr-lookup --> /g/d/l"
 				}
 
@@ -420,7 +419,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 970.0, 50.0, 150.0, 29.0 ],
-					"presentation_rect" : [ 969.0, 52.0, 0.0, 0.0 ],
 					"text" : "/get/unit/descr-cooked --> /g/u/d/c"
 				}
 
@@ -1527,13 +1525,13 @@
 ,
 					"patching_rect" : [ 385.0, 285.0, 55.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p get-raw"
@@ -1981,13 +1979,13 @@
 ,
 					"patching_rect" : [ 375.0, 315.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p get-cooked"
@@ -2630,13 +2628,13 @@
 ,
 					"patching_rect" : [ 1000.0, 480.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p new-symbol"
@@ -2765,13 +2763,13 @@
 ,
 					"patching_rect" : [ 945.0, 110.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p get-descr"
@@ -3010,13 +3008,13 @@
 ,
 					"patching_rect" : [ 925.0, 130.0, 81.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p get-vis-descr"
@@ -3435,13 +3433,13 @@
 ,
 					"patching_rect" : [ 1010.0, 390.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p copy-subset"
@@ -3850,13 +3848,13 @@
 ,
 					"patching_rect" : [ 1010.0, 370.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p find-units"
@@ -4337,13 +4335,13 @@
 ,
 					"patching_rect" : [ 1010.0, 410.0, 59.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p calc-stat"
@@ -4435,6 +4433,7 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -4563,15 +4562,15 @@
 									"ftm_scope" : 0,
 									"id" : "obj-8",
 									"maxclass" : "ftm.object",
-									"name" : "descr3",
+									"name" : "descr",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 248.0, 227.0, 67.466797, 18.0 ],
+									"patching_rect" : [ 250.0, 230.0, 64.022461, 18.0 ],
 									"persistence" : 0,
-									"presentation_rect" : [ 248.0, 227.0, 67.466797, 18.0 ],
+									"presentation_rect" : [ 250.0, 230.0, 64.022461, 18.0 ],
 									"scope" : 0,
-									"text" : "fvec"
+									"text" : "descr"
 								}
 
 							}
@@ -4808,13 +4807,13 @@
 ,
 					"patching_rect" : [ 1010.0, 340.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p find-units"
@@ -5334,13 +5333,13 @@
 ,
 					"patching_rect" : [ 945.0, 250.0, 60.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p summary"
@@ -5539,7 +5538,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 215.0, 222.0, 17.0 ],
-					"text" : "/view/size 300 70"
+					"text" : "/find/units-where 2 == 2"
 				}
 
 			}
@@ -5566,7 +5565,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/query.demo"
 				}
 
 			}
