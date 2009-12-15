@@ -17,6 +17,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -511,6 +512,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"#init" : "",
@@ -704,13 +706,13 @@
 ,
 					"patching_rect" : [ 454.0, 123.0, 114.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Arial",
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p require-FTM-version"
@@ -779,15 +781,15 @@
 					"fontsize" : 9.0,
 					"ftm_scope" : 2,
 					"id" : "obj-30",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "ftm.mess",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 240.0, 325.792908, 41.0 ],
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 10.0, 240.0, 325.792908, 41.0 ],
-					"text" : [ "_f0 1000, midi 128, loud 10, per, ac1, flat, cent 4000, hfc, zc, ac1A, en,", "_f0_std 1000, midi_std 128, loud_std 10, per_std, ac1_std,", "_flat_std, cent_std 4000, hfc_std, zc_std, ac1A_std, en_std" ]
+					"patching_rect" : [ 10.0, 240.0, 211.961426, 29.0 ],
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 10.0, 240.0, 211.961426, 29.0 ],
+					"text" : [ "_f0 1000, f0_std 1000, loud 10, per, ac1, flat,", "_cent 4000, cent_std 4000, zc, ac1A" ]
 				}
 
 			}
