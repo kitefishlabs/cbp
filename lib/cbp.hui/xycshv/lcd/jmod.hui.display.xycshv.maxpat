@@ -1,9 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2045.0, -19.0, 916.0, 557.0 ],
+		"rect" : [ 0.0, 140.0, 300.0, 70.0 ],
+		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2045.0, -19.0, 916.0, 557.0 ],
+		"defrect" : [ 154.0, 44.0, 916.0, 557.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -17,6 +18,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -76,7 +78,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 105.0, 370.0, 50.0, 18.0 ],
+					"patching_rect" : [ 105.0, 345.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 160.0, 50.0, 50.0, 18.0 ]
 				}
@@ -91,7 +93,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 405.0, 521.0, 19.0 ],
+					"patching_rect" : [ 155.0, 375.0, 521.0, 19.0 ],
 					"text" : "jcom.parameter point/3/pos @type array @repetitions/allow 0 @description \"Position for point 3.\""
 				}
 
@@ -106,7 +108,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 370.0, 600.0, 31.0 ],
+					"patching_rect" : [ 155.0, 345.0, 600.0, 31.0 ],
 					"text" : "jcom.parameter point/3/radius @type decimal @repetitions/allow 1 @range/clipmode low @range/bounds 0. 999. @description \"Radius for point 3.\""
 				}
 
@@ -120,7 +122,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 105.0, 495.0, 50.0, 18.0 ],
+					"patching_rect" : [ 105.0, 455.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 160.0, 25.0, 50.0, 18.0 ]
 				}
@@ -136,7 +138,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 495.0, 587.0, 31.0 ],
+					"patching_rect" : [ 155.0, 455.0, 587.0, 31.0 ],
 					"text" : "jcom.message selected/unit/3 @type integer @repetitions/allow 1 @range/bounds 0 9999 @range/clipmode low @description \"Draw a halo around unit 3.\""
 				}
 
@@ -147,11 +149,11 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-49",
-					"linecount" : 4,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 220.0, 24.0, 33.0, 52.0 ],
+					"patching_rect" : [ 185.0, 24.0, 52.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 230.0, 20.0, 44.0, 29.0 ],
@@ -166,7 +168,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 130.0, 610.0, 20.0, 20.0 ],
+					"patching_rect" : [ 130.0, 555.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 275.0, 25.0, 20.0, 20.0 ]
 				}
@@ -181,7 +183,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 610.0, 504.0, 19.0 ],
+					"patching_rect" : [ 155.0, 555.0, 504.0, 19.0 ],
 					"text" : "jcom.message toggle/active @type boolean @description \"Dis|Enable filtering of active units.\""
 				}
 
@@ -196,7 +198,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 49.0, 33.0, 29.0 ],
+					"patching_rect" : [ 145.0, 30.0, 33.0, 29.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 225.0, 50.0, 53.0, 18.0 ],
 					"text" : "local flag:"
@@ -212,7 +214,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 250.0, 235.0, 50.0, 17.0 ],
+					"patching_rect" : [ 285.0, 225.0, 50.0, 17.0 ],
 					"text" : "local $1"
 				}
 
@@ -224,7 +226,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
-					"patching_rect" : [ 695.0, 200.0, 20.0, 20.0 ],
+					"patching_rect" : [ 695.0, 190.0, 20.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 275.0, 45.0, 20.0, 20.0 ]
 				}
@@ -240,7 +242,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 715.0, 200.0, 174.0, 41.0 ],
+					"patching_rect" : [ 715.0, 190.0, 174.0, 41.0 ],
 					"text" : "jcom.parameter local @type boolean @repetitions/allow 1 @description \"Toggle local drawing mode.\""
 				}
 
@@ -266,7 +268,7 @@
 					"maxclass" : "hint",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 5.0, 540.0, 38.0 ]
+					"patching_rect" : [ 310.0, 0.0, 540.0, 38.0 ]
 				}
 
 			}
@@ -306,7 +308,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 110.0, 134.0, 18.0 ],
+					"patching_rect" : [ 280.0, 110.0, 171.0, 18.0 ],
 					"text" : "cbp.receive /tms/display/ #2"
 				}
 
@@ -320,7 +322,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 590.0, 508.0, 19.0 ],
+					"patching_rect" : [ 155.0, 535.0, 508.0, 19.0 ],
 					"text" : "jcom.message toggle/V @type boolean @description \"Display or hide vertical line component.\""
 				}
 
@@ -334,7 +336,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 570.0, 521.0, 19.0 ],
+					"patching_rect" : [ 155.0, 515.0, 521.0, 19.0 ],
 					"text" : "jcom.message toggle/H @type boolean @description \"Display or hide horizontal line component.\""
 				}
 
@@ -348,7 +350,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 190.0, 235.0, 56.0, 16.0 ],
+					"patching_rect" : [ 225.0, 225.0, 56.0, 16.0 ],
 					"text" : "size $1 $1"
 				}
 
@@ -362,7 +364,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 105.0, 460.0, 50.0, 18.0 ],
+					"patching_rect" : [ 105.0, 425.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 25.0, 50.0, 18.0 ]
 				}
@@ -378,7 +380,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 460.0, 610.0, 31.0 ],
+					"patching_rect" : [ 155.0, 425.0, 610.0, 31.0 ],
 					"text" : "jcom.message selected/unit/2 @type integer @repetitions/allow 1 @range/bounds 0 9999 @range/clipmode low @description \"Draw a halo around unit 2.\""
 				}
 
@@ -392,7 +394,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 105.0, 315.0, 50.0, 18.0 ],
+					"patching_rect" : [ 105.0, 295.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 50.0, 50.0, 18.0 ]
 				}
@@ -407,7 +409,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 350.0, 521.0, 19.0 ],
+					"patching_rect" : [ 155.0, 325.0, 521.0, 19.0 ],
 					"text" : "jcom.parameter point/2/pos @type array @repetitions/allow 0 @description \"Position for point 2.\""
 				}
 
@@ -422,7 +424,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 315.0, 605.0, 31.0 ],
+					"patching_rect" : [ 155.0, 295.0, 605.0, 31.0 ],
 					"text" : "jcom.parameter point/2/radius @type decimal @repetitions/allow 1 @range/clipmode low @range/bounds 0. 999. @description \"Radius for point 2.\""
 				}
 
@@ -436,7 +438,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 485.0, 155.0, 33.0, 18.0 ],
+					"patching_rect" : [ 485.0, 145.0, 33.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 230.0, 0.0, 33.0, 18.0 ],
 					"text" : "Size:"
@@ -452,7 +454,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 520.0, 155.0, 50.0, 18.0 ],
+					"patching_rect" : [ 520.0, 145.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 260.0, 0.0, 36.0, 18.0 ],
 					"triangle" : 0
@@ -469,7 +471,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 575.0, 155.0, 224.0, 41.0 ],
+					"patching_rect" : [ 575.0, 145.0, 224.0, 41.0 ],
 					"text" : "jcom.parameter size @type integer @repetitions/allow 1 @description \"Size of each side of the square region containing unit points.\""
 				}
 
@@ -483,7 +485,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 325.0, 85.0, 479.0, 19.0 ],
+					"patching_rect" : [ 310.0, 85.0, 479.0, 19.0 ],
 					"text" : "jcom.parameter zoom @type array @repetitions/allow 0 @description \"Zoom for point 1.\"",
 					"varname" : "parameter[4]"
 				}
@@ -498,7 +500,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 325.0, 65.0, 433.0, 19.0 ],
+					"patching_rect" : [ 310.0, 65.0, 433.0, 19.0 ],
 					"text" : "jcom.message redraw @type none @repetitions/allow 1 @description Redraw."
 				}
 
@@ -512,7 +514,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 325.0, 45.0, 576.0, 19.0 ],
+					"patching_rect" : [ 310.0, 45.0, 576.0, 19.0 ],
 					"text" : "jcom.message initialize @type none @repetitions/allow 1 @description \"Initialize internal data-structures.\"",
 					"varname" : "parameter[2]"
 				}
@@ -527,7 +529,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 50.0, 535.0, 52.0, 18.0 ],
+					"patching_rect" : [ 50.0, 485.0, 52.0, 18.0 ],
 					"text" : "Last Unit:"
 				}
 
@@ -541,7 +543,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 425.0, 76.0, 18.0 ],
+					"patching_rect" : [ 30.0, 395.0, 76.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 0.0, 20.0, 53.0, 29.0 ],
@@ -558,7 +560,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 30.0, 260.0, 76.0, 18.0 ],
+					"patching_rect" : [ 30.0, 245.0, 76.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 50.0, 36.0, 18.0 ],
 					"text" : "Radii:"
@@ -574,7 +576,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 105.0, 535.0, 50.0, 18.0 ],
+					"patching_rect" : [ 105.0, 485.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 185.0, 0.0, 44.0, 18.0 ]
 				}
@@ -589,7 +591,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 105.0, 425.0, 50.0, 18.0 ],
+					"patching_rect" : [ 105.0, 395.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 25.0, 50.0, 18.0 ]
 				}
@@ -604,7 +606,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "float", "bang" ],
-					"patching_rect" : [ 105.0, 260.0, 50.0, 18.0 ],
+					"patching_rect" : [ 105.0, 245.0, 50.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 50.0, 50.0, 18.0 ]
 				}
@@ -619,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 235.0, 142.0, 18.0 ],
+					"patching_rect" : [ 45.0, 225.0, 170.0, 18.0 ],
 					"text" : "cbp.send display. #2_to_lcd"
 				}
 
@@ -634,7 +636,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 535.0, 553.0, 31.0 ],
+					"patching_rect" : [ 155.0, 485.0, 553.0, 31.0 ],
 					"text" : "jcom.message last/unit @type integer @repetitions/allow 1 @range/bounds 0 9999 @range/clipmode low @description \"Draw the last unit to have been added to the corpus.\""
 				}
 
@@ -649,7 +651,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 425.0, 587.0, 31.0 ],
+					"patching_rect" : [ 155.0, 395.0, 587.0, 31.0 ],
 					"text" : "jcom.message selected/unit/1 @type integer @repetitions/allow 1 @range/bounds 0 9999 @range/clipmode low @description \"Draw a halo around unit 2.\""
 				}
 
@@ -663,7 +665,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 295.0, 521.0, 19.0 ],
+					"patching_rect" : [ 155.0, 275.0, 521.0, 19.0 ],
 					"text" : "jcom.parameter point/1/pos @type array @repetitions/allow 0 @description \"Position for point 1.\""
 				}
 
@@ -678,7 +680,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 155.0, 260.0, 601.0, 31.0 ],
+					"patching_rect" : [ 155.0, 245.0, 601.0, 31.0 ],
 					"text" : "jcom.parameter point/1/radius @type decimal @repetitions/allow 1 @range/clipmode low @range/bounds 0. 999. @description \"Radius for point 1.\""
 				}
 
@@ -692,8 +694,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 45.0, 210.0, 171.0, 18.0 ],
-					"text" : "jalg.hui.display.xycshv.maxpat #2 #1"
+					"patching_rect" : [ 45.0, 200.0, 232.0, 18.0 ],
+					"text" : "jalg.hui.display.xycshv.maxpat display.one xyzcshv"
 				}
 
 			}
@@ -720,7 +722,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 45.0, 180.0, 56.0, 19.0 ],
+					"patching_rect" : [ 45.0, 175.0, 56.0, 19.0 ],
 					"text" : "jcom.in"
 				}
 
@@ -787,8 +789,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 220.0, 210.0, 269.0, 17.0 ],
-					"text" : "/size 480"
+					"patching_rect" : [ 280.0, 200.0, 269.0, 17.0 ],
+					"text" : "/last/unit 0"
 				}
 
 			}
@@ -817,7 +819,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/display.one"
 				}
 
 			}
@@ -880,7 +882,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-31", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 687.0, 231.5, 199.5, 231.5 ],
+					"midpoints" : [ 687.0, 221.5, 234.5, 221.5 ],
 					"source" : [ "obj-14", 1 ]
 				}
 
@@ -925,7 +927,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-41", 1 ],
 					"hidden" : 0,
-					"midpoints" : [ 54.5, 206.0, 479.5, 206.0 ],
+					"midpoints" : [ 54.5, 196.0, 539.5, 196.0 ],
 					"source" : [ "obj-24", 0 ]
 				}
 
@@ -1015,7 +1017,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 704.5, 231.0, 259.5, 231.0 ],
+					"midpoints" : [ 704.5, 221.0, 294.5, 221.0 ],
 					"source" : [ "obj-35", 0 ]
 				}
 
