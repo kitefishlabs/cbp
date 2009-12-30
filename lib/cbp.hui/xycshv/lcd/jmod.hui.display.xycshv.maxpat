@@ -1,7 +1,7 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 140.0, 300.0, 70.0 ],
+		"rect" : [ 154.0, 44.0, 916.0, 557.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 154.0, 44.0, 916.0, 557.0 ],
@@ -619,8 +619,7 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 225.0, 170.0, 18.0 ],
 					"text" : "cbp.send display. #2_to_lcd"
 				}
@@ -695,7 +694,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 200.0, 232.0, 18.0 ],
-					"text" : "jalg.hui.display.xycshv.maxpat display.one xyzcshv"
+					"text" : "jalg.hui.display.xycshv.maxpat #2 xyzcshv"
 				}
 
 			}
@@ -790,7 +789,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 280.0, 200.0, 269.0, 17.0 ],
-					"text" : "/last/unit 0"
+					"text" : "/zoom 0"
 				}
 
 			}
@@ -819,7 +818,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/display.one"
+					"text" : "/editing_this_module"
 				}
 
 			}
