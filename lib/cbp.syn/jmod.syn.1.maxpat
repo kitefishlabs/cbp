@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 630.0, 560.0, 150.0, 70.0 ],
+		"rect" : [ 601.0, 68.0, 839.0, 354.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 620.0, 68.0, 839.0, 354.0 ],
+		"defrect" : [ 601.0, 68.0, 839.0, 354.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -29,7 +29,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 370.0, 180.0, 434.0, 19.0 ],
-					"text" : "jcom.message again @repetitions/allow 1 @type nonw @description \"Play again.\"",
+					"text" : "jcom.message again @repetitions/allow 1 @type none @description \"Play again.\"",
 					"varname" : "hue_angle[2]"
 				}
 
@@ -557,13 +557,13 @@
 ,
 					"patching_rect" : [ 345.0, 5.0, 240.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p read_me_for_programming_details",
@@ -844,13 +844,13 @@
 ,
 									"patching_rect" : [ 40.0, 220.0, 42.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 10.0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
-										"fontname" : "Verdana"
+										"fontname" : "Verdana",
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p front"
@@ -1012,13 +1012,13 @@
 ,
 					"patching_rect" : [ 85.0, 245.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p panel"
@@ -1087,13 +1087,13 @@
 ,
 					"patching_rect" : [ 596.0, 5.0, 113.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p notes_&_bugs",
@@ -1149,10 +1149,9 @@
 					"id" : "obj-7",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 70.0, 295.0, 77.0, 20.0 ],
-					"text" : "jcom.out~ 1"
+					"numoutlets" : 0,
+					"patching_rect" : [ 70.0, 295.0, 238.0, 20.0 ],
+					"text" : "send~ #2.out~"
 				}
 
 			}
@@ -1236,17 +1235,6 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 205.0, 115.0, 56.0, 18.0 ],
 					"text" : "/init"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
-					"id" : "obj-35",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 70.0, 325.0, 24.0, 24.0 ]
 				}
 
 			}
@@ -2132,13 +2120,13 @@
 ,
 									"patching_rect" : [ 10.0, 60.0, 289.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
 										"fontface" : 0,
 										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Arial",
-										"fontname" : "Arial"
+										"fontname" : "Arial",
+										"default_fontsize" : 12.0
 									}
 ,
 									"text" : "p simple_chunk_player"
@@ -2259,13 +2247,13 @@
 ,
 					"patching_rect" : [ 70.0, 270.0, 47.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue"
+						"fontname" : "Helvetica Neue",
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p guts"
@@ -2300,7 +2288,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/chain1.demo"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -2401,15 +2389,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}

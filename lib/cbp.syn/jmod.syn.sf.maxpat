@@ -1,7 +1,7 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 720.0, 300.0, 70.0 ],
+		"rect" : [ 950.0, 540.0, 300.0, 70.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 615.0, 44.0, 824.0, 536.0 ],
@@ -18,6 +18,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Verdana",
@@ -190,7 +191,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 400.0, 300.0, 275.0, 31.0 ],
+					"patching_rect" : [ 400.0, 300.0, 277.0, 31.0 ],
 					"text" : "jcom.parameter ramp/down/time @repetitions/allow 1 @type integer @description \"Ramp down (ms).\"",
 					"varname" : "hue_angle[3]"
 				}
@@ -376,6 +377,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -763,13 +765,13 @@
 ,
 					"patching_rect" : [ 360.0, 5.0, 240.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p read_me_for_programming_details",
@@ -804,6 +806,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Verdana",
@@ -964,6 +967,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Verdana",
@@ -1048,13 +1052,13 @@
 ,
 									"patching_rect" : [ 40.0, 220.0, 42.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Verdana",
 										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontname" : "Verdana",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p front"
@@ -1216,13 +1220,13 @@
 ,
 					"patching_rect" : [ 0.0, 255.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p panel"
@@ -1239,7 +1243,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 65.0, 255.0, 176.0, 18.0 ],
-					"text" : "/ramp/up 100"
+					"text" : "/width 5"
 				}
 
 			}
@@ -1252,8 +1256,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 165.0, 330.0, 138.0, 20.0 ],
-					"text" : "<- signal outputs",
+					"patching_rect" : [ 165.0, 305.0, 138.0, 20.0 ],
+					"text" : "signal send",
 					"textcolor" : [ 0.290196, 0.611765, 0.380392, 1.0 ]
 				}
 
@@ -1299,6 +1303,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Arial",
@@ -1320,13 +1325,13 @@
 ,
 					"patching_rect" : [ 611.0, 5.0, 113.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p notes_&_bugs",
@@ -1380,12 +1385,12 @@
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-7",
+					"linecount" : 2,
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 2,
-					"outlettype" : [ "signal", "" ],
-					"patching_rect" : [ 55.0, 305.0, 77.0, 20.0 ],
-					"text" : "jcom.out~ 1"
+					"numoutlets" : 0,
+					"patching_rect" : [ 55.0, 305.0, 82.0, 33.0 ],
+					"text" : "send~ #2.out~"
 				}
 
 			}
@@ -1475,17 +1480,6 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
-					"id" : "obj-35",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 55.0, 335.0, 24.0, 24.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-43",
@@ -1495,9 +1489,9 @@
 					"outlettype" : [ "signal" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 1474.0, -180.0, 563.0, 419.0 ],
+						"rect" : [ 877.0, 44.0, 563.0, 419.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 1474.0, -180.0, 563.0, 419.0 ],
+						"defrect" : [ 877.0, 44.0, 563.0, 419.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -1511,6 +1505,7 @@
 						"imprint" : 0,
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
 									"#init" : "",
@@ -1525,8 +1520,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 70.0, 310.0, 36.005859, 18.0 ],
-									"presentation_rect" : [ 70.0, 310.0, 36.005859, 18.0 ],
+									"patching_rect" : [ 70.0, 310.0, 36.004883, 18.0 ],
+									"presentation_rect" : [ 70.0, 310.0, 36.004883, 18.0 ],
 									"text" : [ "_0. $2" ]
 								}
 
@@ -1545,8 +1540,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 30.0, 310.0, 36.005859, 18.0 ],
-									"presentation_rect" : [ 30.0, 310.0, 36.005859, 18.0 ],
+									"patching_rect" : [ 30.0, 310.0, 36.004883, 18.0 ],
+									"presentation_rect" : [ 30.0, 310.0, 36.004883, 18.0 ],
 									"text" : [ "_1. $2" ]
 								}
 
@@ -1816,6 +1811,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"fontname" : "Monaco",
@@ -2184,13 +2180,13 @@
 ,
 									"patching_rect" : [ 420.0, 180.0, 60.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Monaco",
 										"fontname" : "Monaco",
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p expand"
@@ -2336,6 +2332,7 @@
 										"imprint" : 0,
 										"enablehscroll" : 1,
 										"enablevscroll" : 1,
+										"devicewidth" : 0.0,
 										"boxes" : [ 											{
 												"box" : 												{
 													"#init" : "",
@@ -2714,13 +2711,13 @@
 ,
 									"patching_rect" : [ 10.0, 70.0, 108.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontname" : "Monaco",
 										"fontname" : "Monaco",
-										"default_fontsize" : 10.0,
+										"default_fontface" : 0,
 										"globalpatchername" : "",
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontface" : 0
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p unit_to_buffer"
@@ -3270,13 +3267,13 @@
 ,
 					"patching_rect" : [ 55.0, 280.0, 65.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontface" : 0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p freezer"
@@ -3310,7 +3307,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/sf1.demo"
+					"text" : "/sf1.one"
 				}
 
 			}
@@ -3465,15 +3462,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-69", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-35", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-7", 0 ]
 				}
 
 			}
