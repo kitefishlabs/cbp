@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 38.0, 250.0, 916.0, 557.0 ],
+		"rect" : [ 0.0, 0.0, 450.0, 140.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 38.0, 250.0, 916.0, 557.0 ],
+		"defrect" : [ 109.0, 100.0, 916.0, 557.0 ],
 		"openrect" : [ 109.0, 100.0, 916.0, 557.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -20,6 +20,34 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 20.0, 440.0, 316.0, 18.0 ],
+					"text" : "jcom.message filter/col @type integer @repetitions/allow 1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 20.0, 395.0, 316.0, 18.0 ],
+					"text" : "jcom.message filter/on @type boolean @repetitions/allow 1"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
@@ -649,13 +677,13 @@
 ,
 					"patching_rect" : [ 960.0, 465.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
 						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -1044,13 +1072,13 @@
 ,
 					"patching_rect" : [ 955.0, 515.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
 						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -1859,13 +1887,13 @@
 ,
 					"patching_rect" : [ 960.0, 565.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
 						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2335,13 +2363,13 @@
 ,
 					"patching_rect" : [ 955.0, 415.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
 						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2811,13 +2839,13 @@
 ,
 					"patching_rect" : [ 955.0, 370.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
 						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -3079,7 +3107,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-246",
-					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Provisional", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
+					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Group", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3201,7 +3229,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-263",
-					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Provisional", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
+					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Group", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3323,7 +3351,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-280",
-					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Provisional", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
+					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Group", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3445,7 +3473,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-212",
-					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Provisional", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
+					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Group", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -3567,7 +3595,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-195",
-					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Provisional", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
+					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Group", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4059,13 +4087,13 @@
 ,
 					"patching_rect" : [ 955.0, 320.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
 						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -4347,7 +4375,7 @@
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-23",
-					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Provisional", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
+					"items" : [ "UnitID", 0, ",", "RelID", 1, ",", "SoundFile", 2, ",", "Active", 3, ",", "Group", 4, ",", "StartTime", 5, ",", "Duration", 6, ",", "Relstart", 7, ",", "Reldur", 8, ",", "f0", 9, ",", "f0_std", 10, ",", "loud", 11, ",", "per", 12, ",", "ac1", 13, ",", "flat", 14, ",", "cent", 15, ",", "cent_std", 16, ",", "zc", 17, ",", "ac1A", 18 ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -4428,7 +4456,7 @@
 					"numoutlets" : 19,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 495.0, 240.0, 438.5, 19.0 ],
-					"text" : "jalg.hui.draw.xyzcshv.maxpat #2 #1"
+					"text" : "jalg.hui.draw.xyzcshv.maxpat draw.one xyzcshv"
 				}
 
 			}
@@ -4480,7 +4508,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 550.0, 220.0, 280.0, 17.0 ],
-					"text" : "/view/size 450 140"
+					"text" : "/update/ranges"
 				}
 
 			}
@@ -4509,7 +4537,7 @@
 					"patching_rect" : [ 0.0, 0.0, 450.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 140.0 ],
-					"text" : "/editing_this_module.1"
+					"text" : "/draw.one"
 				}
 
 			}
