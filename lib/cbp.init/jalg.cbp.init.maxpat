@@ -346,9 +346,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 120.0, 96.464355, 17.0 ],
-					"presentation_rect" : [ 340.0, 120.0, 96.464355, 17.0 ],
-					"text" : [ "_( extension init.foo )" ]
+					"patching_rect" : [ 340.0, 120.0, 96.909668, 17.0 ],
+					"presentation_rect" : [ 340.0, 120.0, 96.909668, 17.0 ],
+					"text" : [ "_( extension init.one )" ]
 				}
 
 			}
@@ -697,13 +697,13 @@
 ,
 					"patching_rect" : [ 680.0, 130.0, 114.0, 17.0 ],
 					"saved_object_attributes" : 					{
+						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"default_fontname" : "Arial",
 						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"globalpatchername" : "",
-						"fontface" : 0
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p require-FTM-version"
@@ -976,15 +976,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"hidden" : 0,
-					"midpoints" : [ 509.5, 283.0, 559.5, 283.0 ],
-					"source" : [ "obj-21", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-22", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 509.5, 283.0, 449.5, 283.0 ],
@@ -1097,15 +1088,6 @@
 					"hidden" : 0,
 					"midpoints" : [ 389.5, 193.0, 449.5, 193.0 ],
 					"source" : [ "obj-7", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-14", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-9", 0 ]
 				}
 
 			}

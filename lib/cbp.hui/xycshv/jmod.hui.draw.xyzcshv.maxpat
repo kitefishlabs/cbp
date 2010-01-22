@@ -1,7 +1,7 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 0.0, 450.0, 140.0 ],
+		"rect" : [ 109.0, 100.0, 916.0, 557.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
 		"defrect" : [ 109.0, 100.0, 916.0, 557.0 ],
@@ -677,13 +677,13 @@
 ,
 					"patching_rect" : [ 960.0, 465.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -1072,13 +1072,13 @@
 ,
 					"patching_rect" : [ 955.0, 515.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -1887,13 +1887,13 @@
 ,
 					"patching_rect" : [ 960.0, 565.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2363,13 +2363,13 @@
 ,
 					"patching_rect" : [ 955.0, 415.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2839,13 +2839,13 @@
 ,
 					"patching_rect" : [ 955.0, 370.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -4087,13 +4087,13 @@
 ,
 					"patching_rect" : [ 955.0, 320.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue",
-						"fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -4456,7 +4456,7 @@
 					"numoutlets" : 19,
 					"outlettype" : [ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" ],
 					"patching_rect" : [ 495.0, 240.0, 438.5, 19.0 ],
-					"text" : "jalg.hui.draw.xyzcshv.maxpat draw.one xyzcshv"
+					"text" : "jalg.hui.draw.xyzcshv.maxpat #2 #1"
 				}
 
 			}
@@ -4508,7 +4508,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 550.0, 220.0, 280.0, 17.0 ],
-					"text" : "/update/ranges"
+					"text" : "/view/size 450 140"
 				}
 
 			}
@@ -4537,7 +4537,7 @@
 					"patching_rect" : [ 0.0, 0.0, 450.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 140.0 ],
-					"text" : "/draw.one"
+					"text" : "/editing_this_module"
 				}
 
 			}
