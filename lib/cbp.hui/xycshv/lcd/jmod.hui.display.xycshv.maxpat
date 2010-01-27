@@ -621,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 225.0, 170.0, 18.0 ],
-					"text" : "cbp.send display. #2_to_lcd"
+					"text" : "cbp.send display. #1_to_lcd"
 				}
 
 			}
@@ -694,7 +694,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 45.0, 200.0, 232.0, 18.0 ],
-					"text" : "jalg.hui.display.xycshv.maxpat #2 xyzcshv"
+					"text" : "jalg.hui.display.xycshv.maxpat #2 #1"
 				}
 
 			}
@@ -818,7 +818,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/editing_this_module.2"
 				}
 
 			}
