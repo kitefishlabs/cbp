@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 0.0, 0.0, 150.0, 70.0 ],
+		"rect" : [ 1613.0, 77.0, 1140.0, 496.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 150.0, 44.0, 1140.0, 496.0 ],
+		"defrect" : [ 1613.0, 77.0, 1140.0, 496.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -20,6 +20,194 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"rect" : [ 25.0, 69.0, 261.0, 173.0 ],
+						"bglocked" : 0,
+						"defrect" : [ 25.0, 69.0, 261.0, 173.0 ],
+						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"openinpresentation" : 0,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Monaco",
+						"gridonopen" : 0,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 0,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue",
+									"fontsize" : 9.0,
+									"id" : "obj-60",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 10.0, 90.0, 221.0, 28.0 ],
+									"text" : "jcom.message units/activate @type generic @repetitions/allow 1 @description \"Activate unit(s).\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Helvetica Neue",
+									"fontsize" : 9.0,
+									"id" : "obj-59",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 3,
+									"outlettype" : [ "", "", "" ],
+									"patching_rect" : [ 10.0, 10.0, 229.0, 28.0 ],
+									"text" : "jcom.message units/deactivate @type generic @repetitions/allow 1 @description \"Deactivate unit(s).\""
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-54",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 110.0, 120.0, 59.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"ftm_scope" : 1
+									}
+,
+									"text" : "ftm.iter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-29",
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 2,
+									"outlettype" : [ "", "" ],
+									"patching_rect" : [ 110.0, 40.0, 59.0, 20.0 ],
+									"saved_object_attributes" : 									{
+										"ftm_scope" : 0
+									}
+,
+									"text" : "ftm.iter"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"#init" : "",
+									"#loadbang" : 0,
+									"#triggerall" : 0,
+									"#untuple" : 0,
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"ftm_scope" : 0,
+									"id" : "obj-17",
+									"maxclass" : "ftm.mess",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 110.0, 150.0, 138.022461, 18.0 ],
+									"presentation_rect" : [ 110.0, 150.0, 138.022461, 18.0 ],
+									"text" : [ "_($unitdata set $1 3 1)" ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"#init" : "",
+									"#loadbang" : 0,
+									"#triggerall" : 0,
+									"#untuple" : 0,
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"ftm_scope" : 0,
+									"id" : "obj-13",
+									"maxclass" : "ftm.mess",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 110.0, 70.0, 138.022461, 18.0 ],
+									"presentation_rect" : [ 110.0, 70.0, 138.022461, 18.0 ],
+									"text" : [ "_($unitdata set $1 3 0)" ]
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-13", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-29", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-17", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-54", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-29", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-59", 1 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-54", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-60", 1 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 675.0, 300.0, 139.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"globalpatchername" : "",
+						"default_fontname" : "Monaco",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
+					}
+,
+					"text" : "p activate_deactivate"
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 9.0,
@@ -55,7 +243,7 @@
 									"#untuple" : 0,
 									"fontname" : "Arial",
 									"fontsize" : 12.0,
-									"ftm_scope" : 1,
+									"ftm_scope" : 0,
 									"id" : "obj-50",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
@@ -1132,12 +1320,12 @@
 													"patching_rect" : [ 20.0, 50.0, 157.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
+														"default_fontname" : "Arial",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p cache-lookup"
@@ -1353,12 +1541,12 @@
 									"patching_rect" : [ 176.0, 95.0, 90.0, 17.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
+										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p soundfile-cache"
@@ -1946,12 +2134,12 @@
 					"patching_rect" : [ 500.0, 370.0, 84.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p import-soundfile"
@@ -2330,12 +2518,12 @@
 					"patching_rect" : [ 780.0, 445.0, 176.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p add_bark_unit_normed"
@@ -2515,12 +2703,12 @@
 					"patching_rect" : [ 300.0, 255.0, 155.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p add_descriptor_methods"
@@ -3468,12 +3656,12 @@
 					"patching_rect" : [ 255.0, 285.0, 227.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p add-descriptor"
@@ -3633,12 +3821,12 @@
 					"patching_rect" : [ 460.0, 255.0, 60.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p clear"
@@ -3932,12 +4120,12 @@
 					"patching_rect" : [ 95.0, 355.0, 37.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p init"
@@ -4196,12 +4384,12 @@
 					"patching_rect" : [ 125.0, 255.0, 170.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p builtin-descriptors"
@@ -4787,12 +4975,12 @@
 					"patching_rect" : [ 290.0, 400.0, 53.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p calc-stat"
@@ -4875,9 +5063,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 260.0, 155.654297, 29.0 ],
+									"patching_rect" : [ 180.0, 260.0, 151.0, 29.0 ],
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 180.0, 260.0, 155.654297, 29.0 ],
+									"presentation_rect" : [ 180.0, 260.0, 151.0, 29.0 ],
 									"text" : [ "_($corpus[unitdata] set $1 4 $2);", "_($corpus[unitdata] rowref $1)" ]
 								}
 
@@ -5174,12 +5362,12 @@
 					"patching_rect" : [ 575.0, 165.0, 108.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p set_things"
@@ -5542,12 +5730,12 @@
 					"patching_rect" : [ 288.0, 431.0, 80.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p provisional-stat"
@@ -5938,12 +6126,12 @@
 									"patching_rect" : [ 10.0, 270.0, 470.257324, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"default_fontname" : "Monaco",
-										"fontname" : "Monaco",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p get-your-ducks-in-a-row"
@@ -6182,12 +6370,12 @@
 									"patching_rect" : [ 130.0, 100.0, 121.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"default_fontname" : "Monaco",
-										"fontname" : "Monaco",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p grow_to_max_size"
@@ -6395,12 +6583,12 @@
 									"patching_rect" : [ 20.0, 100.0, 91.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"default_fontname" : "Monaco",
-										"fontname" : "Monaco",
-										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p grow_forever"
@@ -7158,12 +7346,12 @@
 					"patching_rect" : [ 435.0, 430.0, 92.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p add-unit-and-data"
@@ -7626,12 +7814,12 @@
 													"patching_rect" : [ 20.0, 50.0, 157.0, 17.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"default_fontname" : "Arial",
-														"fontname" : "Arial",
-														"default_fontsize" : 12.0,
 														"globalpatchername" : "",
+														"default_fontname" : "Arial",
 														"fontface" : 0,
-														"fontsize" : 12.0
+														"fontsize" : 12.0,
+														"default_fontsize" : 12.0,
+														"fontname" : "Arial"
 													}
 ,
 													"text" : "p cache-lookup"
@@ -8046,12 +8234,12 @@
 									"patching_rect" : [ 140.0, 180.0, 90.0, 17.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"default_fontname" : "Arial",
-										"fontname" : "Arial",
-										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
+										"default_fontname" : "Arial",
 										"fontface" : 0,
-										"fontsize" : 12.0
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
+										"fontname" : "Arial"
 									}
 ,
 									"text" : "p soundfile-cache"
@@ -8390,12 +8578,12 @@
 					"patching_rect" : [ 425.0, 370.0, 74.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p add-soundfile"
@@ -9090,12 +9278,12 @@
 					"patching_rect" : [ 540.0, 430.0, 82.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
-						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
+						"default_fontname" : "Arial",
 						"fontface" : 0,
-						"fontsize" : 12.0
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
+						"fontname" : "Arial"
 					}
 ,
 					"text" : "p add-soundfile"
@@ -9351,7 +9539,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/data.one"
+					"text" : "/editing_this_module"
 				}
 
 			}
