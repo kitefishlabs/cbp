@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 154.0, 44.0, 916.0, 557.0 ],
+		"rect" : [ 145.0, 96.0, 916.0, 557.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 154.0, 44.0, 916.0, 557.0 ],
+		"defrect" : [ 145.0, 96.0, 916.0, 557.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -621,7 +621,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 45.0, 225.0, 170.0, 18.0 ],
-					"text" : "cbp.send display. #1_to_lcd"
+					"text" : "cbp.send2 /display #2 #1_to_lcd"
 				}
 
 			}
@@ -818,7 +818,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module.2"
+					"text" : "/editing_this_module.1"
 				}
 
 			}

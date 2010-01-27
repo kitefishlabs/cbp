@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 1613.0, 77.0, 1140.0, 496.0 ],
+		"rect" : [ 70.0, 288.0, 1140.0, 496.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 1613.0, 77.0, 1140.0, 496.0 ],
+		"defrect" : [ 70.0, 288.0, 1140.0, 496.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -126,8 +126,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 150.0, 138.022461, 18.0 ],
-									"presentation_rect" : [ 110.0, 150.0, 138.022461, 18.0 ],
+									"patching_rect" : [ 110.0, 150.0, 138.021484, 18.0 ],
+									"presentation_rect" : [ 110.0, 150.0, 138.021484, 18.0 ],
 									"text" : [ "_($unitdata set $1 3 1)" ]
 								}
 
@@ -146,8 +146,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 110.0, 70.0, 138.022461, 18.0 ],
-									"presentation_rect" : [ 110.0, 70.0, 138.022461, 18.0 ],
+									"patching_rect" : [ 110.0, 70.0, 138.021484, 18.0 ],
+									"presentation_rect" : [ 110.0, 70.0, 138.021484, 18.0 ],
 									"text" : [ "_($unitdata set $1 3 0)" ]
 								}
 
@@ -3003,7 +3003,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 95.0, 400.0, 191.0, 17.0 ],
-					"text" : "cbp.send2 /tms/query #2 set/corpus"
+					"text" : "cbp.send2 /tms/query #2 /set/corpus"
 				}
 
 			}
@@ -9539,7 +9539,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/editing_this_module.1"
 				}
 
 			}

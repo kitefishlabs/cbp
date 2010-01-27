@@ -993,7 +993,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 200.0, 147.0, 17.0 ],
-									"text" : "cbp.send2 /descriptors #4 S"
+									"text" : "cbp.send2 /descriptors #4 /S"
 								}
 
 							}
@@ -1388,7 +1388,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 200.0, 147.0, 17.0 ],
-									"text" : "cbp.send2 /descriptors #4 H"
+									"text" : "cbp.send2 /descriptors #4 /H"
 								}
 
 							}
@@ -2189,7 +2189,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 200.0, 147.0, 17.0 ],
-									"text" : "cbp.send2 /descriptors #4 V"
+									"text" : "cbp.send2 /descriptors #4 /V"
 								}
 
 							}
@@ -2611,7 +2611,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 170.0, 147.0, 17.0 ],
-									"text" : "cbp.send2 /descriptors #4 C"
+									"text" : "cbp.send2 /descriptors #4 /C"
 								}
 
 							}
@@ -3087,7 +3087,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 170.0, 146.0, 17.0 ],
-									"text" : "cbp.send2 /descriptors #4 Y"
+									"text" : "cbp.send2 /descriptors #4 /Y"
 								}
 
 							}
@@ -4335,7 +4335,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 0.0, 170.0, 147.0, 17.0 ],
-									"text" : "cbp.send2 /descriptors #4 X"
+									"text" : "cbp.send2 /descriptors #4 /X"
 								}
 
 							}

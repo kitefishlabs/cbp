@@ -144,9 +144,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 60.0, 80.0, 168.88623, 17.0 ],
-					"presentation_rect" : [ 60.0, 80.0, 168.88623, 17.0 ],
-					"text" : [ "_send (cat  #1 / (extension #2) / #3)" ]
+					"patching_rect" : [ 60.0, 80.0, 161.041992, 17.0 ],
+					"presentation_rect" : [ 60.0, 80.0, 161.041992, 17.0 ],
+					"text" : [ "_send (cat  #1 / (extension #2) #3)" ]
 				}
 
 			}

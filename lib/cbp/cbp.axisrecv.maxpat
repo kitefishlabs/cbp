@@ -17,6 +17,7 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
@@ -276,7 +277,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 230.0, 40.0, 99.0, 29.0 ],
-					"text" : "#1 = corpus\n#2 = X, Y, C, etc."
+					"text" : "#1 = corpus\n#2 = /X, /Y, /C, etc."
 				}
 
 			}

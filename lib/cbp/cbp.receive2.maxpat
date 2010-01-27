@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 424.0, 392.0, 431.0, 96.0 ],
+		"rect" : [ 181.0, 748.0, 431.0, 96.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 424.0, 392.0, 431.0, 96.0 ],
+		"defrect" : [ 181.0, 748.0, 431.0, 96.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -129,9 +129,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 90.0, 40.0, 159.205078, 17.0 ],
-					"presentation_rect" : [ 90.0, 40.0, 159.205078, 17.0 ],
-					"text" : [ "_set (cat #1 / (extension #2) / #3)" ]
+					"patching_rect" : [ 90.0, 40.0, 151.36084, 17.0 ],
+					"presentation_rect" : [ 90.0, 40.0, 151.36084, 17.0 ],
+					"text" : [ "_set (cat #1 / (extension #2) #3)" ]
 				}
 
 			}
