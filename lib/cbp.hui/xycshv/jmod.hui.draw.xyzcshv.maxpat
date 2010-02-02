@@ -1,10 +1,10 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 194.0, 158.0, 916.0, 557.0 ],
+		"rect" : [ 109.0, 100.0, 916.0, 557.0 ],
 		"bgcolor" : [ 1.0, 1.0, 1.0, 0.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 194.0, 158.0, 916.0, 557.0 ],
+		"defrect" : [ 109.0, 100.0, 916.0, 557.0 ],
 		"openrect" : [ 109.0, 100.0, 916.0, 557.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -355,13 +355,13 @@
 ,
 									"patching_rect" : [ 19.967255, 217.672607, 48.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
-										"globalpatchername" : "",
-										"default_fontname" : "Verdana",
 										"fontface" : 0,
 										"fontsize" : 10.0,
+										"default_fontname" : "Verdana",
 										"default_fontsize" : 10.0,
-										"fontname" : "Verdana"
+										"fontname" : "Verdana",
+										"globalpatchername" : "",
+										"default_fontface" : 0
 									}
 ,
 									"text" : "p front"
@@ -644,13 +644,13 @@
 ,
 					"patching_rect" : [ 535.0, 220.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Monaco",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"fontname" : "Monaco",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p panel"
@@ -1287,13 +1287,13 @@
 ,
 					"patching_rect" : [ 960.0, 465.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Helvetica Neue",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue"
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -1682,13 +1682,13 @@
 ,
 					"patching_rect" : [ 955.0, 515.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Helvetica Neue",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue"
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2483,13 +2483,13 @@
 ,
 					"patching_rect" : [ 960.0, 565.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Helvetica Neue",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue"
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2746,8 +2746,8 @@
 									"numins" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.0, 120.0, 95.472656, 16.0 ],
-									"presentation_rect" : [ 80.0, 120.0, 95.472656, 16.0 ],
+									"patching_rect" : [ 50.0, 120.0, 95.472656, 16.0 ],
+									"presentation_rect" : [ 50.0, 120.0, 95.472656, 16.0 ],
 									"text" : [ "_((abs ($1 - $2)) / $3)" ]
 								}
 
@@ -2959,13 +2959,13 @@
 ,
 					"patching_rect" : [ 955.0, 415.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Helvetica Neue",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue"
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -3222,8 +3222,8 @@
 									"numins" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.0, 120.0, 95.472656, 16.0 ],
-									"presentation_rect" : [ 80.0, 120.0, 95.472656, 16.0 ],
+									"patching_rect" : [ 50.0, 120.0, 95.472656, 16.0 ],
+									"presentation_rect" : [ 50.0, 120.0, 95.472656, 16.0 ],
 									"text" : [ "_((abs ($1 - $2)) / $3)" ]
 								}
 
@@ -3435,13 +3435,13 @@
 ,
 					"patching_rect" : [ 955.0, 370.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Helvetica Neue",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue"
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -4391,8 +4391,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 70.0, 100.0, 31.024414, 16.0 ],
-									"presentation_rect" : [ 70.0, 100.0, 31.024414, 16.0 ],
+									"patching_rect" : [ 90.0, 100.0, 31.024414, 16.0 ],
+									"presentation_rect" : [ 90.0, 100.0, 31.024414, 16.0 ],
 									"text" : [ "_$1 $2" ]
 								}
 
@@ -4470,8 +4470,8 @@
 									"numins" : 3,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.0, 120.0, 95.472656, 16.0 ],
-									"presentation_rect" : [ 80.0, 120.0, 95.472656, 16.0 ],
+									"patching_rect" : [ 70.0, 120.0, 95.472656, 16.0 ],
+									"presentation_rect" : [ 70.0, 120.0, 95.472656, 16.0 ],
 									"text" : [ "_((abs ($1 - $2)) / $3)" ]
 								}
 
@@ -4683,13 +4683,13 @@
 ,
 					"patching_rect" : [ 955.0, 320.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Helvetica Neue",
 						"fontface" : 0,
 						"fontsize" : 10.0,
+						"default_fontname" : "Helvetica Neue",
 						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue"
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : "",
+						"default_fontface" : 0
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -5134,7 +5134,7 @@
 					"patching_rect" : [ 0.0, 0.0, 450.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 140.0 ],
-					"text" : "/editing_this_module.1"
+					"text" : "/editing_this_module"
 				}
 
 			}
