@@ -58,7 +58,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 945.0, 45.0, 65.0, 17.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 102.0, 0.0, 65.0, 17.0 ]
+					"presentation_rect" : [ 110.0, 0.0, 60.0, 17.0 ]
 				}
 
 			}
@@ -88,7 +88,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 40.0, 435.0, 86.0, 33.0 ],
-					"text" : "send~ #2.out~"
+					"text" : "send~ #2.out1~"
 				}
 
 			}
@@ -760,13 +760,13 @@
 ,
 					"patching_rect" : [ 720.0, 700.0, 111.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Monaco",
-						"default_fontsize" : 10.0,
 						"fontname" : "Monaco",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p cosine_unsquared"
@@ -1309,13 +1309,13 @@
 ,
 					"patching_rect" : [ 500.0, 650.0, 98.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Monaco",
-						"default_fontsize" : 10.0,
 						"fontname" : "Monaco",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p cosine_squared"
@@ -2533,13 +2533,13 @@
 ,
 					"patching_rect" : [ 595.0, 430.0, 59.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
 						"fontname" : "Helvetica Neue",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p minima"
@@ -2976,13 +2976,13 @@
 ,
 					"patching_rect" : [ 345.0, 5.0, 240.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p read_me_for_programming_details",
@@ -3263,13 +3263,13 @@
 ,
 									"patching_rect" : [ 40.0, 220.0, 42.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"default_fontface" : 0,
 										"default_fontname" : "Verdana",
-										"default_fontsize" : 10.0,
 										"fontname" : "Verdana",
+										"default_fontsize" : 10.0,
 										"globalpatchername" : "",
-										"default_fontface" : 0
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p front"
@@ -3431,13 +3431,13 @@
 ,
 					"patching_rect" : [ 55.0, 355.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 12.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p panel"
@@ -3537,13 +3537,13 @@
 ,
 					"patching_rect" : [ 596.0, 5.0, 113.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Arial",
-						"default_fontsize" : 10.0,
 						"fontname" : "Arial",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p notes_&_bugs",
@@ -5188,13 +5188,13 @@
 ,
 													"patching_rect" : [ 390.0, 110.0, 98.072266, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontface" : 0,
-														"fontsize" : 10.0,
+														"default_fontface" : 0,
 														"default_fontname" : "Monaco",
-														"default_fontsize" : 10.0,
 														"fontname" : "Monaco",
+														"default_fontsize" : 10.0,
 														"globalpatchername" : "",
-														"default_fontface" : 0
+														"fontface" : 0,
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p B"
@@ -5859,13 +5859,13 @@
 ,
 													"patching_rect" : [ 250.0, 110.0, 119.072266, 20.0 ],
 													"saved_object_attributes" : 													{
-														"fontface" : 0,
-														"fontsize" : 10.0,
+														"default_fontface" : 0,
 														"default_fontname" : "Monaco",
-														"default_fontsize" : 10.0,
 														"fontname" : "Monaco",
+														"default_fontsize" : 10.0,
 														"globalpatchername" : "",
-														"default_fontface" : 0
+														"fontface" : 0,
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p A"
@@ -7030,13 +7030,13 @@
 ,
 									"patching_rect" : [ 10.0, 130.0, 381.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontface" : 0,
-										"fontsize" : 12.0,
+										"default_fontface" : 0,
 										"default_fontname" : "Arial",
-										"default_fontsize" : 12.0,
 										"fontname" : "Arial",
+										"default_fontsize" : 12.0,
 										"globalpatchername" : "",
-										"default_fontface" : 0
+										"fontface" : 0,
+										"fontsize" : 12.0
 									}
 ,
 									"text" : "p simple-grain-player"
@@ -7688,13 +7688,13 @@
 ,
 					"patching_rect" : [ 40.0, 380.0, 119.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"default_fontface" : 0,
 						"default_fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
 						"fontname" : "Helvetica Neue",
+						"default_fontsize" : 10.0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p guts"
@@ -7729,7 +7729,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/editing_this_module.2"
 				}
 
 			}
