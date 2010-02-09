@@ -224,7 +224,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 140.0, 465.0, 382.0, 43.0 ],
+					"patching_rect" : [ 275.0, 470.0, 299.0, 43.0 ],
 					"text" : "jcom.return gradiant @type decimal @repetitions/allow 0 @description \"Rough measure of amplitude gradiant between dry and downsampled signal.\""
 				}
 
@@ -1449,13 +1449,13 @@
 ,
 					"patching_rect" : [ 35.0, 435.0, 98.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Monaco",
+						"default_fontface" : 0,
 						"default_fontname" : "Monaco",
-						"globalpatchername" : "",
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p guts"
@@ -1906,13 +1906,13 @@
 ,
 					"patching_rect" : [ 535.0, 15.0, 271.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
+						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
-						"globalpatchername" : "",
+						"fontname" : "Verdana",
 						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p read_me_for_programming_details"
@@ -1981,13 +1981,13 @@
 ,
 					"patching_rect" : [ 535.0, 45.0, 122.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
+						"default_fontface" : 0,
 						"default_fontname" : "Verdana",
-						"globalpatchername" : "",
+						"fontname" : "Verdana",
 						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p notes_&_bugs"
@@ -2051,7 +2051,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 3,
 					"outlettype" : [ "signal", "signal", "" ],
-					"patching_rect" : [ 35.0, 465.0, 98.0, 19.0 ],
+					"patching_rect" : [ 35.0, 465.0, 188.0, 19.0 ],
 					"text" : "jcom.out~ 2"
 				}
 
@@ -2114,24 +2114,30 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
 					"id" : "obj-34",
-					"maxclass" : "inlet",
-					"numinlets" : 0,
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 55.0, 235.0, 24.0, 24.0 ]
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 55.0, 230.0, 86.0, 33.0 ],
+					"text" : "receive~ #2.in~"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
 					"id" : "obj-35",
-					"maxclass" : "outlet",
+					"linecount" : 2,
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 35.0, 490.0, 19.0, 19.0 ]
+					"patching_rect" : [ 35.0, 490.0, 86.0, 33.0 ],
+					"text" : "send~ #2A.out~"
 				}
 
 			}
@@ -2148,12 +2154,15 @@
 			}
 , 			{
 				"box" : 				{
-					"comment" : "",
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
 					"id" : "obj-46",
-					"maxclass" : "outlet",
+					"linecount" : 2,
+					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 75.0, 490.0, 19.0, 19.0 ]
+					"patching_rect" : [ 120.0, 490.0, 86.0, 33.0 ],
+					"text" : "send~ #2B.out~"
 				}
 
 			}
@@ -2255,7 +2264,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
+					"midpoints" : [ 123.5, 459.0, 213.5, 459.0 ],
 					"source" : [ "obj-2", 1 ]
 				}
 
