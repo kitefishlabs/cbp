@@ -6,6 +6,7 @@ new-ideas/*
 cbp.txt
 cbp2.txt
 
+lib/save-for-later/*
 save_for_later.maxpat
 
 .DS_Store
