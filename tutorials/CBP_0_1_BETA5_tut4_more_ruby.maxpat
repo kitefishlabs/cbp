@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 8.0, 44.0, 706.0, 825.0 ],
+		"rect" : [ 6.0, 44.0, 706.0, 825.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 8.0, 44.0, 706.0, 825.0 ],
+		"defrect" : [ 6.0, 44.0, 706.0, 825.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -84,149 +84,14 @@
 , 			{
 				"box" : 				{
 					"fontname" : "Monaco",
-					"fontsize" : 18.0,
-					"id" : "obj-34",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patcher" : 					{
-						"fileversion" : 1,
-						"rect" : [ 652.0, 302.0, 423.0, 404.0 ],
-						"bglocked" : 0,
-						"defrect" : [ 652.0, 302.0, 423.0, 404.0 ],
-						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
-						"openinpresentation" : 0,
-						"default_fontsize" : 10.0,
-						"default_fontface" : 0,
-						"default_fontname" : "Monaco",
-						"gridonopen" : 0,
-						"gridsize" : [ 10.0, 10.0 ],
-						"gridsnaponopen" : 0,
-						"toolbarvisible" : 1,
-						"boxanimatetime" : 200,
-						"imprint" : 0,
-						"enablehscroll" : 1,
-						"enablevscroll" : 1,
-						"devicewidth" : 0.0,
-						"boxes" : [ 							{
-								"box" : 								{
-									"fontname" : "Monaco",
-									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-5",
-									"linecount" : 5,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 250.0, 399.0, 73.0 ],
-									"text" : "- soundlib : holds all the sound files used by CBP. *The sound lib is optional, but handy. If you save a data file that knows about sound files in a particular location, but then move those files to a different location, CBP (at least this version) might not be able to find them."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Monaco",
-									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-4",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 220.0, 387.0, 33.0 ],
-									"text" : "- datalib : holds all the data files generated and used by the scripts."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Monaco",
-									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-3",
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 30.0, 200.0, 258.0, 20.0 ],
-									"text" : "- scriptlib : holds all the Ruby scripts."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Monaco",
-									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-2",
-									"linecount" : 6,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 110.0, 407.0, 87.0 ],
-									"text" : "2. The Corpora directory: This is the directory where all ruby scripts, sound files, and metadata files are grouped. You must either keep a single corpora directory or one for each project that you use CBP. A CBP folder or project folder would have three folders inside its main folder (the main folder being the corpora directory):"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Monaco",
-									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-1",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 70.0, 396.0, 33.0 ],
-									"text" : "1. Ruby itself: Max knows where to find Ruby (JRuby) so long as the ajm objects are properly set up."
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"fontname" : "Monaco",
-									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-									"id" : "obj-31",
-									"linecount" : 2,
-									"maxclass" : "comment",
-									"numinlets" : 1,
-									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 10.0, 396.0, 33.0 ],
-									"text" : "Certain conventions are followed with the use of ruby scripts, as Max must know where to look for all these files."
-								}
-
-							}
- ],
-						"lines" : [  ]
-					}
-,
-					"patching_rect" : [ 530.0, 410.0, 108.0, 31.0 ],
-					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Monaco",
-						"fontname" : "Monaco"
-					}
-,
-					"text" : "p more..."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Monaco",
 					"fontsize" : 10.0,
-					"id" : "obj-33",
+					"id" : "obj-4",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 370.0, 410.0, 143.0, 18.0 ],
-					"text" : "/read somedatafile.txt"
+					"patching_rect" : [ 310.0, 370.0, 41.0, 18.0 ],
+					"text" : "/next"
 				}
 
 			}
@@ -234,14 +99,27 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-31",
-					"linecount" : 2,
-					"maxclass" : "comment",
+					"id" : "obj-13",
+					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 370.0, 306.0, 33.0 ],
-					"text" : "4. Use the 'write' or 'read' buttons (launches a dialog) or send a message like this:"
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 310.0, 470.0, 173.0, 20.0 ],
+					"text" : "jcom.oscroute /current/unit"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ ".tutorial", "proximity_map.tutorial" ],
+					"id" : "obj-17",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.rb.proximity_map.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"patching_rect" : [ 310.0, 390.0, 300.0, 70.0 ],
+					"presentation_rect" : [ 15.0, 15.0, 300.0, 70.0 ]
 				}
 
 			}
@@ -249,87 +127,23 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-30",
-					"linecount" : 2,
-					"maxclass" : "comment",
+					"id" : "obj-48",
+					"maxclass" : "number",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 330.0, 294.0, 33.0 ],
-					"text" : "3. ...or press the plus button to see an inspector panel with launch and reset buttons."
+					"numoutlets" : 2,
+					"outlettype" : [ "int", "bang" ],
+					"patching_rect" : [ 390.0, 260.0, 50.0, 20.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-28",
-					"maxclass" : "comment",
+					"id" : "obj-34",
+					"maxclass" : "toggle",
 					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 300.0, 250.0, 20.0 ],
-					"text" : "2. ...or by remote messages..."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-27",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 270.0, 257.0, 20.0 ],
-					"text" : "1. Lauch and reset by direct messaging..."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-25",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 120.0, 19.0, 20.0 ],
-					"text" : "3"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-24",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 490.0, 170.0, 19.0, 20.0 ],
-					"text" : "2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontface" : 1,
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-23",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 90.0, 19.0, 20.0 ],
-					"text" : "1"
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 310.0, 260.0, 20.0, 20.0 ]
 				}
 
 			}
@@ -342,16 +156,34 @@
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"ftm_scope" : 1,
-					"id" : "obj-22",
-					"linecount" : 3,
+					"id" : "obj-30",
 					"maxclass" : "ftm.mess",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 190.0, 180.029297, 45.0 ],
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 490.0, 190.0, 180.029297, 45.0 ],
-					"text" : [ "_/init.tutorial/initialize,", "_/corpus_map.tutorial/launch,", "_/corpus_map.tutorial/reset" ]
+					"patching_rect" : [ 390.0, 320.0, 78.012695, 18.0 ],
+					"presentation_rect" : [ 390.0, 320.0, 78.012695, 18.0 ],
+					"text" : [ "_(random 100)" ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"#init" : "",
+					"#loadbang" : 0,
+					"#triggerall" : 0,
+					"#untuple" : 0,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"ftm_scope" : 0,
+					"id" : "obj-26",
+					"maxclass" : "ftm.mess",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 310.0, 320.0, 30.003906, 18.0 ],
+					"presentation_rect" : [ 310.0, 320.0, 30.003906, 18.0 ],
+					"text" : [ "_bang" ]
 				}
 
 			}
@@ -359,13 +191,13 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
-					"id" : "obj-19",
-					"maxclass" : "message",
+					"id" : "obj-23",
+					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 390.0, 110.0, 53.0, 18.0 ],
-					"text" : "/reset"
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 310.0, 290.0, 100.0, 20.0 ],
+					"text" : "qmetro 200"
 				}
 
 			}
@@ -373,13 +205,46 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
-					"id" : "obj-18",
+					"id" : "obj-21",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 310.0, 340.0, 100.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"ftm_scope" : 0
+					}
+,
+					"text" : "ftm.schedule"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-16",
 					"maxclass" : "message",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 110.0, 53.0, 18.0 ],
-					"text" : "/launch"
+					"patching_rect" : [ 510.0, 200.0, 191.0, 18.0 ],
+					"text" : "/corpus_map.tutorial/send/data"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-14",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 490.0, 170.0, 174.0, 31.0 ],
+					"text" : "/corpus_map.tutorial/read 'somefile.txt'"
 				}
 
 			}
@@ -388,26 +253,35 @@
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-14",
+					"id" : "obj-9",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 490.0, 140.0, 155.0, 20.0 ],
-					"text" : "<== /corpus_map.tutorial"
+					"patching_rect" : [ 310.0, 130.0, 353.0, 33.0 ],
+					"text" : "The CorpusMap module is now in the data window. Messages like the following may still be sent (from anywhere):"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"args" : [ "corpus_map.tutorial" ],
-					"id" : "obj-9",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.rb.corpus_map.maxpat",
-					"numinlets" : 1,
+					"#init" : "",
+					"#loadbang" : 0,
+					"#triggerall" : 0,
+					"#untuple" : 0,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"ftm_scope" : 0,
+					"id" : "obj-22",
+					"linecount" : 3,
+					"maxclass" : "ftm.mess",
+					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 140.0, 150.0, 70.0 ],
-					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ]
+					"patching_rect" : [ 310.0, 170.0, 180.029297, 45.0 ],
+					"presentation_linecount" : 3,
+					"presentation_rect" : [ 310.0, 170.0, 180.029297, 45.0 ],
+					"text" : [ "_/init.tutorial/initialize,", "_/corpus_map.tutorial/launch,", "_/corpus_map.tutorial/reset" ]
 				}
 
 			}
@@ -2893,7 +2767,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 340.0, 750.0, 259.0, 31.0 ],
+					"patching_rect" : [ 10.0, 590.0, 259.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
@@ -2919,7 +2793,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 340.0, 640.0, 243.0, 33.0 ],
+					"patching_rect" : [ 10.0, 480.0, 243.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_linecount" : 2,
 					"presentation_rect" : [ 371.0, 360.0, 231.0, 33.0 ],
@@ -2960,11 +2834,11 @@
 									"fontsize" : 10.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-5",
-									"linecount" : 16,
+									"linecount" : 15,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 218.0, 177.0, 220.0 ],
+									"patching_rect" : [ 7.0, 218.0, 189.0, 207.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 6,
 									"presentation_rect" : [ 10.0, 220.0, 492.0, 87.0 ],
@@ -2978,11 +2852,11 @@
 									"fontsize" : 10.0,
 									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-4",
-									"linecount" : 12,
+									"linecount" : 10,
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 8.0, 154.0, 171.0, 167.0 ],
+									"patching_rect" : [ 8.0, 154.0, 183.0, 140.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 4,
 									"presentation_rect" : [ 10.0, 150.0, 477.0, 60.0 ],
@@ -3048,7 +2922,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 340.0, 670.0, 205.0, 31.0 ],
+					"patching_rect" : [ 10.0, 510.0, 205.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
@@ -3077,9 +2951,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 460.0, 72.011719, 18.0 ],
-					"presentation_rect" : [ 430.0, 460.0, 72.011719, 18.0 ],
-					"text" : [ "_/gunit/A $2" ]
+					"patching_rect" : [ 400.0, 500.0, 72.011719, 18.0 ],
+					"presentation_rect" : [ 400.0, 500.0, 72.011719, 18.0 ],
+					"text" : [ "_/gunit/A $1" ]
 				}
 
 			}
@@ -3095,7 +2969,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 460.0, 90.0, 21.0 ],
+					"patching_rect" : [ 310.0, 500.0, 90.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 575.0, 125.0, 21.0 ],
 					"text" : "/initialize",
@@ -3112,7 +2986,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 490.0, 300.0, 140.0 ],
+					"patching_rect" : [ 310.0, 530.0, 300.0, 140.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 140.0 ]
 				}
 
@@ -3126,7 +3000,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 490.0, 240.0, 197.0, 20.0 ],
+					"patching_rect" : [ 310.0, 230.0, 197.0, 20.0 ],
 					"text" : "jcom.send jcom.remote.module.to"
 				}
 
@@ -3654,7 +3528,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 340.0, 710.0, 108.0, 31.0 ],
+					"patching_rect" : [ 10.0, 550.0, 108.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
@@ -3748,9 +3622,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 715.0, 44.0, 306.0, 510.0 ],
+						"rect" : [ 716.0, 44.0, 306.0, 510.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 715.0, 44.0, 306.0, 510.0 ],
+						"defrect" : [ 716.0, 44.0, 306.0, 510.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -3767,6 +3641,21 @@
 						"devicewidth" : 0.0,
 						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"args" : [ ".tutorial", "corpus_map.tutorial" ],
+									"id" : "obj-9",
+									"maxclass" : "bpatcher",
+									"name" : "jmod.rb.corpus_map.maxpat",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 522.0, 146.0, 150.0, 70.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 150.0, 0.0, 150.0, 70.0 ]
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
@@ -3906,7 +3795,7 @@
 									"patching_rect" : [ 0.0, 530.0, 297.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 490.0, 293.0, 18.0 ],
-									"text" : "/corpus_map.tutorial/reset"
+									"text" : "/draw.tutorial/update/ranges"
 								}
 
 							}
@@ -4114,19 +4003,46 @@
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-8", 0 ],
 					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-18", 0 ]
+					"midpoints" : [ 319.5, 493.0, 409.5, 493.0 ],
+					"source" : [ "obj-13", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-9", 0 ],
+					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 399.5, 135.0, 339.5, 135.0 ],
-					"source" : [ "obj-19", 0 ]
+					"midpoints" : [ 499.5, 220.5, 319.5, 220.5 ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-2", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 519.5, 220.0, 319.5, 220.0 ],
+					"source" : [ "obj-16", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-13", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-21", 0 ]
 				}
 
 			}
@@ -4136,6 +4052,69 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-22", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-26", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-30", 0 ],
+					"hidden" : 0,
+					"midpoints" : [ 319.5, 314.5, 399.5, 314.5 ],
+					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-26", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-21", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-30", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-34", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-17", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-23", 1 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -4161,7 +4140,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-3", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 439.5, 487.0, 349.5, 487.0 ],
+					"midpoints" : [ 409.5, 527.0, 319.5, 527.0 ],
 					"source" : [ "obj-8", 0 ]
 				}
 
