@@ -21,6 +21,61 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-50",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 310.0, 20.0, 258.0, 31.0 ],
+					"text" : "(see the ReleaseNotes.txt file, or visit www.corpora-sonorus.com for more info)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-54",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 310.0, 0.0, 305.0, 18.0 ],
+					"text" : "CBP:Corpus-based Processing (C) 2009-10 Tom Stoll"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-57",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 570.0, 20.0, 99.0, 33.0 ],
+					"text" : "GPL-v3-license (double-click)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "CBP is based on a CataRT, (C) 2005-2008, Diemo Schwarz, IRCAM IMTR, distributed under the GPL version 2. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
+					"id" : "obj-58",
+					"maxclass" : "hint",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 310.0, 0.0, 357.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-77",
@@ -29,7 +84,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 685.0, 140.0, 246.0, 29.0 ],
+					"patching_rect" : [ 685.0, 150.0, 246.0, 29.0 ],
 					"text" : "jcom.return letter @type symbol @repetitions/allow 1 @description \"Spit out the tab...\""
 				}
 
@@ -619,7 +674,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 930.0, 140.0, 126.0, 27.0 ],
+					"patching_rect" : [ 930.0, 150.0, 126.0, 27.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
@@ -643,7 +698,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 930.0, 175.0, 100.0, 18.0 ],
+					"patching_rect" : [ 930.0, 180.0, 100.0, 18.0 ],
 					"save" : [ "#N", "thispatcher", ";", "#Q", "end", ";" ],
 					"text" : "thispatcher"
 				}
@@ -984,7 +1039,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 795.0, 75.0, 200.0, 20.0 ],
+					"patching_rect" : [ 795.0, 85.0, 200.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 45.0, 200.0, 20.0 ],
 					"tabs" : [ "A", "B", "C" ]
@@ -1018,7 +1073,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 795.0, 100.0, 288.0, 31.0 ],
+					"patching_rect" : [ 795.0, 110.0, 288.0, 31.0 ],
 					"text" : "jcom.parameter tab @type integer @range/clipmode 1 @description \"Control the tab/sub-corpus to view.\"",
 					"varname" : "tab"
 				}
@@ -1942,7 +1997,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 77.519875, 479.031982, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 2, 2, 32768, 32768, ";", "#Q", "window", "size", 4, 44, 618, 283, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -2677,64 +2732,12 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"id" : "obj-58",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 395.0, 20.0, 452.0, 16.0 ],
-					"text" : "(mouse over this note, see the ReleaseNotes.txt file, or visit cbp.corpora-sonorus.com for more info)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hint" : "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
-					"id" : "obj-57",
-					"maxclass" : "hint",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 0.0, 540.0, 38.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-54",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 395.0, 5.0, 288.0, 16.0 ],
-					"text" : "CBP (Corpus-based Processing) Copyright (C) 2009 Tom Stoll"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-50",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 310.0, 5.0, 79.0, 18.0 ],
-					"text" : "GPL-v3-license"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
 					"id" : "obj-4",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 110.0, 171.0, 18.0 ],
+					"patching_rect" : [ 280.0, 115.0, 171.0, 18.0 ],
 					"text" : "cbp.receive /tms/display/ #1"
 				}
 
@@ -2840,7 +2843,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 310.0, 85.0, 479.0, 19.0 ],
+					"patching_rect" : [ 310.0, 95.0, 479.0, 19.0 ],
 					"text" : "jcom.parameter zoom @type array @repetitions/allow 0 @description \"Zoom for point 1.\"",
 					"varname" : "parameter[4]"
 				}
@@ -2855,7 +2858,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 310.0, 65.0, 433.0, 19.0 ],
+					"patching_rect" : [ 310.0, 75.0, 433.0, 19.0 ],
 					"text" : "jcom.message redraw @type none @repetitions/allow 1 @description Redraw."
 				}
 
@@ -2869,7 +2872,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 310.0, 45.0, 576.0, 19.0 ],
+					"patching_rect" : [ 310.0, 55.0, 576.0, 19.0 ],
 					"text" : "jcom.message initialize @type none @repetitions/allow 1 @description \"Initialize internal data-structures.\"",
 					"varname" : "parameter[2]"
 				}
@@ -3104,7 +3107,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 350.0 ],
-					"text" : "/editing_this_module.1"
+					"text" : "/editing_this_module.2"
 				}
 
 			}
@@ -3590,7 +3593,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-59", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 804.5, 134.0, 787.0, 134.0, 787.0, 71.0, 804.5, 71.0 ],
+					"midpoints" : [ 804.5, 144.0, 787.0, 144.0, 787.0, 81.0, 804.5, 81.0 ],
 					"source" : [ "obj-61", 0 ]
 				}
 

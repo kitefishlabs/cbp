@@ -21,6 +21,61 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 500.0, 25.0, 258.0, 31.0 ],
+					"text" : "(see the ReleaseNotes.txt file, or visit www.corpora-sonorus.com for more info)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 500.0, 5.0, 305.0, 18.0 ],
+					"text" : "CBP:Corpus-based Processing (C) 2009-10 Tom Stoll"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-25",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 760.0, 25.0, 99.0, 33.0 ],
+					"text" : "GPL-v3-license (double-click)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "CBP is based on a CataRT, (C) 2005-2008, Diemo Schwarz, IRCAM IMTR, distributed under the GPL version 2. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
+					"id" : "obj-28",
+					"maxclass" : "hint",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 500.0, 5.0, 357.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
 					"id" : "obj-44",
@@ -355,13 +410,13 @@
 ,
 									"patching_rect" : [ 19.967255, 217.672607, 48.0, 19.0 ],
 									"saved_object_attributes" : 									{
+										"default_fontsize" : 10.0,
 										"fontface" : 0,
 										"fontsize" : 10.0,
-										"default_fontname" : "Verdana",
-										"default_fontsize" : 10.0,
-										"fontname" : "Verdana",
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"default_fontface" : 0
+										"default_fontname" : "Verdana",
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p front"
@@ -644,13 +699,13 @@
 ,
 					"patching_rect" : [ 535.0, 220.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontname" : "Monaco",
-						"default_fontsize" : 10.0,
-						"fontname" : "Monaco",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontname" : "Monaco",
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p panel"
@@ -717,58 +772,6 @@
 					"presentation" : 1,
 					"presentation_rect" : [ 360.0, 0.0, 40.0, 18.0 ],
 					"text" : "Prelim:"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-75",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 545.0, 25.0, 452.0, 16.0 ],
-					"text" : "(mouse over this note, see the ReleaseNotes.txt file, or visit cbp.corpora-sonorus.com for more info)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hint" : "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
-					"id" : "obj-76",
-					"maxclass" : "hint",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 10.0, 540.0, 38.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-77",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 545.0, 10.0, 288.0, 16.0 ],
-					"text" : "CBP (Corpus-based Processing) Copyright (C) 2009 Tom Stoll"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-78",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 10.0, 79.0, 18.0 ],
-					"text" : "GPL-v3-license"
 				}
 
 			}
@@ -1287,13 +1290,13 @@
 ,
 					"patching_rect" : [ 960.0, 465.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -1682,13 +1685,13 @@
 ,
 					"patching_rect" : [ 955.0, 515.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2483,13 +2486,13 @@
 ,
 					"patching_rect" : [ 960.0, 565.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2959,13 +2962,13 @@
 ,
 					"patching_rect" : [ 955.0, 415.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -3435,13 +3438,13 @@
 ,
 					"patching_rect" : [ 955.0, 370.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -4683,13 +4686,13 @@
 ,
 					"patching_rect" : [ 955.0, 320.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontsize" : 10.0,
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"fontname" : "Helvetica Neue",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontface" : 0
+						"default_fontname" : "Helvetica Neue",
+						"fontname" : "Helvetica Neue"
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -4753,7 +4756,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 525.0, 90.0, 283.0, 18.0 ],
+					"patching_rect" : [ 525.0, 100.0, 283.0, 18.0 ],
 					"text" : "jcom.message refresh @type none @repetitions/allow 1"
 				}
 
@@ -4764,7 +4767,7 @@
 					"fontsize" : 9.0,
 					"id" : "obj-61",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 305.0, 220.0, 138.0, 17.0 ],
@@ -4781,7 +4784,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 525.0, 70.0, 283.0, 18.0 ],
+					"patching_rect" : [ 525.0, 80.0, 283.0, 18.0 ],
 					"text" : "jcom.message redraw @type none @repetitions/allow 1"
 				}
 
@@ -4825,7 +4828,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 525.0, 50.0, 288.0, 18.0 ],
+					"patching_rect" : [ 525.0, 60.0, 288.0, 18.0 ],
 					"text" : "jcom.message initialize @type none @repetitions/allow 1"
 				}
 
@@ -4869,7 +4872,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 65.0, 19.0, 18.0 ],
+					"patching_rect" : [ 460.0, 75.0, 19.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 280.0, 40.0, 17.0, 18.0 ],
 					"text" : "Y"
@@ -4885,7 +4888,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 460.0, 45.0, 29.0, 18.0 ],
+					"patching_rect" : [ 460.0, 55.0, 29.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 280.0, 20.0, 17.0, 18.0 ],
 					"text" : "X"
@@ -5134,7 +5137,7 @@
 					"patching_rect" : [ 0.0, 0.0, 450.0, 140.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 140.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/editing_this_module.3"
 				}
 
 			}

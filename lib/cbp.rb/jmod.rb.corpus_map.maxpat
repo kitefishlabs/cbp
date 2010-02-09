@@ -22,6 +22,61 @@
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 155.0, 25.0, 258.0, 31.0 ],
+					"text" : "(see the ReleaseNotes.txt file, or visit www.corpora-sonorus.com for more info)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-11",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 155.0, 5.0, 305.0, 18.0 ],
+					"text" : "CBP:Corpus-based Processing (C) 2009-10 Tom Stoll"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 415.0, 25.0, 99.0, 33.0 ],
+					"text" : "GPL-v3-license (double-click)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "CBP is based on a CataRT, (C) 2005-2008, Diemo Schwarz, IRCAM IMTR, distributed under the GPL version 2. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
+					"id" : "obj-57",
+					"maxclass" : "hint",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 155.0, 5.0, 357.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
 					"id" : "obj-81",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -471,13 +526,13 @@
 ,
 									"patching_rect" : [ 820.0, 30.0, 143.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Monaco",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p map_sfiles_to_groups"
@@ -2374,13 +2429,13 @@
 ,
 					"patching_rect" : [ 35.0, 170.0, 270.0, 31.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Monaco",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p import_export_data_one"
@@ -2433,15 +2488,15 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 325.0, 40.0, 122.0, 24.0 ],
+					"patching_rect" : [ 310.0, 125.0, 122.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p notes_&_bugs"
@@ -2590,13 +2645,13 @@
 ,
 									"patching_rect" : [ 225.0, 250.0, 95.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
-										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p openReference"
@@ -2737,13 +2792,13 @@
 ,
 									"patching_rect" : [ 225.0, 225.0, 95.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
-										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p openReference"
@@ -2877,15 +2932,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 325.0, 10.0, 271.0, 24.0 ],
+					"patching_rect" : [ 310.0, 95.0, 271.0, 24.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
+						"default_fontsize" : 12.0,
+						"fontface" : 0,
+						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
-						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontsize" : 12.0
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p read_me_for_programming_details"
@@ -3266,13 +3321,13 @@
 ,
 									"patching_rect" : [ 95.0, 120.0, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Monaco",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p dialog_box"
@@ -3440,13 +3495,13 @@
 ,
 									"patching_rect" : [ 30.0, 280.0, 42.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontface" : 0,
+										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
-										"fontface" : 0,
-										"fontsize" : 10.0,
-										"default_fontsize" : 10.0
+										"fontname" : "Verdana"
 									}
 ,
 									"text" : "p front"
@@ -3605,13 +3660,13 @@
 ,
 					"patching_rect" : [ 310.0, 184.0, 50.0, 19.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Verdana",
+						"default_fontsize" : 10.0,
+						"fontface" : 0,
+						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Verdana",
-						"fontface" : 0,
-						"fontsize" : 10.0,
-						"default_fontsize" : 10.0
+						"fontname" : "Verdana"
 					}
 ,
 					"text" : "p panel"
@@ -3696,7 +3751,7 @@
 					"patching_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 150.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/editing_this_module.4"
 				}
 
 			}

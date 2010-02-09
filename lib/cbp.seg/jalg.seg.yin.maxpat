@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 807.0, 194.0, 224.0, 229.0 ],
+		"rect" : [ 807.0, 194.0, 230.0, 230.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 807.0, 194.0, 224.0, 229.0 ],
+		"defrect" : [ 807.0, 194.0, 230.0, 230.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -17,7 +17,63 @@
 		"imprint" : 0,
 		"enablehscroll" : 1,
 		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-17",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 0.0, 20.0, 258.0, 31.0 ],
+					"text" : "(see the ReleaseNotes.txt file, or visit www.corpora-sonorus.com for more info)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-18",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 0.0, 0.0, 305.0, 18.0 ],
+					"text" : "CBP:Corpus-based Processing (C) 2009-10 Tom Stoll"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 260.0, 20.0, 99.0, 33.0 ],
+					"text" : "GPL-v3-license (double-click)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "CBP is based on a CataRT, (C) 2005-2008, Diemo Schwarz, IRCAM IMTR, distributed under the GPL version 2. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
+					"id" : "obj-57",
+					"maxclass" : "hint",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 0.0, 0.0, 357.0, 54.0 ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
@@ -26,7 +82,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 70.0, 110.0, 32.5, 17.0 ],
+					"patching_rect" : [ 70.0, 120.0, 32.5, 17.0 ],
 					"text" : "t b l"
 				}
 
@@ -40,60 +96,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 130.0, 46.0, 17.0 ],
+					"patching_rect" : [ 70.0, 140.0, 46.0, 17.0 ],
 					"text" : "value yin"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-58",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 20.0, 452.0, 16.0 ],
-					"text" : "(mouse over this note, see the ReleaseNotes.txt file, or visit cbp.corpora-sonorus.com for more info)"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"hint" : "This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
-					"id" : "obj-57",
-					"maxclass" : "hint",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 5.0, 540.0, 38.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-54",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 100.0, 5.0, 288.0, 16.0 ],
-					"text" : "CBP (Corpus-based Processing) Copyright (C) 2009 Tom Stoll"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Arial",
-					"fontsize" : 10.0,
-					"id" : "obj-50",
-					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
-					"patching_rect" : [ 15.0, 5.0, 79.0, 18.0 ],
-					"text" : "GPL-v3-license"
 				}
 
 			}
@@ -104,9 +108,8 @@
 					"id" : "obj-15",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 190.0, 143.0, 17.0 ],
+					"numoutlets" : 0,
+					"patching_rect" : [ 30.0, 200.0, 143.0, 17.0 ],
 					"text" : "cbp.send /tms/active_params/ #1"
 				}
 
@@ -120,7 +123,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "bang" ],
-					"patching_rect" : [ 6.0, 91.0, 30.0, 17.0 ],
+					"patching_rect" : [ 6.0, 101.0, 30.0, 17.0 ],
 					"text" : "t b b"
 				}
 
@@ -134,7 +137,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 41.0, 91.0, 20.0, 17.0 ],
+					"patching_rect" : [ 41.0, 101.0, 20.0, 17.0 ],
 					"text" : "t b"
 				}
 
@@ -148,7 +151,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 41.0, 123.0, 16.0, 15.0 ],
+					"patching_rect" : [ 41.0, 133.0, 16.0, 15.0 ],
 					"text" : "0"
 				}
 
@@ -162,7 +165,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 26.0, 123.0, 16.0, 15.0 ],
+					"patching_rect" : [ 26.0, 133.0, 16.0, 15.0 ],
 					"text" : "1"
 				}
 
@@ -173,10 +176,10 @@
 					"fontsize" : 9.0,
 					"id" : "obj-6",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 6.0, 48.0, 125.0, 17.0 ],
+					"patching_rect" : [ 6.0, 58.0, 125.0, 17.0 ],
 					"text" : "cbp.receive /tms/activate/ #1"
 				}
 
@@ -190,7 +193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 2,
 					"outlettype" : [ "bang", "" ],
-					"patching_rect" : [ 6.0, 69.0, 32.0, 17.0 ],
+					"patching_rect" : [ 6.0, 79.0, 32.0, 17.0 ],
 					"text" : "sel 4"
 				}
 
@@ -202,7 +205,7 @@
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 10.0, 149.0, 15.0, 15.0 ]
+					"patching_rect" : [ 10.0, 159.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -215,7 +218,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 150.0, 54.0, 17.0 ],
+					"patching_rect" : [ 30.0, 160.0, 54.0, 17.0 ],
 					"text" : "gate"
 				}
 
@@ -229,7 +232,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 70.0, 90.0, 83.0, 17.0 ],
+					"patching_rect" : [ 70.0, 100.0, 83.0, 17.0 ],
 					"text" : "jcom.oscroute /yin"
 				}
 
@@ -242,7 +245,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 70.0, 66.0, 15.0, 15.0 ]
+					"patching_rect" : [ 70.0, 76.0, 15.0, 15.0 ]
 				}
 
 			}
@@ -255,7 +258,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 89.0, 70.0, 111.0, 17.0 ],
+					"patching_rect" : [ 89.0, 80.0, 111.0, 17.0 ],
 					"text" : "mode index from menu"
 				}
 
@@ -269,7 +272,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 130.0, 50.0, 66.0, 17.0 ],
+					"patching_rect" : [ 130.0, 60.0, 66.0, 17.0 ],
 					"text" : "5 = yin"
 				}
 
@@ -289,8 +292,8 @@
 					"numins" : 5,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 30.0, 170.0, 88.013672, 17.0 ],
-					"presentation_rect" : [ 30.0, 170.0, 88.013672, 17.0 ],
+					"patching_rect" : [ 30.0, 180.0, 88.013672, 17.0 ],
+					"presentation_rect" : [ 30.0, 180.0, 88.013672, 17.0 ],
 					"text" : [ "_4 $1 $2 $3 $4 $5" ]
 				}
 

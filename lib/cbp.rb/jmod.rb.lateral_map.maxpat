@@ -20,6 +20,61 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-1",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 315.0, 30.0, 258.0, 31.0 ],
+					"text" : "(see the ReleaseNotes.txt file, or visit www.corpora-sonorus.com for more info)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-7",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 315.0, 10.0, 305.0, 18.0 ],
+					"text" : "CBP:Corpus-based Processing (C) 2009-10 Tom Stoll"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"id" : "obj-23",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 575.0, 30.0, 99.0, 33.0 ],
+					"text" : "GPL-v3-license (double-click)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"hint" : "CBP is based on a CataRT, (C) 2005-2008, Diemo Schwarz, IRCAM IMTR, distributed under the GPL version 2. This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version. This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <http://www.gnu.org/licenses/>.",
+					"id" : "obj-57",
+					"maxclass" : "hint",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 315.0, 10.0, 357.0, 54.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontface" : 1,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
@@ -28,7 +83,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 685.0, 65.0, 50.0, 20.0 ],
+					"patching_rect" : [ 685.0, 125.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 265.0, 45.0, 30.0, 20.0 ],
 					"triangle" : 0
@@ -76,7 +131,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 405.0, 240.0, 142.0, 20.0 ],
+					"patching_rect" : [ 405.0, 300.0, 142.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 120.0, 25.0, 142.0, 19.0 ],
 					"prototypename" : "bluehorizon",
@@ -93,7 +148,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 635.0, 65.0, 46.0, 19.0 ],
+					"patching_rect" : [ 635.0, 125.0, 46.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 240.0, 45.0, 30.0, 19.0 ],
 					"text" : "Set:"
@@ -143,7 +198,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 735.0, 30.0, 281.0, 31.0 ],
+					"patching_rect" : [ 735.0, 90.0, 281.0, 31.0 ],
 					"text" : "jcom.message next @type none @repetitions/allow 1 @description \"Find the next node/unit.\"",
 					"varname" : "clear/hills[3]"
 				}
@@ -156,7 +211,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 705.0, 30.0, 25.0, 25.0 ]
+					"patching_rect" : [ 705.0, 90.0, 25.0, 25.0 ]
 				}
 
 			}
@@ -170,7 +225,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 735.0, 65.0, 279.0, 31.0 ],
+					"patching_rect" : [ 735.0, 125.0, 279.0, 31.0 ],
 					"text" : "jcom.message unit @type integer @repetitions/allow 1 @description \"Set the current unit.\"",
 					"varname" : "clear/hills[2]"
 				}
@@ -186,7 +241,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "bang" ],
-					"patching_rect" : [ 495.0, 205.0, 50.0, 20.0 ],
+					"patching_rect" : [ 495.0, 265.0, 50.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 105.0, 45.0, 22.0, 20.0 ],
 					"triangle" : 0
@@ -202,7 +257,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 445.0, 205.0, 49.0, 19.0 ],
+					"patching_rect" : [ 445.0, 265.0, 49.0, 19.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 60.0, 45.0, 46.0, 19.0 ],
 					"text" : "Depth:"
@@ -219,7 +274,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 550.0, 135.0, 286.0, 31.0 ],
+					"patching_rect" : [ 550.0, 195.0, 286.0, 31.0 ],
 					"text" : "jcom.message setup @type none @repetitions/allow 1 @description \"Generate the lateral map.\"",
 					"varname" : "clear/hills[1]"
 				}
@@ -235,7 +290,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 550.0, 170.0, 292.0, 31.0 ],
+					"patching_rect" : [ 550.0, 230.0, 292.0, 31.0 ],
 					"text" : "jcom.message launch @type none @repetitions/allow 1 @description \"Fire up the proximity_map.rb script.\"",
 					"varname" : "reset[2]"
 				}
@@ -250,7 +305,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 450.0, 135.0, 100.0, 20.0 ],
+					"patching_rect" : [ 450.0, 195.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 50.0, 25.0, 49.0, 20.0 ],
 					"text" : "Setup",
@@ -267,7 +322,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 450.0, 170.0, 100.0, 20.0 ],
+					"patching_rect" : [ 450.0, 230.0, 100.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 25.0, 53.0, 20.0 ],
 					"text" : "Launch",
@@ -546,7 +601,7 @@
 													"id" : "obj-9",
 													"linecount" : 2,
 													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 160.0, 10.0, 96.0, 33.0 ],
@@ -561,7 +616,7 @@
 													"id" : "obj-8",
 													"linecount" : 2,
 													"maxclass" : "newobj",
-													"numinlets" : 1,
+													"numinlets" : 0,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 60.0, 10.0, 96.0, 33.0 ],
@@ -1242,7 +1297,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 370.0, 45.0, 122.0, 24.0 ],
+					"patching_rect" : [ 360.0, 115.0, 122.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 10.0,
 						"fontface" : 0,
@@ -1686,7 +1741,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 370.0, 15.0, 271.0, 24.0 ],
+					"patching_rect" : [ 360.0, 85.0, 271.0, 24.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
@@ -4184,8 +4239,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 550.0, 255.0, 203.608398, 17.0 ],
-									"presentation_rect" : [ 550.0, 255.0, 203.608398, 17.0 ],
+									"patching_rect" : [ 550.0, 255.0, 201.424805, 17.0 ],
+									"presentation_rect" : [ 550.0, 255.0, 201.424805, 17.0 ],
 									"text" : [ "_(cat /filter $2 /cols) $1, update/ranges" ]
 								}
 
@@ -4204,8 +4259,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 755.0, 255.0, 196.772461, 17.0 ],
-									"presentation_rect" : [ 755.0, 255.0, 196.772461, 17.0 ],
+									"patching_rect" : [ 755.0, 255.0, 194.588867, 17.0 ],
+									"presentation_rect" : [ 755.0, 255.0, 194.588867, 17.0 ],
 									"text" : [ "_(cat /filter $2 /on) $1, update/ranges" ]
 								}
 
@@ -6962,7 +7017,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 25.0, 330.0, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "nozoom", "float", "menu", "minimize", ";", "#Q", "window", "constrain", 2, 2, 32768, 32768, ";", "#Q", "window", "size", 400, 200, 730, 306, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -7480,7 +7535,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-49", 1 ],
 									"hidden" : 0,
-									"midpoints" : [ 862.5, 246.5, 744.108398, 246.5 ],
+									"midpoints" : [ 862.5, 246.5, 741.924805, 246.5 ],
 									"source" : [ "obj-64", 1 ]
 								}
 
@@ -7823,7 +7878,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/editing_this_module.2"
 				}
 
 			}
@@ -7837,7 +7892,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 550.0, 100.0, 330.0, 31.0 ],
+					"patching_rect" : [ 550.0, 160.0, 330.0, 31.0 ],
 					"text" : "jcom.message clear/hills @type none @repetitions/allow 1 @description \"Clear the hills table resetting all values to zero.\"",
 					"varname" : "clear/hills"
 				}
@@ -7853,7 +7908,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 550.0, 205.0, 329.0, 31.0 ],
+					"patching_rect" : [ 550.0, 265.0, 329.0, 31.0 ],
 					"text" : "jcom.message depth @type integer @repetitions/allow 1 @description \"Number of links to generate for each node/unit.\"",
 					"varname" : "depth"
 				}
@@ -7885,7 +7940,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 550.0, 240.0, 473.0, 31.0 ],
+					"patching_rect" : [ 550.0, 300.0, 473.0, 31.0 ],
 					"text" : "jcom.parameter weight @type integer @range/bounds 0 100 @range/clipmode both @repetitions/allow 1 @description \"Weighting for the X parameter.\"",
 					"varname" : "weight/lateral"
 				}
@@ -8040,7 +8095,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-65", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 49.5, 520.0, 27.0, 520.0, 27.0, 453.0, 387.0, 453.0, 387.0, 312.0, 402.0, 312.0, 402.0, 81.0, 504.0, 81.0, 504.0, 60.0, 694.5, 60.0 ],
+					"midpoints" : [ 49.5, 520.0, 27.0, 520.0, 27.0, 453.0, 387.0, 453.0, 387.0, 312.0, 402.0, 312.0, 402.0, 187.0, 544.0, 187.0, 544.0, 120.0, 694.5, 120.0 ],
 					"source" : [ "obj-67", 0 ]
 				}
 
