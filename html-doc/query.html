@@ -153,7 +153,18 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> Return fmat of indices matching some condition. Arguments: descriptor name or index, operator, value. </td>
 		<tr>
 		<tr>
-			<td class="instructionName"> get/descriptor-lookup </td>
+			<td class="instructionName"> get/barkdata </td>
+			<td class ="instructionType"> none </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> none </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionRepetitionsAllow"> 1 </td>
+			<td class ="instructionDescription"> Get the barkdata matrix. </td>
+		<tr>
+		<tr>
+			<td class="instructionName"> get/descriptor/lookup </td>
 			<td class ="instructionType"> none </td>
 			<th class = "instructionRangeBounds"> N/A </td>
 			<td class ="instructionRangeClipmode"> none </td>
@@ -184,6 +195,28 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDataspace"> none </td>
 			<td class ="instructionRepetitionsAllow"> 1 </td>
 			<td class ="instructionDescription"> Get the number of standard descriptors. </td>
+		<tr>
+		<tr>
+			<td class="instructionName"> get/descriptors/visible </td>
+			<td class ="instructionType"> none </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> none </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionRepetitionsAllow"> 1 </td>
+			<td class ="instructionDescription"> Get the series of v isible descriptors. </td>
+		<tr>
+		<tr>
+			<td class="instructionName"> get/group </td>
+			<td class ="instructionType"> none </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> none </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionRepetitionsAllow"> 1 </td>
+			<td class ="instructionDescription"> Get the current SoundGroup. </td>
 		<tr>
 		<tr>
 			<td class="instructionName"> get/last/duration </td>
@@ -274,7 +307,7 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> Get the sounddata matrix. </td>
 		<tr>
 		<tr>
-			<td class="instructionName"> get/soundfile-path </td>
+			<td class="instructionName"> get/soundfile/path </td>
 			<td class ="instructionType"> integer </td>
 			<td class ="instructionRangeBounds"> 0 1 </td>
 			<td class ="instructionRangeClipmode"> none </td>
@@ -294,28 +327,6 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDataspace"> none </td>
 			<td class ="instructionRepetitionsAllow"> 1 </td>
 			<td class ="instructionDescription"> Get the soundfiles mat. </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> get/soundset </td>
-			<td class ="instructionType"> none </td>
-			<th class = "instructionRangeBounds"> N/A </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription"> Get the current soundset. </td>
-		<tr>
-		<tr>
-			<td class="instructionName"> get/soundsets </td>
-			<td class ="instructionType"> integer </td>
-			<td class ="instructionRangeBounds"> 0 1 </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription"> Not totally sure. </td>
 		<tr>
 		<tr>
 			<td class="instructionName"> get/stat </td>
@@ -373,6 +384,17 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> Not sure - figure it out. </td>
 		<tr>
 		<tr>
+			<td class="instructionName"> get/unit/cell </td>
+			<td class ="instructionType"> array </td>
+			<th class = "instructionRangeBounds"> N/A </td>
+			<td class ="instructionRangeClipmode"> none </td>
+			<td class ="instructionRampDrive"> none </td>
+			<td class ="instructionRampFunction"> none </td>
+			<td class ="instructionDataspace"> none </td>
+			<td class ="instructionRepetitionsAllow"> 1 </td>
+			<td class ="instructionDescription"> Get a cell (unit/descrid). Argument: unit ID number row and descriptor column pair. </td>
+		<tr>
+		<tr>
 			<td class="instructionName"> get/unit/descriptor </td>
 			<td class ="instructionType"> array </td>
 			<th class = "instructionRangeBounds"> N/A </td>
@@ -384,7 +406,7 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> Get values of specific queried descriptors. Arguments: a UnitID and a list of descriptor numbers. </td>
 		<tr>
 		<tr>
-			<td class="instructionName"> get/unit/descriptor-cooked </td>
+			<td class="instructionName"> get/unit/descriptor/cooked </td>
 			<td class ="instructionType"> array </td>
 			<th class = "instructionRangeBounds"> N/A </td>
 			<td class ="instructionRangeClipmode"> none </td>
@@ -417,17 +439,6 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> Get the unitdata matrix. </td>
 		<tr>
 		<tr>
-			<td class="instructionName"> get/visible-descriptors </td>
-			<td class ="instructionType"> none </td>
-			<th class = "instructionRangeBounds"> N/A </td>
-			<td class ="instructionRangeClipmode"> none </td>
-			<td class ="instructionRampDrive"> none </td>
-			<td class ="instructionRampFunction"> none </td>
-			<td class ="instructionDataspace"> none </td>
-			<td class ="instructionRepetitionsAllow"> 1 </td>
-			<td class ="instructionDescription"> Get the series of v isible descriptors. </td>
-		<tr>
-		<tr>
 			<td class="instructionName"> init </td>
 			<td class ="instructionType"> none </td>
 			<th class = "instructionRangeBounds"> N/A </td>
@@ -450,7 +461,7 @@ Number of signal outlets: <code> 0 </code> </p>
 			<td class ="instructionDescription"> Lookup a questionable descriptor and get its number. Argument: descriptor ID </td>
 		<tr>
 		<tr>
-			<td class="instructionName"> lookup/soundset </td>
+			<td class="instructionName"> lookup/group </td>
 			<td class ="instructionType"> none </td>
 			<th class = "instructionRangeBounds"> N/A </td>
 			<td class ="instructionRangeClipmode"> none </td>
