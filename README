@@ -1,1 +1,12 @@
+Installing CBP
+
+...
+
+Unzip the zip file and place the folder in your Max search path. You may place CBP anywhere on your computer, as long as Max can find it. In Max, go to "File Preferences..." in the Options menu to add the path to CBP.
+
+You can also Use these patches in Read-only mode with Max Runtime. Go to http://www.cycling74.com/download and look for the Runtime download.
+
+IN EITHER CASE, you must install Jamoma 0.5 (jamoma.org), FTM (ftm.ircam.fr), and--optionally--AJM Ruby (www.compusition.com). More extensive instructions are at www.corpora-sonorus.com.
+
+
 Please read the ReleaseNotes...
