@@ -27,8 +27,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 430.0, 149.0, 18.0 ],
-					"presentation_rect" : [ 371.0, 433.0, 0.0, 0.0 ],
+					"patching_rect" : [ 330.0, 440.0, 149.0, 18.0 ],
 					"text" : "/write somedatafile.txt"
 				}
 
@@ -1089,7 +1088,7 @@
 						"lines" : [  ]
 					}
 ,
-					"patching_rect" : [ 490.0, 410.0, 183.0, 31.0 ],
+					"patching_rect" : [ 490.0, 420.0, 183.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
 						"globalpatchername" : "",
@@ -1113,7 +1112,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 410.0, 143.0, 18.0 ],
+					"patching_rect" : [ 330.0, 420.0, 143.0, 18.0 ],
 					"text" : "/read somedatafile.txt"
 				}
 
@@ -1124,12 +1123,12 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-31",
-					"linecount" : 2,
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 370.0, 306.0, 33.0 ],
-					"text" : "4. Use the 'write' or 'read' buttons (launches a dialog) or send a message like this:"
+					"patching_rect" : [ 330.0, 350.0, 353.0, 47.0 ],
+					"text" : "3. Use the 'write' or 'read' buttons (with the drop down menu poulated from the default directory) or send a message like this:"
 				}
 
 			}
@@ -1143,22 +1142,8 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 330.0, 294.0, 33.0 ],
-					"text" : "3. ...or press the plus button to see an inspector panel with launch and reset buttons."
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-28",
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 300.0, 250.0, 20.0 ],
-					"text" : "2. ...or by remote messages..."
+					"patching_rect" : [ 330.0, 310.0, 294.0, 33.0 ],
+					"text" : "2. No launching necesarry. Also uses a default directory."
 				}
 
 			}
@@ -1168,11 +1153,12 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-27",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 330.0, 270.0, 257.0, 20.0 ],
-					"text" : "1. Lauch and reset by direct messaging..."
+					"patching_rect" : [ 330.0, 270.0, 257.0, 33.0 ],
+					"text" : "1. The xml Corpus Map does not use Ruby; uses Max objects and DOT abstractions."
 				}
 
 			}
@@ -1290,7 +1276,7 @@
 					"args" : [ ".tutorial", "corpus_map.tutorial" ],
 					"id" : "obj-9",
 					"maxclass" : "bpatcher",
-					"name" : "jmod.rb.corpus_map.maxpat",
+					"name" : "jmod.xml.corpus_map.maxpat",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
