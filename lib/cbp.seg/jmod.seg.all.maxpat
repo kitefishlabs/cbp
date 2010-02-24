@@ -308,12 +308,12 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 225.0, 400.0, 71.0, 18.0 ],
+					"patching_rect" : [ 50.0, 400.0, 241.0, 18.0 ],
 					"saved_object_attributes" : 					{
 						"ftm_scope" : 0
 					}
 ,
-					"text" : "ftm.print OUT"
+					"text" : "ftm.print set_segmentation_mode_and_parameters:"
 				}
 
 			}
@@ -519,9 +519,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 550.0, 395.0, 100.0, 18.0 ],
+					"patching_rect" : [ 550.0, 395.0, 100.0, 19.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 85.0, 20.0, 145.0, 18.0 ],
+					"presentation_rect" : [ 85.0, 20.0, 145.0, 19.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"types" : [  ]
 				}
@@ -1429,13 +1429,13 @@
 ,
 					"patching_rect" : [ 310.0, 680.0, 79.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p sdif-display"
@@ -1693,13 +1693,13 @@
 ,
 					"patching_rect" : [ 310.0, 660.0, 68.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p choose_file"
@@ -2038,7 +2038,7 @@
 					"patching_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 210.0 ],
-					"text" : "/editing_this_module.2"
+					"text" : "/editing_this_module"
 				}
 
 			}
