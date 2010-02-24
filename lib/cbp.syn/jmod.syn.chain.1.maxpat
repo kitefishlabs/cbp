@@ -195,8 +195,6 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 395.0, 330.0, 47.0, 19.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 245.0, 25.0, 47.0, 19.0 ],
 					"text" : "repeat:"
 				}
 
@@ -274,7 +272,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 470.0, 465.0, 267.0, 60.0 ],
-					"text" : "jcom.message 1/ramp/xfade @type integer @repetitions/allow 1 @description \"Perform cross-fade over given overlap in milliseconds.\""
+					"text" : "jcom.parameter 1/ramp/xfade @type integer @repetitions/allow 1 @description \"Perform cross-fade over given overlap in milliseconds.\""
 				}
 
 			}
@@ -289,7 +287,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 470.0, 415.0, 267.0, 47.0 ],
-					"text" : "jcom.message 1/ramp/down @type integer @repetitions/allow 1 @description \"Perform ramp-down over given milliseconds.\""
+					"text" : "jcom.parameter 1/ramp/down @type integer @repetitions/allow 1 @description \"Perform ramp-down over given milliseconds.\""
 				}
 
 			}
@@ -304,7 +302,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 470.0, 365.0, 267.0, 47.0 ],
-					"text" : "jcom.message 1/ramp/up @type integer @repetitions/allow 1 @description \"Perform ramp-up over given milliseconds.\""
+					"text" : "jcom.parameter 1/ramp/up @type integer @repetitions/allow 1 @description \"Perform ramp-up over given milliseconds.\""
 				}
 
 			}
@@ -408,9 +406,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"outlinecolor" : [ 0.090196, 0.392157, 0.14902, 1.0 ],
-					"patching_rect" : [ 440.0, 330.0, 22.0, 22.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 280.0, 25.0, 22.0, 22.0 ]
+					"patching_rect" : [ 440.0, 330.0, 22.0, 22.0 ]
 				}
 
 			}
@@ -718,12 +714,12 @@
 ,
 									"patching_rect" : [ 5.0, 390.0, 42.0, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 10.0,
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Verdana",
+										"fontface" : 0,
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
 										"fontname" : "Verdana"
 									}
 ,
@@ -802,12 +798,12 @@
 ,
 					"patching_rect" : [ 85.0, 245.0, 55.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
-						"fontface" : 0,
-						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 12.0,
+						"default_fontsize" : 12.0,
 						"fontname" : "Arial"
 					}
 ,
@@ -825,7 +821,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 140.0, 245.0, 237.0, 18.0 ],
-					"text" : "/1/ramp/xfade 420"
+					"text" : "/view/size 300 70"
 				}
 
 			}
@@ -877,12 +873,12 @@
 ,
 					"patching_rect" : [ 625.0, 75.0, 113.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
 						"fontname" : "Arial"
 					}
 ,
@@ -1579,12 +1575,12 @@
 ,
 													"patching_rect" : [ 130.0, 110.0, 88.012695, 20.0 ],
 													"saved_object_attributes" : 													{
-														"default_fontsize" : 10.0,
-														"fontface" : 0,
-														"fontsize" : 10.0,
 														"default_fontface" : 0,
 														"globalpatchername" : "",
 														"default_fontname" : "Monaco",
+														"fontface" : 0,
+														"fontsize" : 10.0,
+														"default_fontsize" : 10.0,
 														"fontname" : "Monaco"
 													}
 ,
@@ -2227,12 +2223,12 @@
 ,
 									"patching_rect" : [ 30.0, 210.0, 78.5, 18.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 10.0,
-										"fontface" : 0,
-										"fontsize" : 10.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
+										"fontface" : 0,
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0,
 										"fontname" : "Monaco"
 									}
 ,
@@ -3321,12 +3317,12 @@
 ,
 									"patching_rect" : [ 10.0, 80.0, 309.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontsize" : 12.0,
-										"fontface" : 0,
-										"fontsize" : 12.0,
 										"default_fontface" : 0,
 										"globalpatchername" : "",
 										"default_fontname" : "Arial",
+										"fontface" : 0,
+										"fontsize" : 12.0,
+										"default_fontsize" : 12.0,
 										"fontname" : "Arial"
 									}
 ,
@@ -3655,12 +3651,12 @@
 ,
 					"patching_rect" : [ 70.0, 315.0, 79.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
-						"fontface" : 0,
-						"fontsize" : 10.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Helvetica Neue",
+						"fontface" : 0,
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0,
 						"fontname" : "Helvetica Neue"
 					}
 ,
@@ -3695,7 +3691,7 @@
 					"prefix" : "audio",
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module.4"
+					"text" : "/editing_this_module"
 				}
 
 			}
