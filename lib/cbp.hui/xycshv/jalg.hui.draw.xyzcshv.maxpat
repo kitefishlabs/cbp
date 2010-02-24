@@ -726,13 +726,13 @@
 ,
 					"patching_rect" : [ 230.0, 120.0, 137.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p descriptors_for_menu"
@@ -1809,13 +1809,13 @@
 ,
 					"patching_rect" : [ 0.0, 130.0, 108.0, 34.0 ],
 					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"fontname" : "Arial",
+						"default_fontname" : "Arial",
+						"globalpatchername" : "",
 						"default_fontsize" : 12.0,
 						"fontface" : 0,
-						"fontsize" : 12.0,
-						"default_fontface" : 0,
-						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p spit_out_all_units"
