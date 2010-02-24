@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 15.0, 288.0, 702.0, 543.0 ],
+		"rect" : [ 13.0, 44.0, 673.0, 578.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 15.0, 288.0, 702.0, 543.0 ],
+		"defrect" : [ 13.0, 44.0, 673.0, 578.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -20,6 +20,741 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-15",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 350.0, 120.0, 215.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 348.0, 121.0, 226.0, 20.0 ],
+					"text" : "<=== (double-click this box first)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Monaco",
+					"fontsize" : 18.0,
+					"id" : "obj-13",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patcher" : 					{
+						"fileversion" : 1,
+						"rect" : [ 687.0, 44.0, 696.0, 725.0 ],
+						"bglocked" : 0,
+						"defrect" : [ 687.0, 44.0, 696.0, 725.0 ],
+						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
+						"openinpresentation" : 1,
+						"default_fontsize" : 10.0,
+						"default_fontface" : 0,
+						"default_fontname" : "Monaco",
+						"gridonopen" : 0,
+						"gridsize" : [ 10.0, 10.0 ],
+						"gridsnaponopen" : 0,
+						"toolbarvisible" : 1,
+						"boxanimatetime" : 200,
+						"imprint" : 0,
+						"enablehscroll" : 1,
+						"enablevscroll" : 1,
+						"devicewidth" : 0.0,
+						"visible" : 1,
+						"boxes" : [ 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-31",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 480.0, 372.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 310.0, 480.0, 360.0, 33.0 ],
+									"text" : "Send this message, or click 'Repopulate This Corpus' after every import."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 580.0, 43.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 269.0, 578.0, 41.0, 31.0 ],
+									"text" : "10."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-4",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 480.0, 161.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 480.0, 161.0, 18.0 ],
+									"text" : "/init.tutorial/repop"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-32",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 650.0, 411.0, 60.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 10.0, 670.0, 684.0, 47.0 ],
+									"text" : "This is a basic workflow for using this simple CBP system. Despite its simplicity, there is quite a bit happening here; this little tutorial only scratches the surface of what might be accomplished with Corpus-based Processing systems. More to follow..."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-30",
+									"linecount" : 5,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 580.0, 360.0, 73.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 310.0, 580.0, 371.0, 73.0 ],
+									"text" : "Set up the 'chain1' synth module for playback and navigate with the mouse in the units deisplay pane. Note that although the three nearest nodes are displayed, only the nearest is played. See also the 'change' object; it ensures that a found node is played once."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-29",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 530.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 530.0, 33.0, 31.0 ],
+									"text" : "9."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-24",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 530.0, 360.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 310.0, 530.0, 360.0, 33.0 ],
+									"text" : "Double click the 'audio_routing_panning' sub-patch to set up your audio output. It should be self-explanatory."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-25",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 480.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 480.0, 33.0, 31.0 ],
+									"text" : "8."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-22",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 410.0, 360.0, 60.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 310.0, 410.0, 360.0, 60.0 ],
+									"text" : "Either set the select (k-nearest-neighbors search tree) parameters with a message, directly in the module, or via preset 'default'. This readies the search module for pointer-based search."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-23",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 410.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 410.0, 33.0, 31.0 ],
+									"text" : "7."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-20",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 450.0, 237.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 440.0, 239.0, 18.0 ],
+									"text" : "/select.tutorial/preset/recall default"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-19",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 410.0, 228.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 10.0, 410.0, 225.0, 31.0 ],
+									"text" : "/select.tutorial/set/num-nearest 3, /select.tutorial/qlim 50 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-17",
+									"linecount" : 6,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 310.0, 360.0, 87.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 6,
+									"presentation_rect" : [ 310.0, 310.0, 360.0, 87.0 ],
+									"text" : "These messages select the first (A) tab and enable keyboard control of search pointers. After sending this message, press the '1', '2', or '3' keys to select among the three search pointers. 'Shift-1', 'Shirft-2', and 'Shift-3' lock the search pointers in place until the pointer is reselected with the number key. "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-18",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 310.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 310.0, 33.0, 31.0 ],
+									"text" : "6."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-16",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 310.0, 159.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 10.0, 310.0, 159.0, 31.0 ],
+									"text" : "/display.tutorial/tab 0, /display.tutorial/key 1"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-15",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 40.0, 270.0, 105.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 240.0, 190.0, 20.0 ],
+									"text" : "[for demo only, not connected]"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-12",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 230.0, 347.0, 60.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 310.0, 230.0, 347.0, 60.0 ],
+									"text" : "Click the 'Load File' button in the import module and choose a file with the Finder. You could also send this command to the module with the name of the file to be imported as the argument."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-13",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 230.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 230.0, 33.0, 31.0 ],
+									"text" : "5."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-11",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 40.0, 240.0, 203.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 260.0, 273.0, 18.0 ],
+									"text" : "/import.tutorial/import/file somefile.aiff"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-9",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 180.0, 318.0, 33.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 310.0, 180.0, 318.0, 33.0 ],
+									"text" : "Set the import method and parameters. Here we are setting 'chop every 125 ms' as our import method."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-10",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 180.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 180.0, 33.0, 31.0 ],
+									"text" : "4."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-8",
+									"linecount" : 2,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 180.0, 203.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 2,
+									"presentation_rect" : [ 10.0, 180.0, 198.0, 31.0 ],
+									"text" : "/segmentation.tutorial/mode 1, /segmentation.tutorial/chop 125"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-6",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 50.0, 306.0, 60.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 310.0, 50.0, 306.0, 60.0 ],
+									"text" : "Synth modules must be initialized separately. Note how messages sent remotely are the same as local messages, but with the module name tacked onto the front."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-7",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 50.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 50.0, 33.0, 31.0 ],
+									"text" : "2."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-5",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 50.0, 197.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 50.0, 176.0, 18.0 ],
+									"text" : "/chain1.tutorial/initialize"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-1",
+									"linecount" : 3,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 120.0, 308.0, 47.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 310.0, 120.0, 308.0, 47.0 ],
+									"text" : "Click the 'DATA' button to view the data/import window. Toggle to float the window, if you wish. You can close it after step 5."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-3",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 120.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 120.0, 33.0, 31.0 ],
+									"text" : "3."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-28",
+									"linecount" : 3,
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 580.0, 209.0, 45.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 3,
+									"presentation_rect" : [ 10.0, 580.0, 207.0, 45.0 ],
+									"text" : "/chain1.tutorial/1/transp 1., /chain1.tutorial/1/ramp/down 30, /chain1.tutorial/1/ramp/xfade 50"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-27",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 310.0, 10.0, 269.0, 20.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 310.0, 10.0, 269.0, 20.0 ],
+									"text" : "Initialize all modules via the init module."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-21",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 10.0, 33.0, 31.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 270.0, 10.0, 33.0, 31.0 ],
+									"text" : "1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-14",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 10.0, 161.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_rect" : [ 10.0, 10.0, 161.0, 18.0 ],
+									"text" : "/init.tutorial/initialize"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-2",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 640.0, 135.0, 33.0 ],
+									"text" : "jcom.send jcom.remote.module.to"
+								}
+
+							}
+ ],
+						"lines" : [ 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-14", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-19", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-20", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-4", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-5", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-8", 0 ]
+								}
+
+							}
+ ]
+					}
+,
+					"patching_rect" : [ 20.0, 120.0, 324.0, 31.0 ],
+					"saved_object_attributes" : 					{
+						"default_fontface" : 0,
+						"default_fontname" : "Monaco",
+						"fontname" : "Monaco",
+						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
+					}
+,
+					"text" : "p presets_and_instructions..."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-11",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 10.0, 10.0, 144.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 17.0, 487.0, 226.0, 20.0 ],
+					"text" : "(toggle to float the DATA window)"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-10",
+					"maxclass" : "toggle",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "int" ],
+					"patching_rect" : [ 150.0, 10.0, 31.0, 31.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontname" : "Monaco",
+					"fontsize" : 10.0,
+					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+					"id" : "obj-3",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 420.0, 540.0, 144.0, 33.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 431.0, 492.0, 226.0, 33.0 ],
+					"text" : "(double-click to read more about modules)"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-8",
@@ -27,7 +762,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
-					"patching_rect" : [ 320.0, 320.0, 47.0, 20.0 ],
+					"patching_rect" : [ 310.0, 350.0, 47.0, 20.0 ],
 					"text" : "change"
 				}
 
@@ -46,8 +781,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 240.0, 18.00293, 18.0 ],
-					"presentation_rect" : [ 320.0, 240.0, 18.00293, 18.0 ],
+					"patching_rect" : [ 310.0, 270.0, 26.00293, 18.0 ],
+					"presentation_rect" : [ 310.0, 270.0, 26.00293, 18.0 ],
 					"text" : [ "_$2" ]
 				}
 
@@ -63,9 +798,9 @@
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 365.0, 241.0, 301.0, 354.0 ],
+						"rect" : [ 709.0, 268.0, 265.0, 344.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 365.0, 241.0, 301.0, 354.0 ],
+						"defrect" : [ 709.0, 268.0, 265.0, 344.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -82,6 +817,20 @@
 						"devicewidth" : 0.0,
 						"boxes" : [ 							{
 								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-1",
+									"maxclass" : "newobj",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "int" ],
+									"patching_rect" : [ 50.0, 80.0, 69.0, 20.0 ],
+									"text" : "0"
+								}
+
+							}
+, 							{
+								"box" : 								{
 									"#init" : "",
 									"#loadbang" : 0,
 									"#triggerall" : 0,
@@ -95,9 +844,9 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 140.0, 234.0, 178.0 ],
+									"patching_rect" : [ 10.0, 130.0, 234.0, 178.0 ],
 									"presentation_linecount" : 13,
-									"presentation_rect" : [ 10.0, 140.0, 234.0, 178.0 ],
+									"presentation_rect" : [ 10.0, 130.0, 234.0, 178.0 ],
 									"text" : [ "_/display.tutorial/A/point/1/radius 0.,", "_/display.tutorial/A/point/2/radius 0.,", "_/display.tutorial/A/point/3/radius 0.,", "_/display.tutorial/B/point/1/radius 0.,", "_/display.tutorial/B/point/2/radius 0.,", "_/display.tutorial/B/point/3/radius 0.,", "_/display.tutorial/C/point/1/radius 0.,", "_/display.tutorial/C/point/2/radius 0.,", "_/display.tutorial/C/point/3/radius 0.,", "_/display.tutorial/A/size 280,", "_/display.tutorial/B/size 280,", "_/display.tutorial/C/size 280,", "_/draw.tutorial/update/ranges" ]
 								}
 
@@ -111,7 +860,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 330.0, 199.0, 20.0 ],
+									"patching_rect" : [ 10.0, 320.0, 199.0, 20.0 ],
 									"text" : "jcom.send jcom.remote.module.to"
 								}
 
@@ -124,7 +873,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 200.0, 80.0, 19.0, 19.0 ]
+									"patching_rect" : [ 100.0, 50.0, 19.0, 19.0 ]
 								}
 
 							}
@@ -135,7 +884,7 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 180.0, 80.0, 19.0, 19.0 ]
+									"patching_rect" : [ 50.0, 110.0, 19.0, 19.0 ]
 								}
 
 							}
@@ -147,9 +896,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 180.0, 50.0, 42.0, 20.0 ],
-									"text" : "t 0 b"
+									"outlettype" : [ "bang", "bang" ],
+									"patching_rect" : [ 50.0, 50.0, 42.0, 20.0 ],
+									"text" : "t b b"
 								}
 
 							}
@@ -163,7 +912,7 @@
 									"numinlets" : 0,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 0.0, 94.0, 47.0 ],
+									"patching_rect" : [ 50.0, 0.0, 94.0, 47.0 ],
 									"text" : "cbp.receive /tms/init/ init.tutorial"
 								}
 
@@ -782,13 +1531,13 @@
  ]
 									}
 ,
-									"patching_rect" : [ 200.0, 100.0, 98.0, 33.0 ],
+									"patching_rect" : [ 120.0, 80.0, 98.0, 33.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"fontname" : "Monaco",
 										"default_fontname" : "Monaco",
-										"globalpatchername" : "",
+										"fontname" : "Monaco",
 										"default_fontsize" : 10.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0
 									}
@@ -800,7 +1549,16 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-22", 0 ],
+									"destination" : [ "obj-15", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-1", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-1", 1 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
 									"source" : [ "obj-16", 0 ]
@@ -809,9 +1567,18 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-22", 0 ],
+									"hidden" : 0,
+									"midpoints" : [ 109.5, 74.0, 129.5, 74.0 ],
+									"source" : [ "obj-16", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-82", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 209.5, 137.0, 254.0, 137.0, 254.0, 323.0, 19.5, 323.0 ],
+									"midpoints" : [ 129.5, 117.0, 254.0, 117.0, 254.0, 314.0, 19.5, 314.0 ],
 									"source" : [ "obj-22", 0 ]
 								}
 
@@ -827,7 +1594,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-15", 0 ],
+									"destination" : [ "obj-1", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
 									"source" : [ "obj-46", 0 ]
@@ -838,7 +1605,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-83", 0 ],
 									"hidden" : 0,
-									"midpoints" : [ 212.5, 74.0, 19.5, 74.0 ],
+									"midpoints" : [ 82.5, 75.0, 19.5, 75.0 ],
 									"source" : [ "obj-46", 1 ]
 								}
 
@@ -855,13 +1622,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 50.0, 70.0, 139.0, 20.0 ],
+					"patching_rect" : [ 50.0, 80.0, 139.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Monaco",
 						"default_fontname" : "Monaco",
-						"globalpatchername" : "",
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -880,7 +1647,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 20.0, 258.0, 31.0 ],
+					"patching_rect" : [ 310.0, 20.0, 258.0, 31.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 35.0, 618.0, 18.0 ],
 					"text" : "(see the ReleaseNotes.txt file, or visit www.corpora-sonorus.com for more info)"
@@ -896,7 +1663,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 280.0, 0.0, 305.0, 18.0 ],
+					"patching_rect" : [ 310.0, 0.0, 305.0, 18.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 25.0, 15.0, 363.0, 18.0 ],
 					"text" : "CBP:Corpus-based Processing (C) 2009-10 Tom Stoll"
@@ -913,7 +1680,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 540.0, 20.0, 99.0, 33.0 ],
+					"patching_rect" : [ 570.0, 20.0, 99.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 405.0, 15.0, 186.0, 20.0 ],
 					"text" : "GPL-v3-license (double-click)"
@@ -927,7 +1694,7 @@
 					"maxclass" : "hint",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 280.0, 0.0, 357.0, 54.0 ],
+					"patching_rect" : [ 310.0, 0.0, 357.0, 54.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 15.0, 15.0, 634.0, 40.0 ]
 				}
@@ -947,8 +1714,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 380.0, 174.02832, 18.0 ],
-					"presentation_rect" : [ 320.0, 380.0, 174.02832, 18.0 ],
+					"patching_rect" : [ 310.0, 410.0, 174.02832, 18.0 ],
+					"presentation_rect" : [ 310.0, 410.0, 174.02832, 18.0 ],
 					"text" : [ "_/1/unit $1, /1/ramp/xfade 40" ]
 				}
 
@@ -962,7 +1729,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 290.0, 197.0, 20.0 ],
+					"patching_rect" : [ 350.0, 320.0, 197.0, 20.0 ],
 					"text" : "jcom.send jcom.remote.module.to"
 				}
 
@@ -983,9 +1750,9 @@
 					"numins" : 6,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 240.0, 246.040039, 45.0 ],
+					"patching_rect" : [ 350.0, 270.0, 246.040039, 45.0 ],
 					"presentation_linecount" : 3,
-					"presentation_rect" : [ 340.0, 240.0, 246.040039, 45.0 ],
+					"presentation_rect" : [ 350.0, 270.0, 246.040039, 45.0 ],
 					"text" : [ "_/display.tutorial/A/selected/unit/1 $2,", "_/display.tutorial/A/selected/unit/2 $4,", "_/display.tutorial/A/selected/unit/3 $6" ]
 				}
 
@@ -999,7 +1766,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 320.0, 130.0, 300.0, 70.0 ],
+					"patching_rect" : [ 310.0, 160.0, 300.0, 70.0 ],
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ]
 				}
 
@@ -1018,9 +1785,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 380.0, 400.0, 234.038086, 18.0 ],
-					"presentation_rect" : [ 380.0, 400.0, 234.038086, 18.0 ],
-					"text" : [ "_/1/unit (random 32), /1/ramp/xfade 400" ]
+					"patching_rect" : [ 370.0, 430.0, 228.037109, 18.0 ],
+					"presentation_rect" : [ 370.0, 430.0, 228.037109, 18.0 ],
+					"text" : [ "_/1/unit (random 32), /1/ramp/xfade 40" ]
 				}
 
 			}
@@ -1033,7 +1800,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 550.0, 350.0, 114.0, 18.0 ],
+					"patching_rect" : [ 540.0, 380.0, 114.0, 18.0 ],
 					"text" : "/1/ramp/xfade 100"
 				}
 
@@ -1047,7 +1814,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 430.0, 350.0, 114.0, 18.0 ],
+					"patching_rect" : [ 420.0, 380.0, 114.0, 18.0 ],
 					"text" : "/1/ramp/down 30"
 				}
 
@@ -1068,7 +1835,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"patching_rect" : [ 190.0, 70.0, 97.0, 25.0 ],
+					"patching_rect" : [ 190.0, 80.0, 97.0, 25.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 978.0, 311.0, 146.0, 25.0 ],
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
@@ -1086,7 +1853,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 100.0, 300.0, 350.0 ],
+					"patching_rect" : [ 0.0, 160.0, 300.0, 350.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 90.0, 300.0, 350.0 ]
 				}
@@ -1101,7 +1868,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 320.0, 210.0, 173.0, 20.0 ],
+					"patching_rect" : [ 310.0, 240.0, 173.0, 20.0 ],
 					"text" : "jcom.oscroute /knn/list"
 				}
 
@@ -1116,9 +1883,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 642.0, 348.0, 423.0, 404.0 ],
+						"rect" : [ 707.0, 207.0, 677.0, 535.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 642.0, 348.0, 423.0, 404.0 ],
+						"defrect" : [ 707.0, 207.0, 677.0, 535.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -1137,13 +1904,226 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-35",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 230.0, 600.0, 435.0, 60.0 ],
+									"text" : "Finally, it should be pointed out that there are many more 'functions' and combinations of 'functions' that can be called. For example, here we ask the data module for units whose groups are equal to 0 or 1 (4 is the column number of the group descriptor in the unitdata table). "
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-34",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 270.0, 440.0, 263.0, 60.0 ],
+									"text" : "Here we call 'functions' from 3 different modules, one to play the unit, one to display the unit graphically, and one to deactivate the unit (if desired)."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-33",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 380.0, 270.0, 263.0, 60.0 ],
+									"text" : "Here we call 'functions' from 3 different modules, one to play the unit, one to display the unit graphically, and one to deactivate the unit (if desired)."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.082353, 0.25098, 0.431373, 1.0 ],
+									"id" : "obj-32",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 240.0, 150.0, 300.0, 20.0 ],
+									"text" : "<== the special receive-from-all-modules receive",
+									"textcolor" : [ 0.082353, 0.25098, 0.431373, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.082353, 0.25098, 0.431373, 1.0 ],
+									"id" : "obj-31",
+									"linecount" : 2,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 150.0, 80.0, 155.0, 33.0 ],
+									"text" : "<== the special send-to-all-modules send",
+									"textcolor" : [ 0.082353, 0.25098, 0.431373, 1.0 ]
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-29",
+									"linecount" : 4,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 300.0, 180.0, 294.0, 60.0 ],
+									"text" : "More remote messaging, but this time *from* a module. Modules with returns make their return values available through an OSC namespace similar to the messages/parameters namespaces."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-28",
+									"maxclass" : "message",
+									"numinlets" : 2,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 120.0, 20.0, 197.0, 18.0 ],
+									"presentation" : 1,
+									"presentation_linecount" : 4,
+									"presentation_rect" : [ 167.0, 44.0, 59.0, 58.0 ],
+									"text" : "/chain1.tutorial/1/ramp/down 30"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-27",
+									"linecount" : 8,
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 400.0, 10.0, 261.0, 113.0 ],
+									"text" : "Remote messaging of the chain1 module. Remote messages always start with the name of the module, which in CBP includes the [dot] corpus_name. Click the name of the module to see a list of functions, or choose 'Open reference page' from the pull-down menu (the downward triangle) to see the HTML refernce."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-26",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 190.0, 600.0, 33.0, 31.0 ],
+									"text" : "5."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-25",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 230.0, 440.0, 33.0, 31.0 ],
+									"text" : "4."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-24",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 340.0, 270.0, 33.0, 31.0 ],
+									"text" : "3."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-22",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 260.0, 180.0, 33.0, 31.0 ],
+									"text" : "2."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontface" : 1,
+									"fontname" : "Monaco",
+									"fontsize" : 18.0,
+									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
+									"id" : "obj-21",
+									"maxclass" : "comment",
+									"numinlets" : 1,
+									"numoutlets" : 0,
+									"patching_rect" : [ 360.0, 10.0, 33.0, 31.0 ],
+									"text" : "1."
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
+									"id" : "obj-12",
+									"linecount" : 2,
+									"maxclass" : "newobj",
+									"numinlets" : 1,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 10.0, 380.0, 135.0, 33.0 ],
+									"text" : "jcom.send jcom.remote.module.to"
+								}
+
+							}
+, 							{
+								"box" : 								{
+									"fontname" : "Monaco",
+									"fontsize" : 10.0,
 									"id" : "obj-11",
 									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 250.0, 270.0, 149.0, 31.0 ],
+									"patching_rect" : [ 140.0, 340.0, 126.0, 31.0 ],
 									"text" : "/display.tutorial/A/selected/unit/1 $1"
 								}
 
@@ -1155,7 +2135,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 10.0, 170.0, 20.0, 20.0 ]
+									"patching_rect" : [ 10.0, 280.0, 20.0, 20.0 ]
 								}
 
 							}
@@ -1168,7 +2148,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "int" ],
-									"patching_rect" : [ 10.0, 200.0, 32.5, 20.0 ],
+									"patching_rect" : [ 10.0, 310.0, 32.5, 20.0 ],
 									"text" : "i"
 								}
 
@@ -1183,7 +2163,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 240.0, 179.0, 31.0 ],
+									"patching_rect" : [ 10.0, 340.0, 130.0, 31.0 ],
 									"text" : "/data.tutorial/units/deactivate $1"
 								}
 
@@ -1197,7 +2177,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 90.0, 150.0, 50.0, 20.0 ]
+									"patching_rect" : [ 270.0, 280.0, 50.0, 20.0 ]
 								}
 
 							}
@@ -1211,11 +2191,11 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 90.0, 180.0, 106.0, 31.0 ],
+									"patching_rect" : [ 270.0, 340.0, 219.0, 31.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 163.0, 319.0, 77.0, 45.0 ],
-									"text" : "/chain1.tutorial/1/unit $1"
+									"presentation_linecount" : 6,
+									"presentation_rect" : [ 163.0, 319.0, 77.0, 85.0 ],
+									"text" : "/chain1.tutorial/1/unit $1, /chain1.tutorial/1/ramp/xfade 50"
 								}
 
 							}
@@ -1229,7 +2209,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 240.0, 230.0, 180.0, 31.0 ],
+									"patching_rect" : [ 40.0, 500.0, 180.0, 31.0 ],
 									"text" : "/data.tutorial/update/group 12 0"
 								}
 
@@ -1243,7 +2223,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 40.0, 300.0, 32.5, 18.0 ],
+									"patching_rect" : [ 40.0, 600.0, 32.5, 18.0 ],
 									"text" : "4 1"
 								}
 
@@ -1257,7 +2237,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 300.0, 32.5, 18.0 ],
+									"patching_rect" : [ 10.0, 600.0, 32.5, 18.0 ],
 									"text" : "4 0"
 								}
 
@@ -1270,7 +2250,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 10.0, 380.0, 89.0, 20.0 ],
+									"patching_rect" : [ 10.0, 680.0, 89.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"ftm_scope" : 0
 									}
@@ -1293,8 +2273,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 330.0, 162.025391, 18.0 ],
-									"presentation_rect" : [ 10.0, 330.0, 162.025391, 18.0 ],
+									"patching_rect" : [ 10.0, 630.0, 162.025391, 18.0 ],
+									"presentation_rect" : [ 10.0, 630.0, 162.025391, 18.0 ],
 									"text" : [ "_/find/units-where $1 == $2" ]
 								}
 
@@ -1308,7 +2288,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 10.0, 350.0, 89.0, 20.0 ],
+									"patching_rect" : [ 10.0, 650.0, 89.0, 20.0 ],
 									"text" : "cbp.call .one"
 								}
 
@@ -1323,7 +2303,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 220.0, 190.0, 179.0, 31.0 ],
+									"patching_rect" : [ 30.0, 460.0, 179.0, 31.0 ],
 									"text" : "/data.tutorial/update/group 12 10"
 								}
 
@@ -1333,12 +2313,11 @@
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
 									"id" : "obj-8",
-									"linecount" : 2,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 200.0, 150.0, 137.0, 31.0 ],
+									"patching_rect" : [ 10.0, 440.0, 167.0, 18.0 ],
 									"text" : "/data.tutorial/set/group 2"
 								}
 
@@ -1353,7 +2332,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 200.0, 310.0, 135.0, 33.0 ],
+									"patching_rect" : [ 10.0, 540.0, 135.0, 33.0 ],
 									"text" : "jcom.send jcom.remote.module.to"
 								}
 
@@ -1368,7 +2347,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 180.0, 80.0, 185.0, 33.0 ],
+									"patching_rect" : [ 10.0, 180.0, 185.0, 33.0 ],
 									"text" : "jcom.oscroute /chain.tutorial/dur_loud.pair"
 								}
 
@@ -1382,7 +2361,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 180.0, 120.0, 175.0, 18.0 ],
+									"patching_rect" : [ 10.0, 220.0, 175.0, 18.0 ],
 									"text" : "19156.992188 -27.639219"
 								}
 
@@ -1392,12 +2371,11 @@
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
 									"id" : "obj-3",
-									"linecount" : 2,
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 180.0, 40.0, 148.0, 33.0 ],
+									"patching_rect" : [ 10.0, 150.0, 229.0, 20.0 ],
 									"text" : "jcom.receive jcom.remote.module.from"
 								}
 
@@ -1411,7 +2389,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "int", "bang" ],
-									"patching_rect" : [ 10.0, 30.0, 50.0, 20.0 ],
+									"patching_rect" : [ 10.0, 20.0, 50.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 1077.0, 768.0, 50.0, 20.0 ]
 								}
@@ -1426,11 +2404,11 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 60.0, 152.0, 18.0 ],
+									"patching_rect" : [ 10.0, 50.0, 371.0, 18.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 3,
-									"presentation_rect" : [ 1077.0, 788.0, 59.0, 45.0 ],
-									"text" : "/chain.tutorial/unit $1"
+									"presentation_linecount" : 8,
+									"presentation_rect" : [ 1077.0, 788.0, 59.0, 111.0 ],
+									"text" : "/chain1.tutorial/1/unit $1, /chain1.tutorial/1/ramp/xfade 50"
 								}
 
 							}
@@ -1444,7 +2422,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 100.0, 135.0, 33.0 ],
+									"patching_rect" : [ 10.0, 80.0, 135.0, 33.0 ],
 									"text" : "jcom.send jcom.remote.module.to"
 								}
 
@@ -1452,9 +2430,9 @@
  ],
 						"lines" : [ 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"hidden" : 0,
-									"midpoints" : [  ],
+									"midpoints" : [ 279.5, 375.0, 19.5, 375.0 ],
 									"source" : [ "obj-1", 0 ]
 								}
 
@@ -1470,9 +2448,9 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"hidden" : 0,
-									"midpoints" : [  ],
+									"midpoints" : [ 149.5, 375.0, 19.5, 375.0 ],
 									"source" : [ "obj-11", 0 ]
 								}
 
@@ -1490,7 +2468,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-11", 0 ],
 									"hidden" : 0,
-									"midpoints" : [  ],
+									"midpoints" : [ 279.5, 305.5, 149.5, 305.5 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
@@ -1499,16 +2477,16 @@
 								"patchline" : 								{
 									"destination" : [ "obj-19", 1 ],
 									"hidden" : 0,
-									"midpoints" : [  ],
+									"midpoints" : [ 279.5, 305.5, 33.0, 305.5 ],
 									"source" : [ "obj-13", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-9", 0 ],
+									"destination" : [ "obj-12", 0 ],
 									"hidden" : 0,
-									"midpoints" : [  ],
+									"midpoints" : [ 19.5, 375.0, 19.5, 375.0 ],
 									"source" : [ "obj-14", 0 ]
 								}
 
@@ -1560,6 +2538,15 @@
 							}
 , 							{
 								"patchline" : 								{
+									"destination" : [ "obj-2", 0 ],
+									"hidden" : 0,
+									"midpoints" : [  ],
+									"source" : [ "obj-28", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
 									"destination" : [ "obj-7", 0 ],
 									"hidden" : 0,
 									"midpoints" : [  ],
@@ -1598,7 +2585,7 @@
 								"patchline" : 								{
 									"destination" : [ "obj-6", 1 ],
 									"hidden" : 0,
-									"midpoints" : [ 189.5, 116.0, 345.5, 116.0 ],
+									"midpoints" : [ 19.5, 216.0, 175.5, 216.0 ],
 									"source" : [ "obj-7", 0 ]
 								}
 
@@ -1624,13 +2611,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 310.0, 510.0, 119.0, 31.0 ],
+					"patching_rect" : [ 300.0, 540.0, 119.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Monaco",
 						"default_fontname" : "Monaco",
-						"globalpatchername" : "",
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -1650,9 +2637,9 @@
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 453.0, 613.0, 259.0, 250.0 ],
+						"rect" : [ 99.0, 586.0, 224.0, 212.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 453.0, 613.0, 259.0, 250.0 ],
+						"defrect" : [ 99.0, 586.0, 224.0, 212.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -1678,7 +2665,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 107.0, 259.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 20.0, 230.0, 35.0, 20.0 ],
+									"presentation_rect" : [ 50.0, 190.0, 35.0, 20.0 ],
 									"text" : "Gain"
 								}
 
@@ -1694,7 +2681,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 110.0, 55.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 20.0, 30.0, 29.0, 20.0 ],
+									"presentation_rect" : [ 20.0, 20.0, 29.0, 20.0 ],
 									"text" : "Pan"
 								}
 
@@ -1710,7 +2697,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 148.0, 111.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 60.0, 80.0, 19.0, 20.0 ],
+									"presentation_rect" : [ 50.0, 70.0, 19.0, 20.0 ],
 									"text" : "2"
 								}
 
@@ -1726,7 +2713,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 90.0, 120.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 0.0, 80.0, 19.0, 20.0 ],
+									"presentation_rect" : [ 0.0, 70.0, 19.0, 20.0 ],
 									"text" : "1"
 								}
 
@@ -1839,7 +2826,7 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 210.0, 150.0, 40.0, 40.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 20.0, 50.0, 36.0, 36.0 ],
+									"presentation_rect" : [ 20.0, 40.0, 36.0, 36.0 ],
 									"size" : 1.0
 								}
 
@@ -1853,7 +2840,7 @@
 									"outlettype" : [ "signal", "int" ],
 									"patching_rect" : [ 110.0, 120.0, 20.0, 140.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 20.0, 90.0, 20.0, 140.0 ]
+									"presentation_rect" : [ 20.0, 70.0, 20.0, 140.0 ]
 								}
 
 							}
@@ -1866,7 +2853,7 @@
 									"outlettype" : [ "float" ],
 									"patching_rect" : [ 130.0, 120.0, 12.0, 140.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 40.0, 90.0, 12.0, 140.0 ]
+									"presentation_rect" : [ 40.0, 70.0, 12.0, 140.0 ]
 								}
 
 							}
@@ -1888,7 +2875,7 @@
 									"outlettype" : [ "", "", "int" ],
 									"patching_rect" : [ 430.0, 290.0, 100.013672, 21.334961 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 90.0, 140.0, 100.013672, 21.334961 ],
+									"presentation_rect" : [ 70.0, 120.0, 100.013672, 21.334961 ],
 									"text" : "SEE CPU USAGE",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"texton" : "HIDE CPU USAGE",
@@ -1907,7 +2894,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 540.0, 360.0, 19.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 230.0, 140.0, 19.0, 20.0 ],
+									"presentation_rect" : [ 200.0, 120.0, 19.0, 20.0 ],
 									"text" : "%"
 								}
 
@@ -1923,7 +2910,8 @@
 									"outlettype" : [ "int", "bang" ],
 									"patching_rect" : [ 500.0, 360.0, 41.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 190.0, 140.0, 41.0, 20.0 ]
+									"presentation_rect" : [ 170.0, 120.0, 31.0, 20.0 ],
+									"triangle" : 0
 								}
 
 							}
@@ -1958,7 +2946,7 @@
 									"outlettype" : [ "", "", "int" ],
 									"patching_rect" : [ 530.0, 290.0, 106.014648, 21.334961 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 90.0, 170.0, 106.014648, 21.334961 ],
+									"presentation_rect" : [ 70.0, 40.0, 106.014648, 21.334961 ],
 									"text" : "OPEN DSP WINDOW",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"texton" : "HIDE CPU USAGE",
@@ -1978,7 +2966,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 390.0, 200.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 90.0, 40.0, 150.0, 20.0 ],
+									"presentation_rect" : [ 70.0, 20.0, 150.0, 20.0 ],
 									"text" : "Inspect Audio Settings",
 									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 								}
@@ -1996,7 +2984,7 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 390.0, 220.0, 150.0, 20.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 90.0, 90.0, 113.0, 20.0 ],
+									"presentation_rect" : [ 70.0, 70.0, 113.0, 20.0 ],
 									"text" : "Turn on Audio",
 									"textcolor" : [ 1.0, 0.0, 0.0, 1.0 ]
 								}
@@ -2079,7 +3067,7 @@
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
 													"id" : "obj-39",
-													"items" : [ "None", ",", "CoreAudio", "Built-in Output", ",", "CoreAudio", "Soundflower (2ch)", ",", "CoreAudio", "Soundflower (16ch)", ",", "CoreAudio", "Aggregate Device", ",", "NonRealTime", ",", "ad_rewire", ",", "Live" ],
+													"items" : [ "None", ",", "CoreAudio", "PreSonus FIREPOD (0368)", ",", "CoreAudio", "Built-in Output", ",", "CoreAudio", "Soundflower (2ch)", ",", "CoreAudio", "Soundflower (16ch)", ",", "CoreAudio", "Aggregate Device", ",", "NonRealTime", ",", "ad_rewire", ",", "Live" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -2389,7 +3377,7 @@
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
 													"id" : "obj-31",
-													"items" : [ 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048, ",", 4096 ],
+													"items" : [ 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -2406,7 +3394,7 @@
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
 													"id" : "obj-40",
-													"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048, ",", 4096, ",", 8192 ],
+													"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -2824,15 +3812,12 @@
 									}
 ,
 									"patching_rect" : [ 360.0, 320.0, 162.0, 33.0 ],
-									"presentation" : 1,
-									"presentation_linecount" : 2,
-									"presentation_rect" : [ 90.0, 60.0, 162.0, 33.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"fontname" : "Monaco",
 										"default_fontname" : "Monaco",
-										"globalpatchername" : "",
+										"fontname" : "Monaco",
 										"default_fontsize" : 10.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0
 									}
@@ -2854,7 +3839,7 @@
 									"patching_rect" : [ 390.0, 150.0, 102.0, 33.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 2,
-									"presentation_rect" : [ 90.0, 200.0, 99.0, 33.0 ],
+									"presentation_rect" : [ 70.0, 150.0, 99.0, 33.0 ],
 									"text" : "record a time- stamped file:"
 								}
 
@@ -2899,7 +3884,7 @@
 									"outlettype" : [ "int" ],
 									"patching_rect" : [ 20.0, 318.5, 30.0, 30.0 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 180.0, 200.0, 30.0, 30.0 ]
+									"presentation_rect" : [ 160.0, 150.0, 30.0, 30.0 ]
 								}
 
 							}
@@ -2921,7 +3906,7 @@
 									"outlettype" : [ "", "", "int" ],
 									"patching_rect" : [ 357.0, 290.0, 70.008789, 21.334961 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 90.0, 110.0, 70.008789, 21.334961 ],
+									"presentation_rect" : [ 70.0, 90.0, 70.008789, 21.334961 ],
 									"text" : "AUDIO OFF",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"texton" : "AUDIO ON",
@@ -3251,10 +4236,10 @@
 									"patching_rect" : [ 50.0, 320.0, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"fontname" : "Monaco",
 										"default_fontname" : "Monaco",
-										"globalpatchername" : "",
+										"fontname" : "Monaco",
 										"default_fontsize" : 10.0,
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0
 									}
@@ -3474,13 +4459,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 20.0, 490.0, 261.0, 31.0 ],
+					"patching_rect" : [ 10.0, 520.0, 261.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Monaco",
 						"default_fontname" : "Monaco",
-						"globalpatchername" : "",
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -3499,23 +4484,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 110.0, 0.0, 108.0, 31.0 ],
-					"text" : ";\r_float_windows 1"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"fontname" : "Monaco",
-					"fontsize" : 10.0,
-					"id" : "obj-144",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 0.0, 0.0, 108.0, 31.0 ],
-					"text" : ";\r_float_windows 0"
+					"patching_rect" : [ 180.0, 10.0, 113.0, 31.0 ],
+					"text" : ";\r_float_windows $1"
 				}
 
 			}
@@ -3531,7 +4501,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 340.0, 350.0, 90.0, 21.0 ],
+					"patching_rect" : [ 330.0, 380.0, 90.0, 21.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 690.0, 570.0, 125.0, 21.0 ],
 					"text" : "/initialize",
@@ -3548,7 +4518,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 310.0, 430.0, 300.0, 70.0 ],
+					"patching_rect" : [ 300.0, 460.0, 300.0, 70.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 640.0, 630.0, 300.0, 70.0 ]
 				}
@@ -3567,7 +4537,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "int" ],
-					"patching_rect" : [ 0.0, 40.0, 44.804688, 24.001953 ],
+					"patching_rect" : [ 0.0, 50.0, 44.804688, 24.001953 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 10.0, 60.0, 44.804688, 24.001953 ],
 					"text" : "DATA",
@@ -3583,10 +4553,11 @@
 					"fontsize" : 10.0,
 					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-47",
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 290.0, 70.0, 228.0, 20.0 ],
+					"patching_rect" : [ 290.0, 80.0, 130.0, 33.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 310.0, 40.0, 226.0, 20.0 ],
 					"text" : "(X/Y parameter preset combinations)"
@@ -3603,9 +4574,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 716.0, 44.0, 306.0, 510.0 ],
+						"rect" : [ 985.0, 297.0, 306.0, 510.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 716.0, 44.0, 306.0, 510.0 ],
+						"defrect" : [ 985.0, 297.0, 306.0, 510.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -3620,7 +4591,6 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"fontname" : "Monaco",
@@ -3776,7 +4746,7 @@
 									"patching_rect" : [ 0.0, 530.0, 297.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 490.0, 293.0, 18.0 ],
-									"text" : "/display.tutorial/A/selected/unit/3 20."
+									"text" : "/display.tutorial/A/selected/unit/3 55."
 								}
 
 							}
@@ -3934,13 +4904,13 @@
  ]
 					}
 ,
-					"patching_rect" : [ 50.0, 40.0, 227.0, 23.0 ],
+					"patching_rect" : [ 50.0, 50.0, 227.0, 23.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"fontname" : "Monaco",
 						"default_fontname" : "Monaco",
-						"globalpatchername" : "",
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0
 					}
@@ -3961,10 +4931,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 560.0, 70.0, 137.621094, 30.0 ],
+					"patching_rect" : [ 480.0, 60.0, 137.621094, 30.0 ],
 					"persistence" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 560.0, 70.0, 137.621094, 30.0 ],
+					"presentation_rect" : [ 480.0, 60.0, 137.621094, 30.0 ],
 					"scope" : 1,
 					"text" : "44100."
 				}
@@ -3982,9 +4952,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 560.0, 100.0, 128.019531, 19.0 ],
+					"patching_rect" : [ 480.0, 90.0, 128.019531, 19.0 ],
 					"persistence" : 0,
-					"presentation_rect" : [ 560.0, 100.0, 128.019531, 19.0 ],
+					"presentation_rect" : [ 480.0, 90.0, 128.019531, 19.0 ],
 					"scope" : 1,
 					"text" : "($sr / 1000.)"
 				}
@@ -3992,6 +4962,15 @@
 			}
  ],
 		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-146", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-10", 0 ]
+				}
+
+			}
+, 			{
 				"patchline" : 				{
 					"destination" : [ "obj-2", 0 ],
 					"hidden" : 0,
@@ -4004,7 +4983,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 329.5, 403.5, 319.5, 403.5 ],
+					"midpoints" : [ 319.5, 433.5, 309.5, 433.5 ],
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -4013,7 +4992,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-14", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 329.5, 234.5, 349.5, 234.5 ],
+					"midpoints" : [ 319.5, 264.5, 359.5, 264.5 ],
 					"source" : [ "obj-36", 0 ]
 				}
 
@@ -4049,7 +5028,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 439.5, 375.5, 319.5, 375.5 ],
+					"midpoints" : [ 429.5, 405.5, 309.5, 405.5 ],
 					"source" : [ "obj-45", 0 ]
 				}
 
@@ -4058,7 +5037,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 559.5, 375.5, 319.5, 375.5 ],
+					"midpoints" : [ 549.5, 405.5, 309.5, 405.5 ],
 					"source" : [ "obj-46", 0 ]
 				}
 
@@ -4067,7 +5046,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 389.5, 424.5, 319.5, 424.5 ],
+					"midpoints" : [ 379.5, 454.5, 309.5, 454.5 ],
 					"source" : [ "obj-49", 0 ]
 				}
 
@@ -4112,7 +5091,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-72", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 349.5, 375.0, 319.5, 375.0 ],
+					"midpoints" : [ 339.5, 405.0, 309.5, 405.0 ],
 					"source" : [ "obj-81", 0 ]
 				}
 
