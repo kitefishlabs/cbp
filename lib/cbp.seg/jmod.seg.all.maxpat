@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 457.0, 49.0, 922.0, 761.0 ],
+		"rect" : [ 473.0, 44.0, 922.0, 761.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 457.0, 49.0, 922.0, 761.0 ],
+		"defrect" : [ 473.0, 44.0, 922.0, 761.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -514,7 +514,7 @@
 					"fontname" : "Helvetica Neue",
 					"fontsize" : 10.0,
 					"id" : "obj-123",
-					"items" : [ "none", ",", "chop", ",", "split", ",", "import sdif", ",", "import ascii", ",", "yin note segmentation", ",", "thresh segmentation", ",", "none", ",", "chop", ",", "split", ",", "import sdif", ",", "yin note segmentation" ],
+					"items" : [  ],
 					"maxclass" : "umenu",
 					"numinlets" : 1,
 					"numoutlets" : 3,
@@ -654,7 +654,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 570.0, 465.0, 119.0, 17.0 ],
-					"text" : "cbp.send /tms/activate/ #1"
+					"text" : "cbp.send /cbp/activate/ #0"
 				}
 
 			}
@@ -727,7 +727,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 415.0, 255.0, 128.0, 17.0 ],
-					"text" : "cbp.receive /tms/activate/ #1"
+					"text" : "cbp.receive /cbp/activate/ #0"
 				}
 
 			}
@@ -778,7 +778,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 13,
 					"outlettype" : [ "int", "", "clear", "int", "float", "float", "int", "nothing.sdif", "float", "float", "int", "int", "int" ],
-					"patching_rect" : [ 530.0, 300.0, 240.0, 17.0 ],
+					"patching_rect" : [ 530.0, 300.0, 440.0, 17.0 ],
 					"text" : "t 0 l clear 100 0. 9999. 2 nothing.sdif 0.68 0.1 -40 30 50"
 				}
 
@@ -813,7 +813,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 325.0, 345.0, 155.0, 17.0 ],
-					"text" : "cbp.receive /tms/active_params/ #1"
+					"text" : "cbp.receive /cbp/active_params/ #0"
 				}
 
 			}
@@ -872,7 +872,7 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
 					"patching_rect" : [ 550.0, 415.0, 330.0, 39.0 ],
-					"text" : "jcom.parameter mode @type integer @repetitions/allow 1 @description \"Integer corresponding to the segmentation mode. 0=none, 1=chop, 2=split, 3=import sdif, 4=yin segmentation. Arg: integer, segmentation parameters.\"",
+					"text" : "jcom.message mode @type integer @repetitions/allow 1 @description \"Integer corresponding to the segmentation mode. 0=none, 1=chop, 2=split, 3=import sdif, 4=yin segmentation. Arg: integer, segmentation parameters.\"",
 					"varname" : "mode"
 				}
 
@@ -1101,7 +1101,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 135.0, 770.0, 71.0, 17.0 ],
-					"text" : "jalg.seg.yin #1"
+					"text" : "jalg.seg.yin #0"
 				}
 
 			}
@@ -1430,10 +1430,10 @@
 					"patching_rect" : [ 310.0, 680.0, 79.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -1694,10 +1694,10 @@
 					"patching_rect" : [ 310.0, 660.0, 68.0, 17.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"default_fontname" : "Arial",
 						"fontname" : "Arial",
-						"default_fontsize" : 12.0,
+						"default_fontname" : "Arial",
 						"globalpatchername" : "",
+						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0
 					}
@@ -1773,7 +1773,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 5.0, 595.0, 76.0, 17.0 ],
-					"text" : "jalg.seg.sdif2 #1"
+					"text" : "jalg.seg.sdif2 #0"
 				}
 
 			}
@@ -1901,7 +1901,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 730.0, 495.0, 76.0, 17.0 ],
-					"text" : "jalg.seg.chop #1"
+					"text" : "jalg.seg.chop #0"
 				}
 
 			}
@@ -1915,7 +1915,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 40.0, 430.0, 73.0, 17.0 ],
-					"text" : "jalg.seg.split #1"
+					"text" : "jalg.seg.split #0"
 				}
 
 			}
@@ -2010,7 +2010,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 25.0, 345.0, 259.0, 17.0 ],
-					"text" : "/view/size 300 210"
+					"text" : "/preset/write"
 				}
 
 			}
@@ -2179,7 +2179,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-101", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 576.333313, 385.0, 444.5, 385.0 ],
+					"midpoints" : [ 609.666687, 385.0, 444.5, 385.0 ],
 					"source" : [ "obj-115", 2 ]
 				}
 
@@ -2197,7 +2197,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-116", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 557.916687, 320.0, 559.5, 320.0 ],
+					"midpoints" : [ 574.583313, 320.0, 559.5, 320.0 ],
 					"source" : [ "obj-115", 1 ]
 				}
 
@@ -2206,7 +2206,7 @@
 				"patchline" : 				{
 					"destination" : [ "obj-123", 0 ],
 					"hidden" : 0,
-					"midpoints" : [ 576.333313, 385.5, 559.5, 385.5 ],
+					"midpoints" : [ 609.666687, 385.5, 559.5, 385.5 ],
 					"source" : [ "obj-115", 2 ]
 				}
 

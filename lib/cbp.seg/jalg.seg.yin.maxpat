@@ -110,7 +110,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 0,
 					"patching_rect" : [ 30.0, 200.0, 143.0, 17.0 ],
-					"text" : "cbp.send /tms/active_params/ #1"
+					"text" : "cbp.send /cbp/active_params/ #1"
 				}
 
 			}
@@ -180,7 +180,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 6.0, 58.0, 125.0, 17.0 ],
-					"text" : "cbp.receive /tms/activate/ #1"
+					"text" : "cbp.receive /cbp/activate/ #1"
 				}
 
 			}
