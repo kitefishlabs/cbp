@@ -43,16 +43,16 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 710.0, 9.0, 71.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"preffilename" : "Max 5 Preferences",
-						"allwindowsactive" : 1,
-						"usesearchpath" : 0,
 						"cantclosetoplevelpatchers" : 1,
-						"midisupport" : 1,
+						"allwindowsactive" : 1,
 						"searchformissingfiles" : 0,
-						"overdrive" : 1,
 						"noloadbangdefeating" : 1,
+						"audiosupport" : 1,
+						"preffilename" : "Max 5 Preferences",
 						"statusvisible" : 1,
-						"audiosupport" : 1
+						"usesearchpath" : 0,
+						"overdrive" : 1,
+						"midisupport" : 1
 					}
 ,
 					"text" : "standalone"
@@ -1456,7 +1456,7 @@
 													"patching_rect" : [ 0.0, 530.0, 297.0, 18.0 ],
 													"presentation" : 1,
 													"presentation_rect" : [ 0.0, 280.0, 293.0, 18.0 ],
-													"text" : "/display.tutorial/A/selected/unit/3 23."
+													"text" : "/display.tutorial/A/selected/unit/3 53."
 												}
 
 											}
@@ -1806,7 +1806,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 390.0, 20.0, 207.0, 85.0 ],
-									"text" : "/gran1.tutorial/initialize, /sfrz1.tutorial/initialize, /gran1.tutorial/preset/recall 2, /sfrz1.tutorial/preset/recall 1, /sfrz1.tutorial/ramp/up 50, /sfrz1.tutorial/ramp/down 50"
+									"text" : "/gran1.tutorial/initialize, /sfrz1.tutorial/initialize, /gran1.tutorial/preset/recall 1, /sfrz1.tutorial/preset/recall 1, /sfrz1.tutorial/ramp/up 50, /sfrz1.tutorial/ramp/down 50"
 								}
 
 							}
@@ -2111,7 +2111,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 7.0, 218.0, 249.0, 153.0 ],
+									"patching_rect" : [ 7.0, 218.0, 255.0, 153.0 ],
 									"presentation" : 1,
 									"presentation_linecount" : 6,
 									"presentation_rect" : [ 10.0, 220.0, 492.0, 87.0 ],
@@ -2269,8 +2269,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 380.0, 330.0, 126.020508, 18.0 ],
-									"presentation_rect" : [ 380.0, 330.0, 126.020508, 18.0 ],
+									"patching_rect" : [ 380.0, 330.0, 126.019531, 18.0 ],
+									"presentation_rect" : [ 380.0, 330.0, 126.019531, 18.0 ],
 									"text" : [ "_/init.tutorial/repop" ]
 								}
 
@@ -2286,7 +2286,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 20.0, 280.0, 411.0, 33.0 ],
-									"presentation_rect" : [ 19.0, 280.0, 0.0, 0.0 ],
 									"text" : "5. Repopulate the corpus; this must always be done after importing new units, both from xml files or through the import module."
 								}
 
@@ -2302,7 +2301,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 20.0, 320.0, 336.0, 60.0 ],
-									"presentation_rect" : [ 20.0, 291.0, 0.0, 0.0 ],
 									"text" : "! XML Corpus Map modules only read properly formatted XML files. To see the nature of this format, look at one that you have saved or look at the website for in-depth discussion."
 								}
 
@@ -2318,7 +2316,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 20.0, 390.0, 324.0, 60.0 ],
-									"presentation_rect" : [ 24.0, 289.0, 0.0, 0.0 ],
 									"text" : "* This can be a folder anywhere on your hard drive that holds XML corpus map data files. For example: '/MyHardDrive:Users/me/cbp/data/' or '/MyHardDrive:Users/me/cbp/myproject/data/'"
 								}
 
@@ -2334,7 +2331,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 200.0, 70.0, 25.0, 31.0 ],
-									"presentation_rect" : [ 201.0, 65.0, 0.0, 0.0 ],
 									"text" : "3"
 								}
 
@@ -3142,16 +3138,16 @@
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
 									"id" : "obj-28",
-									"linecount" : 4,
+									"linecount" : 5,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 580.0, 209.0, 58.0 ],
+									"patching_rect" : [ 10.0, 580.0, 209.0, 71.0 ],
 									"presentation" : 1,
-									"presentation_linecount" : 4,
-									"presentation_rect" : [ 10.0, 590.0, 216.0, 58.0 ],
-									"text" : "/chain1.tutorial/1/transp 1., /chain1.tutorial/1/ramp/up 20, /chain1.tutorial/1/ramp/down 30, /chain1.tutorial/1/ramp/xfade 50"
+									"presentation_linecount" : 5,
+									"presentation_rect" : [ 10.0, 590.0, 216.0, 71.0 ],
+									"text" : "/chain1.tutorial/audio/gain 100, /chain1.tutorial/1/transp 1., /chain1.tutorial/1/ramp/up 20, /chain1.tutorial/1/ramp/down 30, /chain1.tutorial/1/ramp/xfade 50"
 								}
 
 							}
@@ -5251,9 +5247,9 @@
 					"outlettype" : [ "int" ],
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 858.0, 639.0, 495.0, 204.0 ],
+						"rect" : [ 971.0, 573.0, 495.0, 204.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 858.0, 639.0, 495.0, 204.0 ],
+						"defrect" : [ 971.0, 573.0, 495.0, 204.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -8305,7 +8301,7 @@
 									"patching_rect" : [ 0.0, 530.0, 297.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 490.0, 293.0, 18.0 ],
-									"text" : "/display.tutorial/A/selected/unit/3 23."
+									"text" : "/display.tutorial/A/selected/unit/3 53."
 								}
 
 							}
