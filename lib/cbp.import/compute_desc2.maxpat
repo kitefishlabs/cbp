@@ -21,6 +21,24 @@
 		"boxes" : [ 			{
 				"box" : 				{
 					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 140.0, 350.0, 100.0, 34.0 ],
+					"saved_object_attributes" : 					{
+						"ftm_scope" : 1
+					}
+,
+					"text" : "ftm.print PRE_B2F"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial",
 					"fontsize" : 9.0,
 					"id" : "obj-10",
 					"maxclass" : "newobj",
@@ -29,7 +47,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 0.0, 50.0, 65.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"ftm_scope" : 1
+						"ftm_scope" : 0
 					}
 ,
 					"text" : "ftm.copy fmat"
@@ -145,13 +163,13 @@
 ,
 					"patching_rect" : [ 220.0, 290.0, 76.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p catart.freq2bin"
@@ -234,8 +252,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 21.0, 76.0, 39.950684, 17.0 ],
-									"presentation_rect" : [ 21.0, 76.0, 39.950684, 17.0 ],
+									"patching_rect" : [ 21.0, 76.0, 38.928223, 17.0 ],
+									"presentation_rect" : [ 21.0, 76.0, 38.928223, 17.0 ],
 									"text" : [ "_($1 zc)" ]
 								}
 
@@ -264,13 +282,13 @@
 ,
 					"patching_rect" : [ 170.0, 170.0, 50.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p zx"
@@ -456,17 +474,6 @@
 , 			{
 				"box" : 				{
 					"comment" : "",
-					"id" : "obj-21",
-					"maxclass" : "outlet",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 120.0, 460.0, 15.0, 15.0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"comment" : "",
 					"id" : "obj-22",
 					"maxclass" : "outlet",
 					"numinlets" : 1,
@@ -626,7 +633,7 @@
 						"ftm_scope" : 0
 					}
 ,
-					"text" : "gbr.wind= hamming"
+					"text" : "gbr.wind= hanning"
 				}
 
 			}
@@ -882,13 +889,13 @@
 ,
 					"patching_rect" : [ 120.0, 180.0, 34.0, 27.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p HFC"
@@ -988,15 +995,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 60.0, 340.0, 55.0, 17.0 ],
+					"patching_rect" : [ 60.0, 350.0, 55.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p bin2freq"
@@ -1098,13 +1105,13 @@
 ,
 					"patching_rect" : [ 140.0, 290.0, 76.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p catart.freq2bin"
@@ -1531,13 +1538,13 @@
 ,
 					"patching_rect" : [ 0.0, 430.0, 125.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p flatness"
@@ -1786,7 +1793,7 @@
 									"maxclass" : "fpic",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 312.0, 291.0, 246.0, 71.0 ],
+									"patching_rect" : [ 310.0, 290.0, 246.0, 71.0 ],
 									"pic" : "centroid.png"
 								}
 
@@ -2168,13 +2175,13 @@
 ,
 					"patching_rect" : [ 60.0, 320.0, 175.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p centroid"
@@ -2721,13 +2728,13 @@
 ,
 					"patching_rect" : [ 260.0, 170.0, 37.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p AC1"
@@ -2869,13 +2876,13 @@
 ,
 					"patching_rect" : [ 310.0, 140.0, 50.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
 						"fontface" : 0,
 						"fontsize" : 12.0,
 						"default_fontface" : 0,
 						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"fontname" : "Arial",
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p energie"
@@ -3120,15 +3127,6 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-46", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-21", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-48", 0 ]
 				}
 
 			}
