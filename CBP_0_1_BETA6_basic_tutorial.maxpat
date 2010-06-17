@@ -63,15 +63,15 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 740.0, 9.0, 71.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"noloadbangdefeating" : 1,
-						"audiosupport" : 1,
-						"statusvisible" : 1,
 						"midisupport" : 1,
 						"cantclosetoplevelpatchers" : 1,
 						"usesearchpath" : 0,
-						"allwindowsactive" : 1,
 						"preffilename" : "Max 5 Preferences",
+						"allwindowsactive" : 1,
+						"noloadbangdefeating" : 1,
 						"searchformissingfiles" : 0,
+						"statusvisible" : 1,
+						"audiosupport" : 1,
 						"overdrive" : 1
 					}
 ,
@@ -1061,13 +1061,13 @@
 ,
 													"patching_rect" : [ 200.0, 100.0, 98.0, 33.0 ],
 													"saved_object_attributes" : 													{
+														"globalpatchername" : "",
 														"fontface" : 0,
 														"fontsize" : 10.0,
 														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"default_fontname" : "Monaco",
-														"fontname" : "Monaco",
-														"default_fontsize" : 10.0
+														"default_fontsize" : 10.0,
+														"fontname" : "Monaco"
 													}
 ,
 													"text" : "p viewer_presets"
@@ -1134,13 +1134,13 @@
 ,
 									"patching_rect" : [ 60.0, 70.0, 139.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontname" : "Monaco",
-										"default_fontsize" : 10.0
+										"default_fontsize" : 10.0,
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p SELECT_DRAW_DISPLAY"
@@ -1612,13 +1612,13 @@
 ,
 									"patching_rect" : [ 60.0, 40.0, 227.0, 23.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontname" : "Monaco",
-										"default_fontsize" : 10.0
+										"default_fontsize" : 10.0,
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p DATA_INIT_IMPORT_SEGMENT_ONE"
@@ -1730,13 +1730,13 @@
 ,
 					"patching_rect" : [ 700.0, 350.0, 270.0, 39.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p multiple_corpora"
@@ -2062,13 +2062,13 @@
 ,
 					"patching_rect" : [ 700.0, 290.0, 302.0, 39.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p more_synth_modules"
@@ -2198,13 +2198,13 @@
 ,
 					"patching_rect" : [ 700.0, 250.0, 205.0, 31.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p passing units..."
@@ -2256,6 +2256,7 @@
 						"enablehscroll" : 1,
 						"enablevscroll" : 1,
 						"devicewidth" : 0.0,
+						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"#init" : "",
@@ -2578,13 +2579,13 @@
 ,
 					"patching_rect" : [ 700.0, 200.0, 284.0, 39.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p export_and_import"
@@ -2620,9 +2621,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 745.0, 44.0, 697.0, 674.0 ],
+						"rect" : [ 743.0, 44.0, 697.0, 674.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 745.0, 44.0, 697.0, 674.0 ],
+						"defrect" : [ 743.0, 44.0, 697.0, 674.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -3304,13 +3305,13 @@
 ,
 					"patching_rect" : [ 700.0, 60.0, 291.0, 31.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p presets_and_instructions"
@@ -4116,13 +4117,13 @@
 ,
 									"patching_rect" : [ 120.0, 80.0, 98.0, 33.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontname" : "Monaco",
-										"default_fontsize" : 10.0
+										"default_fontsize" : 10.0,
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p viewer_presets"
@@ -4207,13 +4208,13 @@
 ,
 					"patching_rect" : [ 0.0, 280.0, 139.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p SELECT_DRAW_DISPLAY"
@@ -5198,13 +5199,13 @@
 ,
 					"patching_rect" : [ 700.0, 140.0, 119.0, 31.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p more..."
@@ -6172,7 +6173,7 @@
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
 													"id" : "obj-39",
-													"items" : [ "None", ",", "CoreAudio", "PreSonus FIREPOD (0368)", ",", "CoreAudio", "Built-in Output", ",", "CoreAudio", "Soundflower (2ch)", ",", "CoreAudio", "Soundflower (16ch)", ",", "CoreAudio", "Aggregate Device", ",", "NonRealTime", ",", "ad_rewire", ",", "Live" ],
+													"items" : [ "None", ",", "CoreAudio", "Built-in Output", ",", "CoreAudio", "Soundflower (2ch)", ",", "CoreAudio", "Soundflower (16ch)", ",", "CoreAudio", "Aggregate Device", ",", "NonRealTime", ",", "ad_rewire", ",", "Live" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -6482,7 +6483,7 @@
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
 													"id" : "obj-31",
-													"items" : [ 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
+													"items" : [ 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048, ",", 4096 ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -6499,7 +6500,7 @@
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
 													"id" : "obj-40",
-													"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048 ],
+													"items" : [ 1, ",", 2, ",", 4, ",", 8, ",", 16, ",", 32, ",", 64, ",", 128, ",", 256, ",", 512, ",", 1024, ",", 2048, ",", 4096, ",", 8192 ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -6918,13 +6919,13 @@
 ,
 									"patching_rect" : [ 1150.0, 320.0, 162.0, 33.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontname" : "Monaco",
-										"default_fontsize" : 10.0
+										"default_fontsize" : 10.0,
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p audio settings (double-click to inspect)"
@@ -7338,13 +7339,13 @@
 ,
 									"patching_rect" : [ 50.0, 320.0, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
+										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontname" : "Monaco",
-										"default_fontsize" : 10.0
+										"default_fontsize" : 10.0,
+										"fontname" : "Monaco"
 									}
 ,
 									"text" : "p date_stamp"
@@ -8014,13 +8015,13 @@
 ,
 					"patching_rect" : [ 700.0, 100.0, 261.0, 31.0 ],
 					"saved_object_attributes" : 					{
+						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco"
 					}
 ,
 					"text" : "p audio_routing_panning"
