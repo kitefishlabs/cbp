@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='iso-8859-1' standalone='yes' ?>
+
+<jamoma version='0.4'
+		xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+		xsi:schemaLocation='http://jamoma.org/ file:jamoma.xsd'
+>
+  <preset number='1' name='default'>
+    <item name='A/color' type='array' priority='0'>250 58 0 </item>
+    <item name='A/size' type='integer' priority='0'>280</item>
+    <item name='B/color' type='array' priority='0'>7 240 0 </item>
+    <item name='B/size' type='integer' priority='0'>280</item>
+    <item name='C/color' type='array' priority='0'>63 122 236 </item>
+    <item name='C/size' type='integer' priority='0'>280</item>
+    <item name='key' type='boolean' priority='0'>1</item>
+    <item name='local' type='boolean' priority='0'>0</item>
+    <item name='tab' type='integer' priority='0'>0</item>
+    <item name='view/color/border' type='array' priority='0'>0</item>
+    <item name='view/color/contentBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
+    <item name='view/color/toolbarText' type='array' priority='0'>0</item>
+    <item name='view/freeze' type='boolean' priority='0'>0</item>
+    <item name='view/size' type='array' priority='0'>300 70 </item>
+    <item name='zoom' type='array' priority='0'>0</item>
+  </preset>
+</jamoma>
