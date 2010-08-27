@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 2.0, 119.0, 993.0, 487.0 ],
+		"rect" : [ 0.0, 44.0, 1440.0, 852.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 2.0, 119.0, 993.0, 487.0 ],
+		"defrect" : [ 0.0, 44.0, 1440.0, 852.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 1,
 		"default_fontsize" : 10.0,
@@ -19,6 +19,42 @@
 		"enablevscroll" : 1,
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 9.0,
+					"id" : "obj-50",
+					"linecount" : 2,
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "", "", "" ],
+					"patching_rect" : [ 445.0, 315.0, 596.0, 27.0 ],
+					"text" : "jcom.message get/unit/bark @type array @repetitions/allow 1 @description \"Get a cell (unit/descrid). Argument: unit ID number row and descriptor column pair.\""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"#init" : "",
+					"#loadbang" : 0,
+					"#triggerall" : 0,
+					"#untuple" : 0,
+					"fontname" : "Geneva",
+					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
+					"ftm_scope" : 1,
+					"id" : "obj-52",
+					"maxclass" : "ftm.mess",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 285.0, 315.0, 163.705078, 17.0 ],
+					"presentation_rect" : [ 285.0, 315.0, 163.705078, 17.0 ],
+					"text" : [ "_($my[corpus][barkdata] rowref $1)" ]
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
@@ -125,7 +161,8 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
-					"ftm_scope" : 1,
+					"ftm_objref_conv" : 0,
+					"ftm_scope" : 0,
 					"id" : "obj-17",
 					"maxclass" : "ftm.mess",
 					"numinlets" : 2,
@@ -189,14 +226,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-96",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 160.0, 167.30127, 17.0 ],
-									"presentation_rect" : [ 10.0, 160.0, 167.30127, 17.0 ],
+									"patching_rect" : [ 10.0, 160.0, 167.538559, 17.0 ],
+									"presentation_rect" : [ 10.0, 160.0, 167.538559, 17.0 ],
 									"text" : [ "_$my[corpus][lastsoundfile][markers]" ]
 								}
 
@@ -299,6 +337,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-54",
 									"maxclass" : "ftm.mess",
@@ -319,14 +358,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-56",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 45.0, 71.5, 124.674316, 17.0 ],
-									"presentation_rect" : [ 45.0, 71.5, 124.674316, 17.0 ],
+									"patching_rect" : [ 45.0, 71.5, 124.911613, 17.0 ],
+									"presentation_rect" : [ 45.0, 71.5, 124.911613, 17.0 ],
 									"text" : [ "_$my[corpus][lastsoundfile]" ]
 								}
 
@@ -339,6 +379,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-90",
 									"maxclass" : "ftm.mess",
@@ -359,14 +400,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-94",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 15.0, 41.5, 158.674805, 17.0 ],
-									"presentation_rect" : [ 15.0, 41.5, 158.674805, 17.0 ],
+									"patching_rect" : [ 15.0, 41.5, 158.912094, 17.0 ],
+									"presentation_rect" : [ 15.0, 41.5, 158.912094, 17.0 ],
 									"text" : [ "_$my[corpus][lastsoundfile][sound]" ]
 								}
 
@@ -379,14 +421,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-95",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 5.0, 11.5, 168.650391, 17.0 ],
-									"presentation_rect" : [ 5.0, 11.5, 168.650391, 17.0 ],
+									"patching_rect" : [ 5.0, 11.5, 168.88768, 17.0 ],
+									"presentation_rect" : [ 5.0, 11.5, 168.88768, 17.0 ],
 									"text" : [ "_$my[corpus][lastsoundfile][duration]" ]
 								}
 
@@ -516,13 +559,13 @@
 ,
 					"patching_rect" : [ 445.0, 190.0, 122.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 10.0,
+						"fontname" : "Monaco",
+						"default_fontface" : 0,
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
 						"fontsize" : 10.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Monaco",
-						"fontname" : "Monaco"
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p /get/last/..."
@@ -533,7 +576,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-105",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -547,7 +589,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-104",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -562,7 +603,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-103",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -576,7 +616,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 10.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-51",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -598,7 +637,8 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 440.0, 520.0, 71.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"ftm_scope" : 0
+						"ftm_scope" : 0,
+						"ftm_objref_conv" : 0
 					}
 ,
 					"text" : "ftm.copy fmat"
@@ -628,6 +668,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-102",
 					"maxclass" : "ftm.mess",
@@ -662,6 +703,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-98",
 					"maxclass" : "ftm.mess",
@@ -682,6 +724,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-97",
 					"maxclass" : "ftm.mess",
@@ -738,7 +781,7 @@
 					"fontsize" : 9.0,
 					"id" : "obj-1",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
+					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 10.0, 245.0, 197.0, 17.0 ],
@@ -756,7 +799,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 10.0, 310.0, 122.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"ftm_scope" : 0
+						"ftm_scope" : 0,
+						"ftm_objref_conv" : 0
 					}
 ,
 					"text" : "ftm.print LINK-CORPUS!:"
@@ -771,6 +815,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-3",
 					"maxclass" : "ftm.mess",
@@ -1001,7 +1046,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 445.0, 355.0, 460.0, 38.0 ],
+					"patching_rect" : [ 445.0, 385.0, 460.0, 38.0 ],
 					"text" : "jcom.message get/unit/descriptor/cooked @type array @repetitions/allow 1 @description \"Get values of specific queried descriptors. Arguments: a UnitID and a list of descriptor numbers or symbols. If you know all the decriptors' integer IDs, use the 'raw' version.\""
 				}
 
@@ -1016,7 +1061,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"patching_rect" : [ 445.0, 325.0, 449.0, 27.0 ],
+					"patching_rect" : [ 445.0, 355.0, 449.0, 27.0 ],
 					"text" : "jcom.message get/unit/descriptor @type array @repetitions/allow 1 @description \"Get values of specific queried descriptors. Arguments: a UnitID and a list of descriptor numbers.\""
 				}
 
@@ -1145,6 +1190,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-42",
 					"maxclass" : "ftm.mess",
@@ -1161,7 +1207,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-44",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -1180,6 +1225,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-70",
 					"maxclass" : "ftm.mess",
@@ -1211,6 +1257,7 @@
 					"description" : "dict",
 					"fontname" : "Geneva",
 					"fontsize" : 12.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-80",
 					"maxclass" : "ftm.object",
@@ -1291,6 +1338,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-1",
 									"maxclass" : "ftm.mess",
@@ -1325,6 +1373,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-3",
 									"maxclass" : "ftm.mess",
@@ -1369,7 +1418,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1387,14 +1435,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-7",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 76.0, 134.0, 121.505859, 17.0 ],
-									"presentation_rect" : [ 76.0, 134.0, 121.505859, 17.0 ],
+									"patching_rect" : [ 76.0, 134.0, 121.505844, 17.0 ],
+									"presentation_rect" : [ 76.0, 134.0, 121.505844, 17.0 ],
 									"text" : [ "_$my[corpus][descrid][$1]" ]
 								}
 
@@ -1403,7 +1452,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1421,6 +1469,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-9",
 									"maxclass" : "ftm.mess",
@@ -1437,7 +1486,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1474,7 +1522,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1578,15 +1625,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 385.0, 325.0, 55.0, 17.0 ],
+					"patching_rect" : [ 385.0, 355.0, 55.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p get-raw"
@@ -1643,6 +1690,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-2",
 									"maxclass" : "ftm.mess",
@@ -1677,6 +1725,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-4",
 									"maxclass" : "ftm.mess",
@@ -1725,14 +1774,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-7",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 154.0, 285.0, 177.04834, 17.0 ],
-									"presentation_rect" : [ 154.0, 285.0, 177.04834, 17.0 ],
+									"patching_rect" : [ 154.0, 285.0, 177.048325, 17.0 ],
+									"presentation_rect" : [ 154.0, 285.0, 177.048325, 17.0 ],
 									"text" : [ "_$my[corpus][descriptors][$2 6][$1 0]" ]
 								}
 
@@ -1755,7 +1805,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1773,14 +1822,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-10",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 72.0, 129.0, 121.505859, 17.0 ],
-									"presentation_rect" : [ 72.0, 129.0, 121.505859, 17.0 ],
+									"patching_rect" : [ 72.0, 129.0, 121.505844, 17.0 ],
+									"presentation_rect" : [ 72.0, 129.0, 121.505844, 17.0 ],
 									"text" : [ "_$my[corpus][descrid][$1]" ]
 								}
 
@@ -1789,7 +1839,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1803,7 +1852,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1821,14 +1869,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-13",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 72.0, 192.0, 286.388672, 17.0 ],
-									"presentation_rect" : [ 72.0, 192.0, 286.388672, 17.0 ],
+									"patching_rect" : [ 72.0, 192.0, 286.388733, 17.0 ],
+									"presentation_rect" : [ 72.0, 192.0, 286.388733, 17.0 ],
 									"text" : [ "_$my[corpus][descriptors][$1 2] $my[corpus][unitdata][$2 $1]" ]
 								}
 
@@ -1837,7 +1886,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -1874,7 +1922,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2032,15 +2079,15 @@
  ]
 					}
 ,
-					"patching_rect" : [ 375.0, 355.0, 67.0, 17.0 ],
+					"patching_rect" : [ 375.0, 385.0, 67.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p get-cooked"
@@ -2056,6 +2103,7 @@
 					"bgcolor" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-57",
 					"linecount" : 2,
@@ -2079,6 +2127,7 @@
 					"bgcolor" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-58",
 					"maxclass" : "ftm.mess",
@@ -2100,6 +2149,7 @@
 					"bgcolor" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-59",
 					"maxclass" : "ftm.mess",
@@ -2145,7 +2195,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-1",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2159,7 +2208,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2177,6 +2225,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-3",
 									"maxclass" : "ftm.mess",
@@ -2208,7 +2257,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2226,6 +2274,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-6",
 									"maxclass" : "ftm.mess",
@@ -2242,7 +2291,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-7",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2270,7 +2318,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2295,7 +2342,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2309,7 +2355,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-12",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2323,7 +2368,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-13",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2341,14 +2385,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-14",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 187.0, 116.0, 148.009277, 17.0 ],
-									"presentation_rect" : [ 187.0, 116.0, 148.009277, 17.0 ],
+									"patching_rect" : [ 187.0, 116.0, 148.009262, 17.0 ],
+									"presentation_rect" : [ 187.0, 116.0, 148.009262, 17.0 ],
 									"text" : [ "_$my[corpus][descriptors][$1 7]" ]
 								}
 
@@ -2361,14 +2406,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-15",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 138.0, 92.0, 148.009277, 17.0 ],
-									"presentation_rect" : [ 138.0, 92.0, 148.009277, 17.0 ],
+									"patching_rect" : [ 138.0, 92.0, 148.009262, 17.0 ],
+									"presentation_rect" : [ 138.0, 92.0, 148.009262, 17.0 ],
 									"text" : [ "_$my[corpus][descriptors][$1 6]" ]
 								}
 
@@ -2381,14 +2427,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-16",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 138.0, 69.0, 121.505859, 17.0 ],
-									"presentation_rect" : [ 138.0, 69.0, 121.505859, 17.0 ],
+									"patching_rect" : [ 138.0, 69.0, 121.505844, 17.0 ],
+									"presentation_rect" : [ 138.0, 69.0, 121.505844, 17.0 ],
 									"text" : [ "_$my[corpus][descrid][$1]" ]
 								}
 
@@ -2423,7 +2470,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -2441,6 +2487,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-20",
 									"linecount" : 2,
@@ -2464,14 +2511,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-21",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 212.0, 266.0, 38.036133, 17.0 ],
-									"presentation_rect" : [ 212.0, 266.0, 38.036133, 17.0 ],
+									"patching_rect" : [ 212.0, 266.0, 38.036137, 17.0 ],
+									"presentation_rect" : [ 212.0, 266.0, 38.036137, 17.0 ],
 									"text" : [ "_$2[$1]" ]
 								}
 
@@ -2484,6 +2532,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-22",
 									"maxclass" : "ftm.mess",
@@ -2683,13 +2732,13 @@
 ,
 					"patching_rect" : [ 1000.0, 480.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p new-symbol"
@@ -2735,7 +2784,8 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 6.0, 65.0, 108.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.iter @mode row"
@@ -2750,14 +2800,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-2",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 6.0, 46.0, 118.970215, 17.0 ],
-									"presentation_rect" : [ 6.0, 46.0, 118.970215, 17.0 ],
+									"patching_rect" : [ 6.0, 46.0, 118.9702, 17.0 ],
+									"presentation_rect" : [ 6.0, 46.0, 118.9702, 17.0 ],
 									"text" : [ "_$my[corpus][descriptors]" ]
 								}
 
@@ -2818,13 +2869,13 @@
 ,
 					"patching_rect" : [ 925.0, 110.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p get-descr"
@@ -2867,6 +2918,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-1",
 									"maxclass" : "ftm.mess",
@@ -2905,7 +2957,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 596.0, 172.0, 44.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.list"
@@ -2920,6 +2973,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-4",
 									"maxclass" : "ftm.mess",
@@ -2944,7 +2998,8 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 50.0, 73.0, 108.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.iter @mode row"
@@ -2959,14 +3014,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-6",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 50.0, 118.970215, 17.0 ],
-									"presentation_rect" : [ 50.0, 50.0, 118.970215, 17.0 ],
+									"patching_rect" : [ 50.0, 50.0, 118.9702, 17.0 ],
+									"presentation_rect" : [ 50.0, 50.0, 118.9702, 17.0 ],
 									"text" : [ "_$my[corpus][descriptors]" ]
 								}
 
@@ -3063,13 +3119,13 @@
 ,
 					"patching_rect" : [ 925.0, 130.0, 81.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p get-vis-descr"
@@ -3085,6 +3141,7 @@
 					"bgcolor" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-64",
 					"linecount" : 2,
@@ -3133,6 +3190,7 @@
 									"description" : "fmat",
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-1",
 									"maxclass" : "ftm.object",
@@ -3156,14 +3214,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-2",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 80.0, 181.0, 63.88916, 17.0 ],
-									"presentation_rect" : [ 80.0, 181.0, 63.88916, 17.0 ],
+									"patching_rect" : [ 80.0, 181.0, 63.889164, 17.0 ],
+									"presentation_rect" : [ 80.0, 181.0, 63.889164, 17.0 ],
 									"text" : [ "_row $1, bang" ]
 								}
 
@@ -3176,14 +3235,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-3",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 160.0, 91.0, 158.121094, 17.0 ],
-									"presentation_rect" : [ 160.0, 91.0, 158.121094, 17.0 ],
+									"patching_rect" : [ 160.0, 91.0, 158.121078, 17.0 ],
+									"presentation_rect" : [ 160.0, 91.0, 158.121078, 17.0 ],
 									"text" : [ "_refer $my[corpus][unitdata] row 0" ]
 								}
 
@@ -3193,6 +3253,7 @@
 									"description" : "fvec row",
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-4",
 									"maxclass" : "ftm.object",
@@ -3200,9 +3261,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 80.0, 217.0, 90.564453, 18.0 ],
+									"patching_rect" : [ 80.0, 217.0, 90.564461, 18.0 ],
 									"persistence" : 0,
-									"presentation_rect" : [ 80.0, 217.0, 90.564453, 18.0 ],
+									"presentation_rect" : [ 80.0, 217.0, 90.564461, 18.0 ],
 									"scope" : 0,
 									"text" : "fvec row"
 								}
@@ -3230,6 +3291,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-6",
 									"maxclass" : "ftm.mess",
@@ -3253,7 +3315,8 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 80.0, 145.0, 112.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.iter"
@@ -3264,7 +3327,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-8",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3301,7 +3363,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3319,6 +3380,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-12",
 									"maxclass" : "ftm.mess",
@@ -3339,6 +3401,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-13",
 									"maxclass" : "ftm.mess",
@@ -3465,13 +3528,13 @@
 ,
 					"patching_rect" : [ 1010.0, 390.0, 73.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p copy-subset"
@@ -3525,7 +3588,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3543,14 +3605,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-3",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 112.0, 105.0, 121.505859, 17.0 ],
-									"presentation_rect" : [ 112.0, 105.0, 121.505859, 17.0 ],
+									"patching_rect" : [ 112.0, 105.0, 121.505844, 17.0 ],
+									"presentation_rect" : [ 112.0, 105.0, 121.505844, 17.0 ],
 									"text" : [ "_$my[corpus][descrid][$1]" ]
 								}
 
@@ -3563,14 +3626,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-4",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2.0, 289.0, 60.09668, 17.0 ],
-									"presentation_rect" : [ 2.0, 289.0, 60.09668, 17.0 ],
+									"patching_rect" : [ 2.0, 289.0, 60.333984, 17.0 ],
+									"presentation_rect" : [ 2.0, 289.0, 60.333984, 17.0 ],
 									"text" : [ "_($1 find $2)" ]
 								}
 
@@ -3579,7 +3643,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3600,7 +3663,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2.0, 257.0, 74.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.copy fmat"
@@ -3615,14 +3679,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-7",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2.0, 229.0, 201.253418, 17.0 ],
-									"presentation_rect" : [ 2.0, 229.0, 201.253418, 17.0 ],
+									"patching_rect" : [ 2.0, 229.0, 201.253403, 17.0 ],
+									"presentation_rect" : [ 2.0, 229.0, 201.253403, 17.0 ],
 									"text" : [ "_($descr refer $my[corpus][unitdata] col $2)" ]
 								}
 
@@ -3632,6 +3697,7 @@
 									"description" : "fvec",
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-8",
 									"maxclass" : "ftm.object",
@@ -3657,7 +3723,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 173.0, 300.0, 98.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.print find-units"
@@ -3668,7 +3735,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3682,7 +3748,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3700,6 +3765,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-12",
 									"maxclass" : "ftm.mess",
@@ -3721,6 +3787,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-13",
 									"maxclass" : "ftm.mess",
@@ -3737,7 +3804,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3774,7 +3840,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3880,13 +3945,13 @@
 ,
 					"patching_rect" : [ 1010.0, 370.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p find-units"
@@ -3902,6 +3967,7 @@
 					"bgcolor" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-67",
 					"linecount" : 2,
@@ -3953,14 +4019,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-1",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 63.0, 123.0, 118.970215, 17.0 ],
-									"presentation_rect" : [ 63.0, 123.0, 118.970215, 17.0 ],
+									"patching_rect" : [ 63.0, 123.0, 118.9702, 17.0 ],
+									"presentation_rect" : [ 63.0, 123.0, 118.9702, 17.0 ],
 									"text" : [ "_$my[corpus][descriptors]" ]
 								}
 
@@ -3973,6 +4040,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-2",
 									"maxclass" : "ftm.mess",
@@ -3993,6 +4061,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-3",
 									"maxclass" : "ftm.mess",
@@ -4027,14 +4096,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-5",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 229.0, 56.515137, 17.0 ],
-									"presentation_rect" : [ 75.0, 229.0, 56.515137, 17.0 ],
+									"patching_rect" : [ 75.0, 229.0, 56.515133, 17.0 ],
+									"presentation_rect" : [ 75.0, 229.0, 56.515133, 17.0 ],
 									"text" : [ "_($2 col $1)" ]
 								}
 
@@ -4047,14 +4117,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-6",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 255.0, 93.521484, 17.0 ],
-									"presentation_rect" : [ 75.0, 255.0, 93.521484, 17.0 ],
+									"patching_rect" : [ 75.0, 255.0, 93.521492, 17.0 ],
+									"presentation_rect" : [ 75.0, 255.0, 93.521492, 17.0 ],
 									"text" : [ "_(sqrt ($1 variance))" ]
 								}
 
@@ -4070,7 +4141,8 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 63.0, 151.0, 137.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.iter @mode row"
@@ -4099,14 +4171,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-9",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 202.0, 99.0, 99.304688, 17.0 ],
-									"presentation_rect" : [ 202.0, 99.0, 99.304688, 17.0 ],
+									"patching_rect" : [ 202.0, 99.0, 99.541992, 17.0 ],
+									"presentation_rect" : [ 202.0, 99.0, 99.541992, 17.0 ],
 									"text" : [ "_size 4 ($1 cols), fill 0" ]
 								}
 
@@ -4142,6 +4215,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-12",
 									"maxclass" : "ftm.mess",
@@ -4149,8 +4223,8 @@
 									"numins" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 158.0, 347.0, 143.078613, 17.0 ],
-									"presentation_rect" : [ 158.0, 347.0, 143.078613, 17.0 ],
+									"patching_rect" : [ 158.0, 347.0, 143.078629, 17.0 ],
+									"presentation_rect" : [ 158.0, 347.0, 143.078629, 17.0 ],
 									"text" : [ "_(print variance $2 = $1 --> $6)" ]
 								}
 
@@ -4163,6 +4237,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-13",
 									"maxclass" : "ftm.mess",
@@ -4170,8 +4245,8 @@
 									"numins" : 4,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 75.0, 283.0, 263.651367, 17.0 ],
-									"presentation_rect" : [ 75.0, 283.0, 263.651367, 17.0 ],
+									"patching_rect" : [ 75.0, 283.0, 263.651398, 17.0 ],
+									"presentation_rect" : [ 75.0, 283.0, 263.651398, 17.0 ],
 									"text" : [ "_set 0 $2 $1, set 1 $2 $3, set 2 $2 $4, set 3 $2 ($4 - $3)" ]
 								}
 
@@ -4180,7 +4255,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4367,13 +4441,13 @@
 ,
 					"patching_rect" : [ 1010.0, 410.0, 59.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p calc-stat"
@@ -4401,6 +4475,7 @@
 					"description" : "fmat 4 0",
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-73",
 					"maxclass" : "ftm.object",
@@ -4424,6 +4499,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-74",
 					"maxclass" : "ftm.mess",
@@ -4483,7 +4559,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-2",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4501,14 +4576,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-3",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 112.0, 105.0, 121.505859, 17.0 ],
-									"presentation_rect" : [ 112.0, 105.0, 121.505859, 17.0 ],
+									"patching_rect" : [ 112.0, 105.0, 121.505844, 17.0 ],
+									"presentation_rect" : [ 112.0, 105.0, 121.505844, 17.0 ],
 									"text" : [ "_$my[corpus][descrid][$1]" ]
 								}
 
@@ -4521,14 +4597,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-4",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2.0, 289.0, 60.09668, 17.0 ],
-									"presentation_rect" : [ 2.0, 289.0, 60.09668, 17.0 ],
+									"patching_rect" : [ 2.0, 289.0, 60.333984, 17.0 ],
+									"presentation_rect" : [ 2.0, 289.0, 60.333984, 17.0 ],
 									"text" : [ "_($1 find $2)" ]
 								}
 
@@ -4537,7 +4614,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-5",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4558,7 +4634,8 @@
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 2.0, 257.0, 74.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.copy fmat"
@@ -4573,14 +4650,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-7",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 2.0, 229.0, 201.253418, 17.0 ],
-									"presentation_rect" : [ 2.0, 229.0, 201.253418, 17.0 ],
+									"patching_rect" : [ 2.0, 229.0, 201.253403, 17.0 ],
+									"presentation_rect" : [ 2.0, 229.0, 201.253403, 17.0 ],
 									"text" : [ "_($descr refer $my[corpus][unitdata] col $2)" ]
 								}
 
@@ -4590,6 +4668,7 @@
 									"description" : "fvec",
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-8",
 									"maxclass" : "ftm.object",
@@ -4597,9 +4676,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 250.0, 230.0, 61.468262, 18.0 ],
+									"patching_rect" : [ 250.0, 230.0, 61.468258, 18.0 ],
 									"persistence" : 0,
-									"presentation_rect" : [ 250.0, 230.0, 61.468262, 18.0 ],
+									"presentation_rect" : [ 250.0, 230.0, 61.468258, 18.0 ],
 									"scope" : 0,
 									"text" : "fvec"
 								}
@@ -4615,7 +4694,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 173.0, 300.0, 98.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.print find-units"
@@ -4626,7 +4706,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-10",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4640,7 +4719,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-11",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4658,6 +4736,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-12",
 									"maxclass" : "ftm.mess",
@@ -4679,6 +4758,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-13",
 									"maxclass" : "ftm.mess",
@@ -4695,7 +4775,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-14",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4732,7 +4811,6 @@
 								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 9.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -4838,13 +4916,13 @@
 ,
 					"patching_rect" : [ 1010.0, 340.0, 62.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p find-units"
@@ -4859,6 +4937,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-76",
 					"maxclass" : "ftm.mess",
@@ -4879,6 +4958,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-77",
 					"maxclass" : "ftm.mess",
@@ -4899,6 +4979,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-78",
 					"linecount" : 2,
@@ -4921,6 +5002,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-79",
 					"maxclass" : "ftm.mess",
@@ -4969,14 +5051,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-1",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 77.0, 196.0, 232.458984, 17.0 ],
-									"presentation_rect" : [ 77.0, 196.0, 232.458984, 17.0 ],
+									"patching_rect" : [ 77.0, 196.0, 232.459, 17.0 ],
+									"presentation_rect" : [ 77.0, 196.0, 232.459, 17.0 ],
 									"text" : [ "_((int ($1 / 6)) / 10.)  (($2 * 4) / (1024. * 1024.))" ]
 								}
 
@@ -5003,14 +5086,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-3",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 255.0, 137.0, 108.291504, 17.0 ],
-									"presentation_rect" : [ 255.0, 137.0, 108.291504, 17.0 ],
+									"patching_rect" : [ 255.0, 137.0, 108.291489, 17.0 ],
+									"presentation_rect" : [ 255.0, 137.0, 108.291489, 17.0 ],
 									"text" : [ "_(($1 rows) * ($1 cols))" ]
 								}
 
@@ -5023,14 +5107,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-4",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 255.0, 82.0, 115.691895, 17.0 ],
-									"presentation_rect" : [ 255.0, 82.0, 115.691895, 17.0 ],
+									"patching_rect" : [ 255.0, 82.0, 115.691879, 17.0 ],
+									"presentation_rect" : [ 255.0, 82.0, 115.691879, 17.0 ],
 									"text" : [ "_$my[corpus][sounddata]" ]
 								}
 
@@ -5046,7 +5131,8 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 255.0, 110.0, 101.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.iter @mode row"
@@ -5072,6 +5158,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-7",
 									"maxclass" : "ftm.mess",
@@ -5079,8 +5166,8 @@
 									"numins" : 5,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 97.0, 137.0, 107.583984, 17.0 ],
-									"presentation_rect" : [ 97.0, 137.0, 107.583984, 17.0 ],
+									"patching_rect" : [ 97.0, 137.0, 107.583992, 17.0 ],
+									"presentation_rect" : [ 97.0, 137.0, 107.583992, 17.0 ],
 									"text" : [ "_($5[duration] / 1000.)" ]
 								}
 
@@ -5121,14 +5208,15 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-10",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 97.0, 82.0, 113.591309, 17.0 ],
-									"presentation_rect" : [ 97.0, 82.0, 113.591309, 17.0 ],
+									"patching_rect" : [ 97.0, 82.0, 113.828613, 17.0 ],
+									"presentation_rect" : [ 97.0, 82.0, 113.828613, 17.0 ],
 									"text" : [ "_$my[corpus][soundfiles]" ]
 								}
 
@@ -5144,7 +5232,8 @@
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 97.0, 110.0, 101.0, 17.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.iter @mode row"
@@ -5159,6 +5248,7 @@
 									"#untuple" : 0,
 									"fontname" : "Geneva",
 									"fontsize" : 9.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-12",
 									"linecount" : 2,
@@ -5364,13 +5454,13 @@
 ,
 					"patching_rect" : [ 945.0, 250.0, 60.0, 17.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontsize" : 12.0,
+						"fontname" : "Arial",
+						"default_fontface" : 0,
+						"default_fontname" : "Arial",
 						"fontface" : 0,
 						"fontsize" : 12.0,
-						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontname" : "Arial",
-						"fontname" : "Arial"
+						"default_fontsize" : 12.0
 					}
 ,
 					"text" : "p summary"
@@ -5385,6 +5475,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-88",
 					"maxclass" : "ftm.mess",
@@ -5406,6 +5497,7 @@
 					"bgcolor" : [ 0.678431, 0.819608, 0.819608, 1.0 ],
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-89",
 					"maxclass" : "ftm.mess",
@@ -5426,14 +5518,15 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-91",
 					"maxclass" : "ftm.mess",
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 285.0, 255.0, 161.504395, 17.0 ],
-					"presentation_rect" : [ 285.0, 255.0, 161.504395, 17.0 ],
+					"patching_rect" : [ 285.0, 255.0, 161.525391, 17.0 ],
+					"presentation_rect" : [ 285.0, 255.0, 161.525391, 17.0 ],
 					"text" : [ "_($my[corpus][unitdata] rowref $1)" ]
 				}
 
@@ -5446,6 +5539,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-92",
 					"maxclass" : "ftm.mess",
@@ -5466,6 +5560,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 2,
 					"id" : "obj-93",
 					"maxclass" : "ftm.mess",
@@ -5596,7 +5691,7 @@
 					"outlettype" : [ "" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 300.0, 70.0 ],
-					"text" : "/editing_this_module.2"
+					"text" : "/editing_this_module"
 				}
 
 			}
@@ -5958,6 +6053,15 @@
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-5", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-50", 1 ]
 				}
 
 			}

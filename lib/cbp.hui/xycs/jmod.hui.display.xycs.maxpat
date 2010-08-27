@@ -285,7 +285,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 380.0, 60.0, 50.0, 18.0 ],
-									"text" : "78 32"
+									"text" : "12 250"
 								}
 
 							}
@@ -383,7 +383,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 320.0, 50.0, 18.0 ],
-									"text" : "78 32"
+									"text" : "12 250"
 								}
 
 							}
@@ -983,13 +983,13 @@
 ,
 									"patching_rect" : [ 20.0, 260.0, 307.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Helvetica Neue",
+										"default_fontname" : "Helvetica Neue",
 										"default_fontsize" : 10.0,
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"fontname" : "Helvetica Neue",
 										"globalpatchername" : "",
 										"default_fontface" : 0,
-										"default_fontname" : "Helvetica Neue"
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p send-IDLE-position-to-display-and-radii-GATED"
@@ -1172,7 +1172,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 170.0, 150.0, 50.0, 16.0 ],
-													"text" : "55."
+													"text" : "131."
 												}
 
 											}
@@ -2081,13 +2081,13 @@
 ,
 									"patching_rect" : [ 530.0, 300.0, 189.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Helvetica Neue",
+										"default_fontname" : "Helvetica Neue",
 										"default_fontsize" : 10.0,
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"fontname" : "Helvetica Neue",
 										"globalpatchername" : "",
 										"default_fontface" : 0,
-										"default_fontname" : "Helvetica Neue"
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p draw-radii-based-on-DRAG"
@@ -2938,13 +2938,13 @@
 ,
 					"patching_rect" : [ 25.0, 890.0, 215.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Monaco",
+						"default_fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Monaco"
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p interaction"
@@ -3417,7 +3417,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 77.519875, 489.031982, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "grow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 2, 2, 32768, 32768, ";", "#Q", "window", "size", 0, 44, 1440, 870, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -3738,13 +3738,13 @@
 ,
 					"patching_rect" : [ 110.0, 175.0, 100.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Monaco",
+						"default_fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"globalpatchername" : "",
 						"default_fontface" : 0,
-						"default_fontname" : "Monaco"
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p panel"
@@ -4084,7 +4084,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 55.0, 245.0, 148.0, 18.0 ],
-					"text" : "jalg.hui.display.xycs.maxpat #1"
+					"text" : "jalg.hui.display.xycs.maxpat #2"
 				}
 
 			}

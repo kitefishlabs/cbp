@@ -20,6 +20,24 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 50.0, 170.0, 193.0, 20.0 ],
+					"saved_object_attributes" : 					{
+						"ftm_objref_conv" : 0,
+						"ftm_scope" : 1
+					}
+,
+					"text" : "ftm.print BROADCAST_RANGES:"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-4",
@@ -118,7 +136,8 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
-					"ftm_scope" : 1,
+					"ftm_objref_conv" : 0,
+					"ftm_scope" : 0,
 					"id" : "obj-14",
 					"linecount" : 2,
 					"maxclass" : "ftm.mess",
@@ -136,7 +155,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-9",
 					"linecount" : 3,
 					"maxclass" : "comment",
@@ -167,6 +185,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-10",
 					"maxclass" : "ftm.mess",
@@ -197,7 +216,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-7",
 					"maxclass" : "comment",
 					"numinlets" : 1,
@@ -223,7 +241,6 @@
 				"box" : 				{
 					"fontname" : "Arial",
 					"fontsize" : 9.0,
-					"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"id" : "obj-30",
 					"linecount" : 2,
 					"maxclass" : "comment",
@@ -256,6 +273,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-38",
 					"maxclass" : "ftm.mess",
@@ -276,6 +294,7 @@
 					"#untuple" : 0,
 					"fontname" : "Geneva",
 					"fontsize" : 9.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 2,
 					"id" : "obj-39",
 					"maxclass" : "ftm.mess",
@@ -395,6 +414,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-15", 0 ],
+					"hidden" : 0,
+					"midpoints" : [  ],
+					"source" : [ "obj-14", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-14", 0 ]
