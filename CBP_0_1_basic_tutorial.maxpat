@@ -267,12 +267,12 @@
 					"patching_rect" : [ 700.0, 420.0, 114.0, 39.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Arial",
-						"fontface" : 0,
-						"fontsize" : 12.0,
+						"fontname" : "Arial",
 						"default_fontsize" : 12.0,
-						"fontname" : "Arial"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 12.0
 					}
 ,
 					"text" : "p barks"
@@ -304,17 +304,17 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 740.0, 9.0, 71.0, 20.0 ],
 					"saved_object_attributes" : 					{
+						"usesearchpath" : 0,
+						"midisupport" : 1,
 						"noloadbangdefeating" : 1,
+						"searchformissingfiles" : 0,
 						"overdrive" : 1,
 						"preffilename" : "Max 5 Preferences",
-						"extensions" : 0,
-						"midisupport" : 1,
-						"cantclosetoplevelpatchers" : 1,
-						"audiosupport" : 1,
-						"statusvisible" : 1,
 						"allwindowsactive" : 1,
-						"usesearchpath" : 0,
-						"searchformissingfiles" : 0
+						"cantclosetoplevelpatchers" : 1,
+						"extensions" : 0,
+						"audiosupport" : 1,
+						"statusvisible" : 1
 					}
 ,
 					"text" : "standalone"
@@ -446,9 +446,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 695.0, 44.0, 653.0, 516.0 ],
+						"rect" : [ 505.0, 347.0, 653.0, 516.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 695.0, 44.0, 653.0, 516.0 ],
+						"defrect" : [ 505.0, 347.0, 653.0, 516.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 0,
 						"default_fontsize" : 10.0,
@@ -488,15 +488,15 @@
 									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-1",
-									"linecount" : 9,
+									"linecount" : 8,
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 320.0, 40.0, 222.0, 125.0 ],
-									"presentation_linecount" : 9,
-									"presentation_rect" : [ 320.0, 40.0, 222.0, 125.0 ],
-									"text" : [ "_/init.other/initialize,", "_/corpus_map.other/initialize,", "_/corpus_map.other/reset,", "_/display.other/tab 0,", "_/display.other/key 1,", "_/select.other/preset/recall default,", "_/init.other/repop,", "_/chain1.other/initialize,", "_/chain1.other/preset/recall default" ]
+									"patching_rect" : [ 320.0, 40.0, 222.0, 111.0 ],
+									"presentation_linecount" : 8,
+									"presentation_rect" : [ 320.0, 40.0, 222.0, 111.0 ],
+									"text" : [ "_/init.other/initialize,", "_/corpus_map.other/initialize,", "_/corpus_map.other/reset,", "_/display.other/key 1,", "_/select.other/preset/recall default,", "_/init.other/repop,", "_/chain1.other/initialize,", "_/chain1.other/preset/recall default" ]
 								}
 
 							}
@@ -554,7 +554,7 @@
 									"args" : [ "draw.other", "display.other" ],
 									"id" : "obj-48",
 									"maxclass" : "bpatcher",
-									"name" : "jmod.hui.display.xycshv.maxpat",
+									"name" : "jmod.hui.display.xycs.maxpat",
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
@@ -603,15 +603,15 @@
 													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-83",
-													"linecount" : 13,
+													"linecount" : 5,
 													"maxclass" : "ftm.mess",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 10.0, 140.0, 216.0, 178.0 ],
-													"presentation_linecount" : 13,
-													"presentation_rect" : [ 10.0, 140.0, 216.0, 178.0 ],
-													"text" : [ "_/display.other/A/point/1/radius 0.,", "_/display.other/A/point/2/radius 0.,", "_/display.other/A/point/3/radius 0.,", "_/display.other/B/point/1/radius 0.,", "_/display.other/B/point/2/radius 0.,", "_/display.other/B/point/3/radius 0.,", "_/display.other/C/point/1/radius 0.,", "_/display.other/C/point/2/radius 0.,", "_/display.other/C/point/3/radius 0.,", "_/display.other/A/size 280,", "_/display.other/B/size 280,", "_/display.other/C/size 280,", "_/draw.other/update/ranges" ]
+													"patching_rect" : [ 10.0, 140.0, 204.0, 71.0 ],
+													"presentation_linecount" : 5,
+													"presentation_rect" : [ 10.0, 140.0, 204.0, 71.0 ],
+													"text" : [ "_/display.other/point/1/radius 0.,", "_/display.other/point/2/radius 0.,", "_/display.other/point/3/radius 0.,", "_/display.other/size 280,", "_/draw.other/update/ranges" ]
 												}
 
 											}
@@ -624,7 +624,7 @@
 													"numinlets" : 1,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 10.0, 330.0, 199.0, 20.0 ],
+													"patching_rect" : [ 10.0, 220.0, 199.0, 20.0 ],
 													"text" : "jcom.send jcom.remote.module.to"
 												}
 
@@ -1006,15 +1006,15 @@
 																	"ftm_objref_conv" : 0,
 																	"ftm_scope" : 0,
 																	"id" : "obj-55",
-																	"linecount" : 5,
+																	"linecount" : 3,
 																	"maxclass" : "ftm.mess",
 																	"numinlets" : 2,
 																	"numoutlets" : 1,
 																	"outlettype" : [ "" ],
-																	"patching_rect" : [ 0.0, 100.0, 156.0, 71.0 ],
-																	"presentation_linecount" : 5,
-																	"presentation_rect" : [ 0.0, 100.0, 156.0, 71.0 ],
-																	"text" : [ "_/draw.other/S/descrid 11,", "_/draw.other/C/descrid 2,", "_/draw.other/H/descrid 8,", "_/draw.other/V/descrid 13,", "_/draw.other/update/ranges" ]
+																	"patching_rect" : [ 0.0, 100.0, 156.0, 45.0 ],
+																	"presentation_linecount" : 3,
+																	"presentation_rect" : [ 0.0, 100.0, 156.0, 45.0 ],
+																	"text" : [ "_/draw.other/S/descrid 11,", "_/draw.other/C/descrid 2,", "_/draw.other/update/ranges" ]
 																}
 
 															}
@@ -1306,12 +1306,12 @@
 													"patching_rect" : [ 200.0, 100.0, 98.0, 33.0 ],
 													"saved_object_attributes" : 													{
 														"default_fontface" : 0,
-														"globalpatchername" : "",
 														"default_fontname" : "Monaco",
-														"fontface" : 0,
-														"fontsize" : 10.0,
+														"fontname" : "Monaco",
 														"default_fontsize" : 10.0,
-														"fontname" : "Monaco"
+														"globalpatchername" : "",
+														"fontface" : 0,
+														"fontsize" : 10.0
 													}
 ,
 													"text" : "p viewer_presets"
@@ -1332,7 +1332,7 @@
 												"patchline" : 												{
 													"destination" : [ "obj-82", 0 ],
 													"hidden" : 0,
-													"midpoints" : [ 209.5, 136.0, 231.0, 136.0, 231.0, 324.0, 19.5, 324.0 ],
+													"midpoints" : [ 209.5, 136.0, 231.0, 136.0, 231.0, 214.0, 19.5, 214.0 ],
 													"source" : [ "obj-22", 0 ]
 												}
 
@@ -1379,12 +1379,12 @@
 									"patching_rect" : [ 60.0, 70.0, 139.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"fontname" : "Monaco",
 										"default_fontsize" : 10.0,
-										"fontname" : "Monaco"
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p SELECT_DRAW_DISPLAY"
@@ -1443,10 +1443,10 @@
 									"numins" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 350.0, 310.0, 222.0, 45.0 ],
+									"patching_rect" : [ 350.0, 310.0, 210.0, 45.0 ],
 									"presentation_linecount" : 3,
-									"presentation_rect" : [ 350.0, 310.0, 222.0, 45.0 ],
-									"text" : [ "_/display.other/A/selected/unit/1 $2,", "_/display.other/A/selected/unit/2 $4,", "_/display.other/A/selected/unit/3 $6" ]
+									"presentation_rect" : [ 350.0, 310.0, 210.0, 45.0 ],
+									"text" : [ "_/display.other/selected/unit/1 $2,", "_/display.other/selected/unit/2 $4,", "_/display.other/selected/unit/3 $6" ]
 								}
 
 							}
@@ -1859,12 +1859,12 @@
 									"patching_rect" : [ 60.0, 40.0, 227.0, 23.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"fontname" : "Monaco",
 										"default_fontsize" : 10.0,
-										"fontname" : "Monaco"
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p DATA_INIT_IMPORT_SEGMENT_ONE"
@@ -1977,12 +1977,12 @@
 					"patching_rect" : [ 700.0, 370.0, 270.0, 39.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p multiple_corpora"
@@ -2307,12 +2307,12 @@
 					"patching_rect" : [ 700.0, 310.0, 302.0, 39.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p more_synth_modules"
@@ -2438,12 +2438,12 @@
 					"patching_rect" : [ 700.0, 270.0, 205.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p passing units..."
@@ -2807,12 +2807,12 @@
 					"patching_rect" : [ 700.0, 220.0, 284.0, 39.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p export_and_import"
@@ -3510,12 +3510,12 @@
 					"patching_rect" : [ 700.0, 80.0, 291.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p presets_and_instructions"
@@ -4331,12 +4331,12 @@
 									"patching_rect" : [ 120.0, 80.0, 98.0, 33.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"fontname" : "Monaco",
 										"default_fontsize" : 10.0,
-										"fontname" : "Monaco"
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p viewer_presets"
@@ -4422,12 +4422,12 @@
 					"patching_rect" : [ 0.0, 280.0, 139.0, 20.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p SELECT_DRAW_DISPLAY"
@@ -5408,12 +5408,12 @@
 					"patching_rect" : [ 700.0, 160.0, 119.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p more..."
@@ -7114,12 +7114,12 @@
 									"patching_rect" : [ 1150.0, 320.0, 162.0, 33.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"fontname" : "Monaco",
 										"default_fontsize" : 10.0,
-										"fontname" : "Monaco"
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p audio settings (double-click to inspect)"
@@ -7536,12 +7536,12 @@
 									"patching_rect" : [ 50.0, 320.0, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
 										"default_fontface" : 0,
-										"globalpatchername" : "",
 										"default_fontname" : "Monaco",
-										"fontface" : 0,
-										"fontsize" : 10.0,
+										"fontname" : "Monaco",
 										"default_fontsize" : 10.0,
-										"fontname" : "Monaco"
+										"globalpatchername" : "",
+										"fontface" : 0,
+										"fontsize" : 10.0
 									}
 ,
 									"text" : "p date_stamp"
@@ -8212,12 +8212,12 @@
 					"patching_rect" : [ 700.0, 120.0, 261.0, 31.0 ],
 					"saved_object_attributes" : 					{
 						"default_fontface" : 0,
-						"globalpatchername" : "",
 						"default_fontname" : "Monaco",
-						"fontface" : 0,
-						"fontsize" : 10.0,
+						"fontname" : "Monaco",
 						"default_fontsize" : 10.0,
-						"fontname" : "Monaco"
+						"globalpatchername" : "",
+						"fontface" : 0,
+						"fontsize" : 10.0
 					}
 ,
 					"text" : "p audio_routing_panning"
