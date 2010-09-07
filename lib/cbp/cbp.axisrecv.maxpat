@@ -108,8 +108,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 190.0, 150.0, 87.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"ftm_objref_conv" : 0,
-						"ftm_scope" : 1
+						"ftm_scope" : 1,
+						"ftm_objref_conv" : 0
 					}
 ,
 					"text" : "ftm.print zoom"
@@ -126,8 +126,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 60.0, 150.0, 93.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"ftm_objref_conv" : 0,
-						"ftm_scope" : 0
+						"ftm_scope" : 0,
+						"ftm_objref_conv" : 0
 					}
 ,
 					"text" : "ftm.print source"
@@ -328,15 +328,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-4", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-13", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-11", 0 ],
 					"hidden" : 0,
 					"midpoints" : [ 106.5, 93.5, 169.5, 93.5 ],
@@ -392,15 +383,6 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-10", 0 ],
-					"hidden" : 0,
-					"midpoints" : [  ],
-					"source" : [ "obj-9", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-5", 0 ],
 					"hidden" : 0,
 					"midpoints" : [  ],
 					"source" : [ "obj-9", 0 ]
