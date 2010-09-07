@@ -6,14 +6,9 @@
 >
   <preset number='1' name='default'>
     <item name='C/descrid' type='integer' priority='0'>0</item>
-    <item name='H/descrid' type='integer' priority='0'>0</item>
     <item name='S/descrid' type='integer' priority='0'>0</item>
-    <item name='V/descrid' type='integer' priority='0'>0</item>
     <item name='X/descrid' type='integer' priority='0'>0</item>
     <item name='Y/descrid' type='integer' priority='0'>0</item>
-    <item name='prelim' type='integer' priority='0'>0</item>
-    <item name='toggle/H' type='boolean' priority='0'>0</item>
-    <item name='toggle/V' type='boolean' priority='0'>0</item>
     <item name='view/color/border' type='array' priority='0'>0</item>
     <item name='view/color/contentBackground' type='array' priority='0'>0</item>
     <item name='view/color/toolbarBackground' type='array' priority='0'>0</item>
