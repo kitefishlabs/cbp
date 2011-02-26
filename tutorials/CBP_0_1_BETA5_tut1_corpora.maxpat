@@ -1,9 +1,9 @@
 {
 	"patcher" : 	{
 		"fileversion" : 1,
-		"rect" : [ 5.0, 44.0, 839.0, 813.0 ],
+		"rect" : [ 2.0, 45.0, 839.0, 813.0 ],
 		"bglocked" : 0,
-		"defrect" : [ 5.0, 44.0, 839.0, 813.0 ],
+		"defrect" : [ 2.0, 45.0, 839.0, 813.0 ],
 		"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 		"openinpresentation" : 0,
 		"default_fontsize" : 10.0,
@@ -20,6 +20,20 @@
 		"devicewidth" : 0.0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ "display.tutorial", "draw.tutorial" ],
+					"id" : "obj-7",
+					"maxclass" : "bpatcher",
+					"name" : "jmod.hui.display.xycs.maxpat",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 10.0, 120.0, 300.0, 350.0 ],
+					"presentation_rect" : [ 0.0, 0.0, 300.0, 350.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
 					"id" : "obj-27",
@@ -28,7 +42,6 @@
 					"numoutlets" : 3,
 					"outlettype" : [ "", "int", "int" ],
 					"patching_rect" : [ 330.0, 670.0, 47.0, 20.0 ],
-					"presentation_rect" : [ 332.0, 673.0, 0.0, 0.0 ],
 					"text" : "change"
 				}
 
@@ -55,6 +68,7 @@
 					"#untuple" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 1,
 					"id" : "obj-13",
 					"maxclass" : "ftm.mess",
@@ -75,6 +89,7 @@
 					"#untuple" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-9",
 					"maxclass" : "ftm.mess",
@@ -84,21 +99,6 @@
 					"patching_rect" : [ 10.0, 600.0, 18.00293, 18.0 ],
 					"presentation_rect" : [ 10.0, 600.0, 18.00293, 18.0 ],
 					"text" : [ "_$2" ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "draw.other", "display.other" ],
-					"id" : "obj-7",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.hui.display.xycshv.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 330.0, 120.0, 300.0, 350.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 333.0, 121.0, 300.0, 350.0 ]
 				}
 
 			}
@@ -138,6 +138,7 @@
 									"#untuple" : 0,
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-83",
 									"linecount" : 13,
@@ -269,6 +270,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-14",
 													"linecount" : 2,
@@ -305,6 +307,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-8",
 													"linecount" : 2,
@@ -355,6 +358,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-16",
 													"linecount" : 2,
@@ -445,6 +449,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-4",
 													"linecount" : 2,
@@ -467,6 +472,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-3",
 													"linecount" : 2,
@@ -489,6 +495,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-2",
 													"linecount" : 2,
@@ -511,6 +518,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-1",
 													"linecount" : 2,
@@ -533,6 +541,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-55",
 													"linecount" : 5,
@@ -834,13 +843,13 @@
 ,
 									"patching_rect" : [ 200.0, 100.0, 98.0, 33.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"fontname" : "Monaco",
-										"default_fontname" : "Monaco",
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"default_fontsize" : 10.0,
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p viewer_presets"
@@ -907,13 +916,13 @@
 ,
 					"patching_rect" : [ 60.0, 90.0, 139.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Monaco",
-						"default_fontname" : "Monaco",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p SELECT_DRAW_DISPLAY"
@@ -942,21 +951,6 @@
 					"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"textcolor2" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"types" : [  ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"args" : [ "draw.tutorial", "display.tutorial" ],
-					"id" : "obj-86",
-					"maxclass" : "bpatcher",
-					"name" : "jmod.hui.display.xycshv.maxpat",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 10.0, 120.0, 300.0, 350.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 25.0, 105.0, 300.0, 350.0 ]
 				}
 
 			}
@@ -996,6 +990,7 @@
 									"#untuple" : 0,
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-83",
 									"linecount" : 13,
@@ -1127,6 +1122,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-14",
 													"linecount" : 2,
@@ -1163,6 +1159,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-8",
 													"linecount" : 2,
@@ -1213,6 +1210,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-16",
 													"linecount" : 2,
@@ -1303,6 +1301,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-4",
 													"linecount" : 2,
@@ -1325,6 +1324,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-3",
 													"linecount" : 2,
@@ -1347,6 +1347,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-2",
 													"linecount" : 2,
@@ -1369,6 +1370,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-1",
 													"linecount" : 2,
@@ -1391,6 +1393,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-55",
 													"linecount" : 5,
@@ -1692,13 +1695,13 @@
 ,
 									"patching_rect" : [ 200.0, 100.0, 98.0, 33.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"fontname" : "Monaco",
-										"default_fontname" : "Monaco",
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"default_fontsize" : 10.0,
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p viewer_presets"
@@ -1765,13 +1768,13 @@
 ,
 					"patching_rect" : [ 380.0, 90.0, 139.0, 20.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Monaco",
-						"default_fontname" : "Monaco",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p SELECT_DRAW_DISPLAY"
@@ -1849,6 +1852,7 @@
 					"#untuple" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-15",
 					"maxclass" : "ftm.mess",
@@ -1883,6 +1887,7 @@
 					"#untuple" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-18",
 					"linecount" : 3,
@@ -1920,6 +1925,7 @@
 					"#untuple" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-20",
 					"maxclass" : "ftm.mess",
@@ -1980,7 +1986,6 @@
 					"bgcolor2" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
-					"gradient" : 0,
 					"id" : "obj-24",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -2223,7 +2228,7 @@
 									"patching_rect" : [ 0.0, 530.0, 297.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 490.0, 293.0, 18.0 ],
-									"text" : "/display.tutorial/local 0"
+									"text" : "/draw.tutorial/update/ranges"
 								}
 
 							}
@@ -2374,13 +2379,13 @@
 ,
 					"patching_rect" : [ 380.0, 60.0, 227.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Monaco",
-						"default_fontname" : "Monaco",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p DATA_INIT_IMPORT_SEGMENT_ONE"
@@ -2395,6 +2400,7 @@
 					"#untuple" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-17",
 					"maxclass" : "ftm.mess",
@@ -2429,6 +2435,7 @@
 					"#untuple" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-14",
 					"linecount" : 3,
@@ -2466,6 +2473,7 @@
 					"#untuple" : 0,
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-49",
 					"maxclass" : "ftm.mess",
@@ -2670,7 +2678,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 10.0, 380.0, 89.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0
+										"ftm_scope" : 0,
+										"ftm_objref_conv" : 0
 									}
 ,
 									"text" : "ftm.print"
@@ -2685,14 +2694,15 @@
 									"#untuple" : 0,
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
+									"ftm_objref_conv" : 0,
 									"ftm_scope" : 0,
 									"id" : "obj-15",
 									"maxclass" : "ftm.mess",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 10.0, 330.0, 162.025391, 18.0 ],
-									"presentation_rect" : [ 10.0, 330.0, 162.025391, 18.0 ],
+									"patching_rect" : [ 10.0, 330.0, 162.02536, 18.0 ],
+									"presentation_rect" : [ 10.0, 330.0, 162.02536, 18.0 ],
 									"text" : [ "_/find/units-where $1 == $2" ]
 								}
 
@@ -3005,13 +3015,13 @@
 ,
 					"patching_rect" : [ 640.0, 170.0, 119.0, 31.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Monaco",
-						"default_fontname" : "Monaco",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p more..."
@@ -3051,7 +3061,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-3",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3067,7 +3076,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-6",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3083,7 +3091,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-7",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3099,7 +3106,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-9",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3271,7 +3277,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-21",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3287,7 +3292,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-19",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3303,7 +3307,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-18",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3319,7 +3322,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-17",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3486,9 +3488,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
-									"patching_rect" : [ 630.0, 290.0, 100.013672, 21.334961 ],
+									"patching_rect" : [ 630.0, 290.0, 100.013687, 21.334961 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 220.0, 150.0, 100.013672, 21.334961 ],
+									"presentation_rect" : [ 220.0, 150.0, 100.013687, 21.334961 ],
 									"text" : "SEE CPU USAGE",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"texton" : "HIDE CPU USAGE",
@@ -3500,7 +3502,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-68",
 									"maxclass" : "comment",
 									"numinlets" : 1,
@@ -3556,9 +3557,9 @@
 									"numinlets" : 1,
 									"numoutlets" : 3,
 									"outlettype" : [ "", "", "int" ],
-									"patching_rect" : [ 730.0, 290.0, 106.014648, 21.334961 ],
+									"patching_rect" : [ 730.0, 290.0, 106.014664, 21.334961 ],
 									"presentation" : 1,
-									"presentation_rect" : [ 220.0, 180.0, 106.014648, 21.334961 ],
+									"presentation_rect" : [ 220.0, 180.0, 106.014664, 21.334961 ],
 									"text" : "OPEN DSP WINDOW",
 									"textcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"texton" : "HIDE CPU USAGE",
@@ -3662,7 +3663,6 @@
 												"box" : 												{
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-42",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3679,7 +3679,7 @@
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
 													"id" : "obj-39",
-													"items" : [ "None", ",", "CoreAudio", "Built-in Output", ",", "CoreAudio", "Soundflower (2ch)", ",", "CoreAudio", "Soundflower (16ch)", ",", "CoreAudio", "Aggregate Device", ",", "NonRealTime", ",", "ad_rewire", ",", "Live" ],
+													"items" : [ "None", ",", "CoreAudio", "Built-in Output", ",", "NonRealTime", ",", "ad_rewire", ",", "Live" ],
 													"maxclass" : "umenu",
 													"numinlets" : 1,
 													"numoutlets" : 3,
@@ -3737,7 +3737,6 @@
 												"box" : 												{
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-34",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3810,7 +3809,6 @@
 												"box" : 												{
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-24",
 													"linecount" : 5,
 													"maxclass" : "comment",
@@ -3828,7 +3826,6 @@
 												"box" : 												{
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-23",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3844,7 +3841,6 @@
 												"box" : 												{
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-22",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3861,7 +3857,6 @@
 												"box" : 												{
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-21",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -3878,7 +3873,6 @@
 												"box" : 												{
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
-													"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 													"id" : "obj-20",
 													"maxclass" : "comment",
 													"numinlets" : 1,
@@ -4048,9 +4042,9 @@
 													"numinlets" : 1,
 													"numoutlets" : 3,
 													"outlettype" : [ "", "", "int" ],
-													"patching_rect" : [ 500.0, 140.0, 124.017578, 21.334961 ],
+													"patching_rect" : [ 500.0, 140.0, 124.017586, 21.334961 ],
 													"presentation" : 1,
-													"presentation_rect" : [ 240.0, 70.0, 124.017578, 21.334961 ],
+													"presentation_rect" : [ 240.0, 70.0, 124.017586, 21.334961 ],
 													"text" : "Audio Interupt Off",
 													"texton" : "Audio Interupt On"
 												}
@@ -4428,13 +4422,13 @@
 									"presentation_linecount" : 2,
 									"presentation_rect" : [ 220.0, 70.0, 162.0, 33.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"fontname" : "Monaco",
-										"default_fontname" : "Monaco",
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"default_fontsize" : 10.0,
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p audio settings (double-click to inspect)"
@@ -4445,7 +4439,6 @@
 								"box" : 								{
 									"fontname" : "Monaco",
 									"fontsize" : 10.0,
-									"frgb" : [ 0.0, 0.0, 0.0, 1.0 ],
 									"id" : "obj-50",
 									"linecount" : 2,
 									"maxclass" : "comment",
@@ -4591,14 +4584,15 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-2",
 													"maxclass" : "ftm.mess",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 40.0, 230.0, 90.013672, 18.0 ],
-													"presentation_rect" : [ 40.0, 230.0, 90.013672, 18.0 ],
+													"patching_rect" : [ 40.0, 230.0, 90.013687, 18.0 ],
+													"presentation_rect" : [ 40.0, 230.0, 90.013687, 18.0 ],
 													"text" : [ "_samptype int16" ]
 												}
 
@@ -4639,6 +4633,7 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-118",
 													"maxclass" : "ftm.mess",
@@ -4646,8 +4641,8 @@
 													"numins" : 3,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 30.0, 120.0, 54.007812, 18.0 ],
-													"presentation_rect" : [ 30.0, 120.0, 54.007812, 18.0 ],
+													"patching_rect" : [ 30.0, 120.0, 54.007816, 18.0 ],
+													"presentation_rect" : [ 30.0, 120.0, 54.007816, 18.0 ],
 													"text" : [ "_$3 $1 $2" ]
 												}
 
@@ -4702,14 +4697,15 @@
 													"#untuple" : 0,
 													"fontname" : "Monaco",
 													"fontsize" : 10.0,
+													"ftm_objref_conv" : 0,
 													"ftm_scope" : 0,
 													"id" : "obj-52",
 													"maxclass" : "ftm.mess",
 													"numinlets" : 2,
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
-													"patching_rect" : [ 30.0, 170.0, 162.025391, 18.0 ],
-													"presentation_rect" : [ 30.0, 170.0, 162.025391, 18.0 ],
+													"patching_rect" : [ 30.0, 170.0, 162.02536, 18.0 ],
+													"presentation_rect" : [ 30.0, 170.0, 162.02536, 18.0 ],
 													"text" : [ "_open (cat $1 '.aiff') aiff" ]
 												}
 
@@ -4851,13 +4847,13 @@
 ,
 									"patching_rect" : [ 50.0, 320.0, 83.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"default_fontface" : 0,
 										"fontname" : "Monaco",
-										"default_fontname" : "Monaco",
+										"default_fontface" : 0,
 										"globalpatchername" : "",
-										"default_fontsize" : 10.0,
+										"default_fontname" : "Monaco",
 										"fontface" : 0,
-										"fontsize" : 10.0
+										"fontsize" : 10.0,
+										"default_fontsize" : 10.0
 									}
 ,
 									"text" : "p date_stamp"
@@ -5212,13 +5208,13 @@
 ,
 					"patching_rect" : [ 640.0, 80.0, 162.0, 79.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Monaco",
-						"default_fontname" : "Monaco",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p audio_routing_panning"
@@ -5261,7 +5257,6 @@
 					"bgcolor2" : [ 0.827451, 0.827451, 0.827451, 1.0 ],
 					"fontname" : "Monaco",
 					"fontsize" : 12.0,
-					"gradient" : 0,
 					"id" : "obj-81",
 					"maxclass" : "message",
 					"numinlets" : 2,
@@ -5322,9 +5317,9 @@
 					"numoutlets" : 0,
 					"patcher" : 					{
 						"fileversion" : 1,
-						"rect" : [ 716.0, 44.0, 306.0, 510.0 ],
+						"rect" : [ 907.0, 391.0, 306.0, 510.0 ],
 						"bglocked" : 0,
-						"defrect" : [ 716.0, 44.0, 306.0, 510.0 ],
+						"defrect" : [ 907.0, 391.0, 306.0, 510.0 ],
 						"openrect" : [ 0.0, 0.0, 0.0, 0.0 ],
 						"openinpresentation" : 1,
 						"default_fontsize" : 10.0,
@@ -5494,7 +5489,7 @@
 									"patching_rect" : [ 0.0, 530.0, 297.0, 18.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 0.0, 490.0, 293.0, 18.0 ],
-									"text" : "/display.tutorial/local 0"
+									"text" : "/draw.tutorial/update/ranges"
 								}
 
 							}
@@ -5654,13 +5649,13 @@
 ,
 					"patching_rect" : [ 60.0, 60.0, 227.0, 23.0 ],
 					"saved_object_attributes" : 					{
-						"default_fontface" : 0,
 						"fontname" : "Monaco",
-						"default_fontname" : "Monaco",
+						"default_fontface" : 0,
 						"globalpatchername" : "",
-						"default_fontsize" : 10.0,
+						"default_fontname" : "Monaco",
 						"fontface" : 0,
-						"fontsize" : 10.0
+						"fontsize" : 10.0,
+						"default_fontsize" : 10.0
 					}
 ,
 					"text" : "p DATA_INIT_IMPORT_SEGMENT_ONE"
@@ -5672,6 +5667,7 @@
 					"description" : "44100.",
 					"fontname" : "Monaco",
 					"fontsize" : 18.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 0,
 					"id" : "obj-6",
 					"maxclass" : "ftm.object",
@@ -5693,6 +5689,7 @@
 					"description" : "($sr / 1000.)",
 					"fontname" : "Monaco",
 					"fontsize" : 10.0,
+					"ftm_objref_conv" : 0,
 					"ftm_scope" : 2,
 					"id" : "obj-5",
 					"maxclass" : "ftm.object",

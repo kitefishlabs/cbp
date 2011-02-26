@@ -641,13 +641,13 @@
 ,
 									"patching_rect" : [ 19.967255, 217.672607, 48.0, 19.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Verdana",
-										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Verdana"
+										"default_fontname" : "Verdana",
+										"default_fontsize" : 10.0,
+										"fontname" : "Verdana",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p front"
@@ -930,13 +930,13 @@
 ,
 					"patching_rect" : [ 525.0, 185.0, 49.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Monaco"
+						"default_fontname" : "Monaco",
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p panel"
@@ -1400,13 +1400,13 @@
 ,
 					"patching_rect" : [ 950.0, 425.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue"
+						"default_fontname" : "Helvetica Neue",
+						"default_fontsize" : 10.0,
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2193,13 +2193,13 @@
 ,
 					"patching_rect" : [ 945.0, 375.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue"
+						"default_fontname" : "Helvetica Neue",
+						"default_fontsize" : 10.0,
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -2677,13 +2677,13 @@
 ,
 					"patching_rect" : [ 945.0, 330.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue"
+						"default_fontname" : "Helvetica Neue",
+						"default_fontsize" : 10.0,
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -3837,13 +3837,13 @@
 ,
 					"patching_rect" : [ 945.0, 285.0, 73.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Helvetica Neue",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Helvetica Neue"
+						"default_fontname" : "Helvetica Neue",
+						"default_fontsize" : 10.0,
+						"fontname" : "Helvetica Neue",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p adjust-zoom"
@@ -4181,8 +4181,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 5.0, 260.0, 438.0, 19.0 ],
-					"text" : "jcom.hub @module_type control @description \"Handles the data for hui interfacing.\"",
+					"patching_rect" : [ 5.0, 260.0, 478.0, 19.0 ],
+					"text" : "jcom.hub @module_type control @description \"Handles the data (ranges, etc.) for drawing.\"",
 					"varname" : "jcom.hub"
 				}
 
@@ -4250,7 +4250,7 @@
 					"patching_rect" : [ 0.0, 0.0, 450.0, 210.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 0.0, 0.0, 450.0, 210.0 ],
-					"text" : "/editing_this_module"
+					"text" : "/editing_this_module.1"
 				}
 
 			}

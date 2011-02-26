@@ -285,7 +285,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 380.0, 60.0, 50.0, 18.0 ],
-									"text" : "276 97"
+									"text" : "158 16"
 								}
 
 							}
@@ -383,7 +383,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
 									"patching_rect" : [ 120.0, 320.0, 50.0, 18.0 ],
-									"text" : "276 97"
+									"text" : "158 16"
 								}
 
 							}
@@ -983,13 +983,13 @@
 ,
 									"patching_rect" : [ 20.0, 260.0, 307.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Helvetica Neue",
-										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Helvetica Neue"
+										"default_fontname" : "Helvetica Neue",
+										"default_fontsize" : 10.0,
+										"fontname" : "Helvetica Neue",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p send-IDLE-position-to-display-and-radii-GATED"
@@ -1172,7 +1172,7 @@
 													"numoutlets" : 1,
 													"outlettype" : [ "" ],
 													"patching_rect" : [ 170.0, 150.0, 50.0, 16.0 ],
-													"text" : "186.5"
+													"text" : "87."
 												}
 
 											}
@@ -2081,13 +2081,13 @@
 ,
 									"patching_rect" : [ 530.0, 300.0, 189.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"fontname" : "Helvetica Neue",
-										"default_fontsize" : 10.0,
-										"globalpatchername" : "",
 										"fontface" : 0,
 										"fontsize" : 10.0,
 										"default_fontface" : 0,
-										"default_fontname" : "Helvetica Neue"
+										"default_fontname" : "Helvetica Neue",
+										"default_fontsize" : 10.0,
+										"fontname" : "Helvetica Neue",
+										"globalpatchername" : ""
 									}
 ,
 									"text" : "p draw-radii-based-on-DRAG"
@@ -2938,13 +2938,13 @@
 ,
 					"patching_rect" : [ 25.0, 890.0, 215.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Monaco"
+						"default_fontname" : "Monaco",
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p interaction"
@@ -3414,8 +3414,8 @@
 									"numoutlets" : 0,
 									"patching_rect" : [ 80.0, 280.0, 65.0, 20.0 ],
 									"saved_object_attributes" : 									{
-										"ftm_scope" : 0,
-										"ftm_objref_conv" : 0
+										"ftm_objref_conv" : 0,
+										"ftm_scope" : 0
 									}
 ,
 									"text" : "ftm.print"
@@ -3502,7 +3502,7 @@
 							}
 , 							{
 								"box" : 								{
-									"args" : [ "#1" ],
+									"args" : [ "#2" ],
 									"id" : "obj-85",
 									"maxclass" : "bpatcher",
 									"name" : "jmod.hui.draw.xycs.maxpat",
@@ -3554,7 +3554,7 @@
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
 									"patching_rect" : [ 30.0, 400.0, 65.0, 19.0 ],
-									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 2, 2, 32768, 32768, ";", "#Q", "window", "size", 400, 200, 850, 450, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
+									"save" : [ "#N", "thispatcher", ";", "#Q", "window", "flags", "nogrow", "close", "zoom", "nofloat", "menu", "minimize", ";", "#Q", "window", "constrain", 50, 50, 32768, 32768, ";", "#Q", "window", "size", 400, 200, 850, 450, ";", "#Q", "window", "title", ";", "#Q", "window", "exec", ";", "#Q", "savewindow", 1, ";", "#Q", "end", ";" ],
 									"text" : "thispatcher"
 								}
 
@@ -3803,13 +3803,13 @@
 ,
 					"patching_rect" : [ 110.0, 175.0, 100.0, 18.0 ],
 					"saved_object_attributes" : 					{
-						"fontname" : "Monaco",
-						"default_fontsize" : 10.0,
-						"globalpatchername" : "",
 						"fontface" : 0,
 						"fontsize" : 10.0,
 						"default_fontface" : 0,
-						"default_fontname" : "Monaco"
+						"default_fontname" : "Monaco",
+						"default_fontsize" : 10.0,
+						"fontname" : "Monaco",
+						"globalpatchername" : ""
 					}
 ,
 					"text" : "p panel"
@@ -4244,7 +4244,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 190.0, 200.0, 201.0, 17.0 ],
-					"text" : "/color 0 0 0"
+					"text" : "/zoom 0"
 				}
 
 			}
